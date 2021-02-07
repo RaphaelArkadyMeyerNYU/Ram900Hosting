@@ -1,0 +1,841 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Neur",
+				"NeurIPS2020"
+			],
+			[
+				"Scien",
+				"Scientific"
+			],
+			[
+				"Theor",
+				"Theory-Adjacent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "               _                                                                                        \n   _       _ _(_)_     |  Documentation: https://docs.julialang.org                                     \ndocs.julialang.org                                                                                      \n  (_)     | (_) (_)    |                          for Pkg help.                                         \n   _ _   _| |_  __ _   |  Type \"?\" for help, \"]?\"                                                       \n for Pkg help.                                   23)                                                    \n  | | | | | | |/ _` |  |                                                                                \n  | | |_| | | | (_| |  |  Version 1.5.2 (2020-09-23)                                                    \n _/ |\\__'_|_|_|\\__'_|  |  Official https://julialang.org/ release                                       \n|__/                   |                                                                                \n                                                                                                        \njulia> using FranklinTheorems                                                                           \n[ Info: Precompiling FranklinTheorems [f9b7297b-b8b9-4883-a559-829bcd556a2f]                            \n                                                                                                        \nhelp?> FranklinTheorems.css_path()                                                                      \n  Returns a path to FranklinTheorem's default CSS file. Copy this file to the Franklin _css\\            \n  directory.                                                                                            \n                                                                                                        \njulia> ",
+			"settings":
+			{
+				"buffer_size": 1897,
+				"line_ending": "Unix",
+				"name": "Julia",
+				"scratch": true
+			}
+		},
+		{
+			"file": "hutchplusplus.md",
+			"settings":
+			{
+				"buffer_size": 15747,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_css/theorem.css",
+			"settings":
+			{
+				"buffer_size": 3973,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"shell",
+				"Terminus: List Shells"
+			],
+			[
+				"bracket",
+				"BracketHighlighter: Settings"
+			],
+			[
+				"sh",
+				"Terminus: List Shells"
+			],
+			[
+				"shel",
+				"Terminus: List Shells"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"filemo",
+				"File: Move"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"shells",
+				"Terminus: List Shells"
+			],
+			[
+				"ari",
+				"Arithmetic"
+			],
+			[
+				"list she",
+				"Terminus: List Shells"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"arit",
+				"Arithmetic"
+			],
+			[
+				"helset",
+				"Helium: Settings"
+			],
+			[
+				"helium",
+				"Helium: Get Object Inspection"
+			],
+			[
+				"exe",
+				"Helium: Execute Block"
+			],
+			[
+				"heli",
+				"Helium: Settings"
+			],
+			[
+				"hg",
+				"Helium: Get Object Inspection"
+			],
+			[
+				"hel",
+				"Helium: Settings"
+			],
+			[
+				"he",
+				"Helium: Execute Block"
+			],
+			[
+				"list k",
+				"Helium: List Kernels"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"enal",
+				"Package Control: Enable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"color scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"latexyz",
+				"LaTeXYZ: Toggle Auto Set Preview Math Template Preamble"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"swap b",
+				"BracketHighlighter: Swap Settings"
+			],
+			[
+				"latex brac",
+				"LaTeXYZ: Install BracketHighlighter Settings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"latextoo",
+				"LaTeXTools: Check system"
+			],
+			[
+				"bash",
+				"Terminus: Open Bash"
+			],
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"git status",
+				"git: status"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"install p",
+				"Install Package Control"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set syntax matl",
+				"Set Syntax: MATLAB"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 765.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_layout",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_libs",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_libs/highlight"
+	],
+	"file_history":
+	[
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/hutchplusplus.md",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css/theorem.css",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/config.md",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/utils.jl",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css/algorithm.css",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_layout/style.html",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_fkl_libs/preamble.texmd",
+		"/C/Users/rapha/Google Drive/NYU/Research - Alone/Papers to read.txt",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_fkl_libs/thm.jl",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_fkl_libs/thm_config.texmd",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900_fkl_libs/thm.jl",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/thm_config.md",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/index.md",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_layout/nav.html",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css/franklin.css",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css/tufte.css",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/disclaimer.md",
+		"/C/Users/rapha/AppData/Local/Temp/scp31864/public_html/sitemap.xml",
+		"/C/Users/rapha/Downloads/htaccess",
+		"/C/Users/rapha/Downloads/htaccess (1)",
+		"/C/Users/rapha/Downloads/htaccess (3)",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css/latex.css",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homework 5/headers.tex",
+		"/C/Users/rapha/Google Drive/Purdue/Fall 2018/CS 590 HLT/HW 3/headers.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homework 3/headers.tex",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_css/adjust.css",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_layout/page_foot.html",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/cv.md",
+		"/C/Users/rapha/Google Drive/NYU/Website [offline]/Ram900/_assets/images/_notes/dwsync.xml",
+		"/C/Users/rapha/Google Drive/NYU/NYFA/Questions & Notes, For & From Said.txt",
+		"/C/Users/rapha/Google Drive/NYU/NYFA/First NYSCA Meeting, January 8 2020 Notes.txt",
+		"/C/Users/rapha/Google Drive/NYU/Research - Alone/NonAdaptive Power Method/na-power-method.jl",
+		"/C/Users/rapha/Google Drive/NYU/Etc/nyu-theory-cs.md",
+		"/C/Users/rapha/Documents/GitHub/Public_HutchPlusPlus/README.md",
+		"/C/Users/rapha/Google Drive/NYU/Research - Alone/SODA, SOSA et al 2020.txt",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/to-be-made-public/README.md",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Honors PL/Midterm/headers.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Honors PL/Final Presentation on Julia/demo.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Honors PL/Final Presentation on Julia/demo.vrb",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Honors PL/Final Presentation on Julia/nord.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Honors PL/Final Presentation on Julia/main.tex",
+		"/C/Users/rapha/Downloads/SOS/SOS-MiniOOL/MiniOO-SOS.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/PDB/Homework 3/hw3_part1.sql",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/PDB/Homework 3/Dishes.sql",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/PDB/PDB Project/has344_ram900_schema.sql",
+		"/C/Users/rapha/AppData/Roaming/Sublime Text 3/Installed Packages/Helium.sublime-package",
+		"/C/Users/rapha/Google Drive/Sublime/Packages/User/Helium.sublime-settings",
+		"/C/Users/rapha/AppData/Roaming/jupyter/runtime/kernel-0ac61aac-ef61-4ead-85be-41c371a9ff53.json",
+		"/C/Users/rapha/Downloads/has344_ram900_schema_v6.sql",
+		"/C/Users/rapha/Downloads/cmusco_cisco.tex",
+		"/C/Users/rapha/Downloads/preamble.tex",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/sosa_latex_paper/lower-bound-chris.tex",
+		"/C/Users/rapha/Downloads/has344ram900_SQL_v4.sql",
+		"/C/Users/rapha/Downloads/has344 ram900_Project Part 1_v4.txt",
+		"/C/Users/rapha/AppData/Roaming/Sublime Text 3/Packages/User/WordCount.sublime-settings",
+		"/C/Users/rapha/Documents/GitHub/Meyer_Musco_GP_bounds_2020/NIPS 2020 Video Slides/script.txt",
+		"/C/Users/rapha/Documents/GitHub/Meyer_Musco_GP_bounds_2020/NIPS 2020 Video Slides/main.tex",
+		"/C/Users/rapha/Dropbox/Sparse Polynomial Regression/preamble.tex",
+		"/C/Users/rapha/Dropbox/Sparse Polynomial Regression/main.tex",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/synthetic_experiments/compare_estimators_on_mat.m",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/synthetic_experiments/exponential_decay_test.m",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/synthetic_experiments/marchenko_pastur_test.m",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/core/na_hutchplusplus_estimator.m",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/core/hutchplusplus_estimator.m",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/core/hutchinson_estimator.m",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homerwork 1/prob2.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homerwork 1/headers.tex",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/latex_paper/headers.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homerwork 1/prob1.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2019/DS 3001/Final Paper/multiple-priors.tex",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homerwork 1/main.aux",
+		"/C/Users/rapha/Google Drive/NYU/Fall 2020/Math Stats/homerwork 1/main.tex",
+		"/C/Users/rapha/AppData/Roaming/Sublime Text 3/Packages/User/ProjectMaker.sublime-settings",
+		"/C/Users/rapha/Google Drive/Sublime/Templates/DS GA 1003 MS Homework/headers.tex",
+		"/C/Users/rapha/Google Drive/Sublime/Templates/DS GA 1003 MS Homework/main.tex",
+		"/C/Users/rapha/Google Drive/Sublime/Templates/DS GA 1003 MS Homework/_project_name_.sublime-project",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/core/trace_estimation.txt",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/core/dense_mat_vec_oracle.m",
+		"/C/Users/rapha/Documents/GitHub/hutchplusplus/code/core/adahutch_estimator.m",
+		"/D/Raphael @ Sites - purdue.edu/Open Notebook.onetoc2"
+	],
+	"find":
+	{
+		"height": 62.0
+	},
+	"find_in_files":
+	{
+		"height": 162.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"doc-header",
+			"doc-type",
+			"docstring"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1897,
+								1897
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"default_dir": "C:\\Users\\rapha\\Documents\\GitHub\\FranklinTheorems.jl\\src",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"git_gutter_is_enabled": false,
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "C:\\Users\\rapha\\Google Drive\\NYU\\Website [offline]\\Ram900",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 246,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"julia"
+								],
+								"config_name": "Julia",
+								"cwd": "C:\\Users\\rapha\\Google Drive\\NYU\\Website [offline]\\Ram900",
+								"env":
+								{
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.panel_name": null,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 0.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hutchplusplus.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8170,
+								8194
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 1234,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_css/theorem.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "css"
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.helium_object_inspect":
+	{
+		"height": 357.0
+	},
+	"output.latextools":
+	{
+		"height": 142.0
+	},
+	"output.markdown":
+	{
+		"height": 184.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ram900 website.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hu",
+				"hutchplusplus.md"
+			],
+			[
+				"the",
+				"_css\\theorem.css"
+			],
+			[
+				"theo",
+				"_css\\theorem.css"
+			],
+			[
+				"hutc",
+				"hutchplusplus.md"
+			],
+			[
+				"conf",
+				"config.md"
+			],
+			[
+				"in",
+				"index.md"
+			],
+			[
+				"utils",
+				"utils.jl"
+			],
+			[
+				"util",
+				"utils.jl"
+			],
+			[
+				"dis",
+				"disclaimer.md"
+			],
+			[
+				"con",
+				"config.md"
+			],
+			[
+				"cv",
+				"cv.md"
+			],
+			[
+				"hea",
+				"headers.tex"
+			],
+			[
+				"maintex",
+				"main.tex"
+			],
+			[
+				"main",
+				"main.aux"
+			],
+			[
+				"head",
+				"headers.tex"
+			],
+			[
+				"compa",
+				"synthetic_experiments\\compare_estimators_on_mat.m"
+			],
+			[
+				"den",
+				"core\\dense_mat_vec_oracle.m"
+			],
+			[
+				"hutch",
+				"core\\hutchplusplus_estimator.m"
+			],
+			[
+				"ada",
+				"core\\adahutch_estimator.m"
+			],
+			[
+				"march",
+				"synthetic_experiments\\marchenko_pastur_test.m"
+			],
+			[
+				"comonma",
+				"synthetic_experiments\\compare_estimators_on_mat.m"
+			],
+			[
+				"expde",
+				"synthetic_experiments\\exponential_decay_test.m"
+			],
+			[
+				"",
+				"core\\adahutch_estimator.m"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 67.0,
+		"last_filter": "plugin",
+		"selected_items":
+		[
+			[
+				"plugin",
+				"plugin_config"
+			]
+		],
+		"width": 520.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
