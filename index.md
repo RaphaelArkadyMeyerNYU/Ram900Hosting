@@ -29,7 +29,7 @@ Links:
 
 My recent publications have looked at:
 
-* Provably *Optimal* Fast Linear-Algebra Algorithms (_[SOSA2020](https://arxiv.org/pdf/2010.09649.pdf)_)
+* Provably *Optimal* Fast Linear-Algebra Algorithms (_[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
 * The Statistical Complexity of Kernel Learning (_[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_, _[ICML2019](https://arxiv.org/pdf/1901.09087.pdf)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
