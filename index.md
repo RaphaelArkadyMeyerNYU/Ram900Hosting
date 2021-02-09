@@ -8,7 +8,7 @@
 @@container
 @@left ![](/assets/sm_profile.jpg) @@
 @@
-I am a $2^{nd}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://wp.nyu.edu/tandonschoolofengineering-algorithms).
+I am a $2^{nd}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin` -->
 
