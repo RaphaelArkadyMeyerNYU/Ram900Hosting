@@ -1,4 +1,0 @@
-Sitemap: https://ram900.hosting.nyu.edu/sitemap.xml
-
-User-agent: *
-Disallow:
