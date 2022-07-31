@@ -8,9 +8,9 @@
 @@container
 @@left ![](/assets/profile_2022.jpg) @@
 @@
-I am a $3^{rd}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
+I am a rising $4^{th}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
 
-<!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin` -->
+<!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
 
 I research the interplay of theoretical statistics and computation, largely through the lens of linear algebra.
