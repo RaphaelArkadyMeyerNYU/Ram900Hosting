@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>menu2/index.html</loc>
+    <loc>hutchplusplus/index.html</loc>
     <lastmod>2022-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -14,13 +14,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>menu1/index.html</loc>
+    <loc>disclaimer/index.html</loc>
     <lastmod>2022-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>menu3/index.html</loc>
+    <loc>tcs_presentations/index.html</loc>
     <lastmod>2022-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
