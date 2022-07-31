@@ -2,7 +2,8 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-def prepath = "Ram900Hosting"
+
+@def prepath = "Ram900Hosting"
 
 author = "Septimia Zenobia"
 mintoclevel = 2
