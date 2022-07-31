@@ -1,6 +1,6 @@
 @def title = "Raphael A. Meyer"
 
-\newcounter{NumTheorems}
+\newcounter{Numtheorem}
 
 # NYU Hosting Disclaimer
 

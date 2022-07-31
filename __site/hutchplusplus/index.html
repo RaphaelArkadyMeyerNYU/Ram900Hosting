@@ -24,7 +24,7 @@
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/assets/raphael_a_meyer_cv.pdf">CV</a></li>
-      <!-- <li><a href="/hutchplusplus" style="padding: 10px 8px">Hutch++</a></li> -->
+      <li><a href="/hutchplusplus" style="padding: 10px 8px">Hutch++</a></li>
     </ul>
   </div>
   <div id="main">
@@ -32,15 +32,14 @@
 
 
 <!-- Content appended here -->
-<div class="franklin-content"><p>   </p>
-<h1 id="updates_for_hutch"><a href="#updates_for_hutch">Updates for Hutch&#43;&#43;</a></h1>
-<span style="color:red; font-size: 30px">Work in Progress. This page is not complete.</span>
+<div class="franklin-content"><p>    </p>
+<h1 id="updates_for_hutch"><a href="#updates_for_hutch" class="header-anchor">Updates for Hutch&#43;&#43;</a></h1>
 <p>At SOSA 2021, I presented the paper <a href="https://arxiv.org/pdf/2010.09649.pdf">Hutch&#43;&#43;: Optimal Stochastic Trace Estimation</a> &#40;with Cameron Musco, Christopher Musco, and David P. Woodruff&#41;. This webpage contains some short updates that may be useful to people.</p>
 <p>Table of Contents:</p>
 <p><div class="franklin-toc"><ol><li><a href="#updates_for_hutch">Updates for Hutch&#43;&#43;</a></li><li><a href="#hutch_for_undergrads">Hutch&#43;&#43; for Undergrads</a><ol><li><a href="#part_1_the_fundamental_shape_of_hutchinsons_estimator">Part 1: The Fundamental Shape of Hutchinson&#39;s Estimator</a></li><li><a href="#part_2_hutchinsons_versus_the_top_few_eigenvalues">Part 2: Hutchinson&#39;s versus the Top Few Eigenvalues</a></li><li><a href="#part_3_the_variance_of_hutch">Part 3: The Variance of Hutch&#43;&#43;</a></li><li><a href="#part_4_practitioner_advice">Part 4: Practitioner Advice</a></li></ol></li><li><a href="#nystroumlm-hutch">Nystr&ouml;m-Hutch&#43;&#43;</a></li><li><a href="#epilogue">Epilogue</a><ol><li><a href="#code">Code</a></li><li><a href="#quiz_questions">Quiz Questions</a></li><li><a href="#footnotes">Footnotes</a></li><li><a href="#references">References</a></li></ol></li></ol></div> </p>
-<h1 id="hutch_for_undergrads"><a href="#hutch_for_undergrads">Hutch&#43;&#43; for Undergrads</a></h1>
-<p>I believe that the analysis of both Hutchinson&#39;s and Hutch&#43;&#43; is simple and approachable. This section contains the analysis an advanced undergraduate should hopefully be able to understand.</p>
-<h2 id="part_1_the_fundamental_shape_of_hutchinsons_estimator"><a href="#part_1_the_fundamental_shape_of_hutchinsons_estimator">Part 1: The Fundamental Shape of Hutchinson&#39;s Estimator</a></h2>
+<h1 id="hutch_for_undergrads"><a href="#hutch_for_undergrads" class="header-anchor">Hutch&#43;&#43; for Undergrads</a></h1>
+<p>I believe that the analysis of both Hutchinson&#39;s Estimator and Hutch&#43;&#43; is simple and approachable. This section contains the analysis an advanced undergraduate should hopefully be able to understand.</p>
+<h2 id="part_1_the_fundamental_shape_of_hutchinsons_estimator"><a href="#part_1_the_fundamental_shape_of_hutchinsons_estimator" class="header-anchor">Part 1: The Fundamental Shape of Hutchinson&#39;s Estimator</a></h2>
  <div class="theorem">
 			<h2 class="theorem-header" id="Definition 1">
 				<a href="#Definition 1"> Definition 1:  Hutchinson&#39;s Estimator</a>
@@ -57,12 +56,12 @@
 				<a href="#Lemma 1"> Lemma 1:  Hutchinson&#39;s Mean and Variance</a>
 				<div class="theorem-type"> Lemma</div>
 			</h2>
-			<div class="theorem-content"> \(\mathbb E[H_\ell(\boldsymbol{ A})] = \text{tr}(\boldsymbol{ A})\) and \(\text{Var}[H_\ell(\boldsymbol{ A})]=2\| \boldsymbol{ A}\|_{ F}^2\) </div></div>
+			<div class="theorem-content"> \(\mathbb E[H_\ell(\boldsymbol{ A})] = \text{tr}(\boldsymbol{ A})\) and \(\text{Var}[H_\ell(\boldsymbol{ A})]=\frac2\ell\| \boldsymbol{ A}\|_{ F}^2\) </div></div>
 <button class="theorem-accordion"><div class="theorem-accordion-text"> 	 <em>Proof</em> </div></button><div class="theorem-panel"><p> <div class="proof-box"><p><em><strong>Proof.</strong></em> The expectation is easy to verify:</p>
 \[
 	\mathbb E[H_\ell(\boldsymbol{ A})] = \mathbb E[\mathbf{ x}^\intercal\boldsymbol{ A}\mathbf{ x}] = \sum_{i=1}^n \sum_{j=1}^n \mathbb E[[\boldsymbol{ A}]_{i,j}\mathbf{ x}_i\mathbf{ x}_j] = \sum_{i=1}^n \boldsymbol{ A}_{i,i} = \text{tr}(\boldsymbol{ A})
 \]
-<p>In order to analyze the variance, we take the analysis of Lemma 9 from <span class="bibref"><a href="#avron2011randomized">Avron, Toledo (2011)</a></span>. Let \(\boldsymbol{ A}=\boldsymbol{ U}\boldsymbol{ \Lambda}\boldsymbol{ U}^\intercal\) be the eigendecomposition of \(\boldsymbol{ A}\), and let \(\mathbf{ y} \;{\vcentcolon=}\; \boldsymbol{ U}^\intercal\mathbf{ x}\). Then, for \(\mathbf{ x}\sim\mathcal N(0,\boldsymbol{ I})\), we have \(\mathbf{ y} \sim\mathcal N(0,\boldsymbol{ U}\boldsymbol{ U}^\intercal) = \mathcal N(0,\boldsymbol{ I})\). Therefore,</p>
+<p>In order to analyze the variance, we present the analysis of Lemma 9 from <span class="bibref"><a href="#avron2011randomized">Avron, Toledo (2011)</a></span>. Let \(\boldsymbol{ A}=\boldsymbol{ U}\boldsymbol{ \Lambda}\boldsymbol{ U}^\intercal\) be the eigendecomposition of \(\boldsymbol{ A}\), and let \(\mathbf{ y} \;{\vcentcolon=}\; \boldsymbol{ U}^\intercal\mathbf{ x}\). Then, for \(\mathbf{ x}\sim\mathcal N(0,\boldsymbol{ I})\), we have \(\mathbf{ y} \sim\mathcal N(0,\boldsymbol{ U}\boldsymbol{ U}^\intercal) = \mathcal N(0,\boldsymbol{ I})\). Therefore,</p>
 \[\begin{aligned}
 	\text{Var}[H_\ell(\boldsymbol{ A})]
 	&= \frac1\ell \text{Var}[\mathbf{ x}^\intercal\boldsymbol{ A}\mathbf{ x}] \\
@@ -75,23 +74,80 @@
 	&= \frac2\ell \| \boldsymbol{ A}\|_{ F}^2
 \end{aligned}\]
 <p>Note we cannot just use linearity of trace naively on the sum \(\mathbf{ x}^\intercal\boldsymbol{ A}\mathbf{ x}=\sum_{i=1}^n\sum_{j=1}^n x_ix_j \boldsymbol{ A}_{i,j}\) since linearity of variance only holds for independent samples. <div style="text-align:right"> \(\blacksquare \, \, \) </div></p></div> </p></div>
-<p>This variance is in term of the <em>Frobenius</em> norm of \(\boldsymbol{ A}\). So, we expect that Hutchinson&#39;s Estimator satisfies \(H_\ell(\boldsymbol{ A}) \in \text{tr}(\boldsymbol{ A}) \pm \frac{\sqrt2}{\sqrt\ell} \| \boldsymbol{ A}\|_{ F}\) with high probability.<sup id="fnref:highprobability"><a href="#fndef:highprobability" class="fnref">[1]</a></sup> Typically in computer science we are given an error tolerance \(\varepsilon\), and want to know how many matrix-vector products we need to compute. &#40;i.e. how small can we make \(\ell\)?&#41; In order to build a guarantee here, we <em>assume \(\boldsymbol{ A}\) is positive semi-definite &#40;PSD&#41;</em>, which in turn implies that \(\| \boldsymbol{ A}\|_{ F} \leq \text{tr}(\boldsymbol{ A})\). With this in mind, we can prove the standard result for Hutchinson&#39;s Estimator:</p>
+<p>This variance is in term of the <em>Frobenius</em> norm of \(\boldsymbol{ A}\). So, we expect that Hutchinson&#39;s Estimator satisfies \(H_\ell(\boldsymbol{ A}) \in \text{tr}(\boldsymbol{ A}) \pm \frac{\sqrt2}{\sqrt\ell} \| \boldsymbol{ A}\|_{ F}\) with high probability.<sup id="fnref:highprobability"><a href="#fndef:highprobability" class="fnref">[1]</a></sup> Typically in computer science we are given an error tolerance \(\varepsilon\), and want to know how many matrix-vector products we need to compute. &#40;i.e. how small can we make \(\ell\) while still being accurate?&#41; In order to build a guarantee here, we <em>assume \(\boldsymbol{ A}\) is positive semi-definite &#40;PSD&#41;</em>, which in turn implies that \(\| \boldsymbol{ A}\|_{ F} \leq \text{tr}(\boldsymbol{ A})\). With this in mind, we can prove the standard result for Hutchinson&#39;s Estimator:</p>
  <div class="theorem">
-			<h2 class="theorem-header" id="Lemma 2">
-				<a href="#Lemma 2"> Lemma 2:  Hutchinson&#39;s Estimator</a>
+			<h2 class="theorem-header" id="hutch-rate">
+				<a href="#hutch-rate"> Lemma 2:  Hutchinson&#39;s Estimator</a>
 				<div class="theorem-type"> Lemma</div>
 			</h2>
 			<div class="theorem-content"> 	Fix \(\boldsymbol{ A} \in \mathbb R^{d \times d}\) be a PSD matrix. 	Then, \(\text{Var}[H_\ell(\boldsymbol{ A})]\leq\frac{2}{\ell}\text{tr}^2(\boldsymbol{ A})\) </div></div>
-<p>So, if we want to ensure \(H_\ell(\boldsymbol{ A})\in(1\pm\varepsilon)\text{tr}(\boldsymbol{ A})\) with good probability, we need \(k=O(\frac{1}{\varepsilon^2})\) samples.</p>
-<h2 id="part_2_hutchinsons_versus_the_top_few_eigenvalues"><a href="#part_2_hutchinsons_versus_the_top_few_eigenvalues">Part 2: Hutchinson&#39;s versus the Top Few Eigenvalues</a></h2>
+<p>So, if we want to ensure \(H_\ell(\boldsymbol{ A})\in(1\pm\varepsilon)\text{tr}(\boldsymbol{ A})\) with good probability, we need the standard deviation to have \(\frac{\sqrt 2}{\sqrt \ell}\text{tr}(\boldsymbol{ A}) \leq \varepsilon \text{tr}(\boldsymbol{ A})\), so we need \(\ell=O(\frac{1}{\varepsilon^2})\) samples.</p>
+<h2 id="part_2_hutchinsons_versus_the_top_few_eigenvalues"><a href="#part_2_hutchinsons_versus_the_top_few_eigenvalues" class="header-anchor">Part 2: Hutchinson&#39;s versus the Top Few Eigenvalues</a></h2>
 <p><em>This was a section in the first draft of the paper, but was unfortunately cut. This is a slow, methodical intuition for the geometry Hutch&#43;&#43; takes advantage of.</em></p>
+<p>Hutchinson&#39;s Estimator is powerfull, and gives a nice rate of convergence. However, the proof of <span class="bibref"><a href="#hutch-rate">Lemma 2</a></span> has a suspicious step. If we write out three lines of analysis:</p>
+\[\begin{aligned}
+	|\text{tr}(\boldsymbol{ A}) - H_\ell(\boldsymbol{ A})|
+	&\leq {\textstyle\frac{ \sqrt 2}{ \sqrt \ell}} \| \boldsymbol{ A}\|_F & \hspace{1cm} & (\text{Standard Deviation})\\
+	&\leq {\textstyle\frac{ \sqrt 2}{ \sqrt \ell}} \text{tr}(\boldsymbol{ A}) & & (\| \boldsymbol{ A}\|_F \leq \text{tr}(\boldsymbol{ A})) \\
+	&= \varepsilon \ \text{tr}(\boldsymbol{ A}) & & (\ell = O({\textstyle\frac{ 1}{ \varepsilon}})) \\
+\end{aligned}\]
+<p>Looking at these inequalities,</p>
+<ul>
+<li><p>The analysis of line 1 is always tight, since we know the variance of \(H_\ell(\boldsymbol{ A})\) exactly.</p>
+</li>
+<li><p>The analysis of line 3 is always tight, since we just set \(\ell\) to the smallest value that gets error \(\varepsilon\).</p>
+</li>
+<li><p>The analysis of line 2 is not always tight.</p>
+</li>
+</ul>
+<p>The second line is tight only if \(\| \boldsymbol{ A}\|_F \approx \text{tr}(\boldsymbol{ A})\). That is, the analysis above only tells us that Hutchinson&#39;s Estimator needs \(O(\frac1\varepsilon)\) samples if \(\boldsymbol{ A}\) is the kind of matrix that has \(\| \boldsymbol{ A}\|_F \approx \text{tr}(\boldsymbol{ A})\). So, what kind of matrix is that?</p>
  <div class="theorem">
-			<h2 class="theorem-header" id="Theorem 1">
-				<a href="#Theorem 1"> Theorem 1:  Hutchinson&#39;s Estimator</a>
-				<div class="theorem-type"> Theorem</div>
+			<h2 class="theorem-header" id="l2-l1-l0-intuit">
+				<a href="#l2-l1-l0-intuit"> Claim 1:  Eigenvalue Intuition</a>
+				<div class="theorem-type"> Claim</div>
 			</h2>
-			<div class="theorem-content"> The Counter Reads </div></div>
-<h2 id="part_3_the_variance_of_hutch"><a href="#part_3_the_variance_of_hutch">Part 3: The Variance of Hutch&#43;&#43;</a></h2>
+			<div class="theorem-content"> If \(\| \boldsymbol{ A}\|_F\approx\text{tr}(\boldsymbol{ A})\), then \(\boldsymbol{ A}\) has very few large eigenvalues, followed by much smaller eigenvalues.</p>
+<p><em>Try to show this yourself. If you&#39;re having trouble, look at the argument below.</em> </div></div>
+<button class="theorem-accordion"><div class="theorem-accordion-text"> 	 <em>Proof</em> </div></button><div class="theorem-panel"><p> <div class="proof-box"><p><em><strong>Proof.</strong></em> First, we rewrite \(\| \boldsymbol{ A}\|_F\) and \(\text{tr}(\boldsymbol{ A})\) explicitly in terms of the eigenvalues of \(\boldsymbol{ A}\). Let \(\mathbf{ v} = [\lambda_1, \lambda_2, \ldots, \lambda_d]\) be the eigenvalues of \(\boldsymbol{ A}\). Then, recall that</p>
+\[
+	\| \boldsymbol{ A}\|_F = \| \mathbf{ v}\|_2
+	\hspace{0.75cm}
+	and
+	\hspace{0.75cm}
+	\text{tr}(\boldsymbol{ A}) = {\textstyle \sum_{i=1}^d \lambda_i} = \| \mathbf{ v}\|_1
+\]
+<p>where the last equality follows from \(\boldsymbol{ A}\) being PSD. So, we are given that \(\| \mathbf{ v}\|_2 \approx \| \mathbf{ v}\|_1\): this is now just a statement about vectors in \(\mathbb R^d\)&#33;</p>
+<p>We now need to show that if a vector \(\mathbf{ v}\) has \(\| \mathbf{ v}\|_2 \approx \| \mathbf{ v}\|_1\), then \(\mathbf{ v}\) is nearly sparse: it has only a few large values.</p>
+<p>There are many intuition, and we will look at the extreme, and assume that \(\| \mathbf{ v}\|_2=\| \mathbf{ v}\|_1\) exactly. <em>Prove that \(\mathbf{ v}\) has at most 1 nonzero element in it.</em> <div style="text-align:right"> \(\blacksquare \, \, \) </div></p></div> </p></div>
+<p>We now finish the discussion with a comparison of two ideas:</p>
+<ul>
+<li><p>So, Hutchinson&#39;s Estimator only needs to use many samples &#40;i.e. \(O(\frac1\varepsilon)\) samples&#41; if \(\boldsymbol{ A}\) has very special structure: it has a small number of large eigenvalues.</p>
+</li>
+<li><p>If a matrix has a small number of large eigenvalues, the trace must be well approximated by the sum of those eigenvalues.</p>
+</li>
+</ul>
+<p>With this, we conclude the fundamental intuition behind Hutch&#43;&#43;:</p>
+ <div class="theorem">
+			<h2 class="theorem-header" id="Claim 2">
+				<a href="#Claim 2"> Claim 2:  Hutch&#43;&#43; Intuition</a>
+				<div class="theorem-type"> Claim</div>
+			</h2>
+			<div class="theorem-content"> If \(\boldsymbol{ A}\) is the kind of matrix that is hard for Hutchinsons&#39;s Estimator to handle, then \(\text{tr}(\boldsymbol{ A})\) is well approximated by the top few eigenvalues of \(\boldsymbol{ A}\) </div></div>
+<p>This leads us to pick the following rough design of an algorithm:</p>
+<ol>
+<li><p>Find a good low-rank approximation \(\tilde\boldsymbol{ A}_k\)</p>
+</li>
+<li><p>Notice that \(\text{tr}(\boldsymbol{ A}) = \text{tr}(\tilde \boldsymbol{ A}_k) + \text{tr}(\boldsymbol{ A} - \tilde\boldsymbol{ A}_k)\)</p>
+</li>
+<li><p>Compute \(\text{tr}(\tilde \boldsymbol{ A}_k)\) exactly</p>
+</li>
+<li><p>Approximate \(\text{tr}(\boldsymbol{ A}-\tilde\boldsymbol{ A}_k)\) with Hutchinson&#39;s Estimator</p>
+</li>
+<li><p>Return \(\text{Hutch++}(\boldsymbol{ A}) = \text{tr}(\tilde\boldsymbol{ A}_k) + H_\ell(\boldsymbol{ A}-\tilde\boldsymbol{ A}_k)\)</p>
+</li>
+</ol>
+<p>In the next section, we state a formal version of <span class="bibref"><a href="#l2-l1-l0-intuit">Claim 1</a></span> &#40;see <span class="bibref"><a href="#l2-l1-l0">Lemma 3</a></span>&#41;, show how to compute such a matrix \(\tilde\boldsymbol{ A}_k\) &#40;see \(\boldsymbol{ Q}\boldsymbol{ Q}^\intercal\boldsymbol{ A}\) in <span class="bibref"><a href="#tropp-error">Theorem 1</a></span>&#41;, and bound the complexity of the Hutch&#43;&#43; estimator &#40;see <span class="bibref"><a href="#thm-hutchpp-variance">Theorem 2</a></span>&#41;.</p>
+<h2 id="part_3_the_variance_of_hutch"><a href="#part_3_the_variance_of_hutch" class="header-anchor">Part 3: The Variance of Hutch&#43;&#43;</a></h2>
 <p><em>Special thanks to <a href="http://users.cms.caltech.edu/~jtropp/">Joel A. Tropp</a> for working most of this out, and encouraging us to look into sharpening the constants in the analysis of Hutch&#43;&#43;.</em></p>
 <p>By expressing the variance of Hutch&#43;&#43; with all of its constants laid bare, and by using a very simple analysis, this analysis will hopefully allow practitioners to easily the exact parameters in Hutch&#43;&#43; code.</p>
 <p>Before bounding the variance of Hutch&#43;&#43;, we include the proof of one lemma and import another theorem:</p>
@@ -129,7 +185,7 @@
 <p>We also import the following theorem, which controls the expected error from our low-rank approximation, and which we do not prove:</p>
  <div class="theorem">
 			<h2 class="theorem-header" id="tropp-error">
-				<a href="#tropp-error"> Theorem 2:  Expected Projection Error</a>
+				<a href="#tropp-error"> Theorem 1:  Expected Projection Error</a>
 				<div class="theorem-type"> Theorem</div>
 			</h2>
 			<div class="theorem-content"> Sample \(\boldsymbol{ S}\in\mathbb R^{n \times (k+p)}\) with \(\mathcal N(0,1)\) entries. Let \(\boldsymbol{ Q}\) be any orthonormal basis for \(\boldsymbol{ A}\boldsymbol{ S}\) &#40;e.g. a QR decomposition&#41;. Then,</p>
@@ -150,10 +206,10 @@
 <a id="thm_hutchpp_variance" class="anchor"></a>
  <div class="theorem">
 			<h2 class="theorem-header" id="thm-hutchpp-variance">
-				<a href="#thm-hutchpp-variance"> Theorem 3:  Variance of Hutch&#43;&#43;</a>
+				<a href="#thm-hutchpp-variance"> Theorem 2:  Variance of Hutch&#43;&#43;</a>
 				<div class="theorem-type"> Theorem</div>
 			</h2>
-			<div class="theorem-content"> Fix parameters \(k\) and \(\ell\). Let \(p=2k+1\) and construct \(\boldsymbol{ Q}\in\mathbb R^{n \times k+p}\) as in <span class="bibref"><a href="#tropp-error">Theorem 2</a></span>. Then let</p>
+			<div class="theorem-content"> Fix parameters \(k\) and \(\ell\). Let \(p=2k+1\) and construct \(\boldsymbol{ Q}\in\mathbb R^{n \times k+p}\) as in <span class="bibref"><a href="#tropp-error">Theorem 1</a></span>. Then let</p>
 \[
 	\text{Hutch++}(\boldsymbol{ A}) \;{\vcentcolon=}\; \text{tr}(\boldsymbol{ Q}^\intercal\boldsymbol{ A}\boldsymbol{ Q}) + H_\ell((\boldsymbol{ I}-\boldsymbol{ Q}\boldsymbol{ Q}^\intercal)\boldsymbol{ A})
 \]
@@ -195,7 +251,7 @@
 	&= \mathbb E[\text{Var}[H_\ell( (\boldsymbol{ I}-\boldsymbol{ Q}\boldsymbol{ Q}^\intercal)\boldsymbol{ A})|Q]] \\
 	&\leq {\textstyle\frac{ 2}{ \ell}} \mathbb E[\| (\boldsymbol{ I}-\boldsymbol{ Q}\boldsymbol{ Q}^\intercal)\boldsymbol{ A}\|_{ F}^2] \\
 	&\leq {\textstyle\frac{ 2}{ \ell}} (1+\frac{k}{p-1})\| \boldsymbol{ A}-\boldsymbol{ A}_k\|_{ F}^2 \\
-\end{aligned}\] Where the first inequality uses the variance of Hutchinson&#39;s Estimator, and the second uses <span class="bibref"><a href="#tropp-error">Theorem 2</a></span>. Recall that we set \(p=k+1\). After substituting and simplifying the expression, we find</p>
+\end{aligned}\] Where the first inequality uses the variance of Hutchinson&#39;s Estimator, and the second uses <span class="bibref"><a href="#tropp-error">Theorem 1</a></span>. Recall that we set \(p=k+1\). After substituting and simplifying the expression, we find</p>
 \[
 	\mathbb E[\text{Var}[\text{Hutch++} | \boldsymbol{ Q}]]
 	\leq {\textstyle\frac{ 4}{ \ell}}\| \boldsymbol{ A}-\boldsymbol{ A}_k\|_{ F}^2
@@ -205,8 +261,8 @@
 	{\textstyle\frac{ 4}{ \ell}}\| \boldsymbol{ A}-\boldsymbol{ A}_k\|_{ F}^2 \leq {\textstyle\frac{ 4}{ \ell}} \cdot {\textstyle\frac{ 1}{ 4\ell}}\text{tr}^2(\boldsymbol{ A}) = {\textstyle\frac{ 1}{ k\ell}}\text{tr}^2(\boldsymbol{ A})
 \]
 <div style="text-align:right"> \(\blacksquare \, \, \) </div></div> </p></div>
-<h2 id="part_4_practitioner_advice"><a href="#part_4_practitioner_advice">Part 4: Practitioner Advice</a></h2>
-<p>The variance in <span class="bibref"><a href="#thm-hutchpp-variance">Theorem 3</a></span> still has two parameters in it, which leave a bit of ambiguity for practitioners. So, we quickly analyze the choice of \(k\) and \(\ell\) that minimizes our bound on the variance.</p>
+<h2 id="part_4_practitioner_advice"><a href="#part_4_practitioner_advice" class="header-anchor">Part 4: Practitioner Advice</a></h2>
+<p>The variance in <span class="bibref"><a href="#thm-hutchpp-variance">Theorem 2</a></span> still has two parameters in it, which leave a bit of ambiguity for practitioners. So, we quickly analyze the choice of \(k\) and \(\ell\) that minimizes our bound on the variance.</p>
 <p>Formally, suppose we are allowed to compute exactly \(m\) matrix-vector products with \(\boldsymbol{ A}\). Then,</p>
 <ul>
 <li><p>Computing \(\boldsymbol{ Q}\) uses \(k+p=2k+1\) products</p>
@@ -217,7 +273,7 @@
 </li>
 </ul>
 <p>So, we have \(m=2(2k+1)+\ell=4k+2+\ell\). We can then verify that \(k=\frac{m-2}{8}\) and \(\ell=\frac{m}{2}-1\) minimizes the variance. Notably, this is equivalent to setting \(\ell=4k\), which looks more intuitive. This produces a final variance of \(\text{Var}[\text{Hutch++}(\boldsymbol{ A})]\leq\frac{16}{(m-2)^2}\text{tr}^2(\boldsymbol{ A})\).</p>
-<h1 id="nystroumlm-hutch"><a href="#nystroumlm-hutch">Nystr&ouml;m-Hutch&#43;&#43;</a></h1>
+<h1 id="nystroumlm-hutch"><a href="#nystroumlm-hutch" class="header-anchor">Nystr&ouml;m-Hutch&#43;&#43;</a></h1>
 <p>One additional approach to implementing Hutch&#43;&#43; for PSD matrices considers the Nystr&ouml;m method, where we use the approximation</p>
 \[
 	\tilde\boldsymbol{ A}_k = (\boldsymbol{ A}\boldsymbol{ Q})(\boldsymbol{ Q}^\intercal\boldsymbol{ A}\boldsymbol{ Q})^{-1}(\boldsymbol{ A}\boldsymbol{ Q})^{\intercal}
@@ -239,7 +295,7 @@
 	\frac{1}{\ell}\left(\text{tr}(\boldsymbol{ G}^\intercal\boldsymbol{ A}\boldsymbol{ G}) - \text{tr}(\boldsymbol{ R}^\intercal(\boldsymbol{ Q}^\intercal\boldsymbol{ Y})^{-1}\boldsymbol{ R}) \right)
 \]
 <p>where \(\boldsymbol{ G}\) has random sign-bit entries and \(\boldsymbol{ R}\;{\vcentcolon=}\;\boldsymbol{ Y}^\intercal\boldsymbol{ G}\). Formally, we can write this out as the following algorithm:</p>
-<div class="pseudocode"><p> <span style="font-size: 20px">Algorithm 1:  NYS-Hutch&#43;&#43;</span></p>
+<div class="pseudocode"><p> <span style="font-size: 20px"> Algorithm 1:  NYS-Hutch&#43;&#43;</span></p>
 <p>---</p>
 <p><strong>input</strong>: Matrix-Vector Oracle access to \(\boldsymbol{ A}\in\mathbb R^{d \times d}\). Number \(m\) of queries.</p>
 <p><strong>output</strong>: Approximation to \(\text{tr}(\boldsymbol{ A})\)</p>
@@ -263,8 +319,8 @@
     QYinv &#61; pinv&#40;Q&#39; * Y&#41;;
     trace_est &#61; trace&#40;QYinv * &#40;Y&#39;*Y&#41;&#41; &#43; 1/size&#40;G,2&#41;*&#91;trace&#40;G&#39;*A*G&#41; - trace&#40;R&#39;*QYinv*R&#41;&#93;;
 end</code></pre>
-<h1 id="epilogue"><a href="#epilogue">Epilogue</a></h1>
-<h2 id="code"><a href="#code">Code</a></h2>
+<h1 id="epilogue"><a href="#epilogue" class="header-anchor">Epilogue</a></h1>
+<h2 id="code"><a href="#code" class="header-anchor">Code</a></h2>
 <ul>
 <li><p>We provide <a href="https://github.com/RaphaelArkadyMeyerNYU/hutchplusplus">code on Github</a>, written in MATLAB.</p>
 </li>
@@ -273,13 +329,13 @@ end</code></pre>
 <li><p>Email me if you want to add your implementation to the list&#33;</p>
 </li>
 </ul>
-<h2 id="quiz_questions"><a href="#quiz_questions">Quiz Questions</a></h2>
+<h2 id="quiz_questions"><a href="#quiz_questions" class="header-anchor">Quiz Questions</a></h2>
 <p>If you have read Hutch&#43;&#43;, then quiz yourself by trying to answer some intuitive high-level questions:</p>
 <p>1.	Why is the constant-factor approximation on our low-rank approximation \(\|A-\tilde{A}_k\|_F \leq 2 \|A-A_k\|_F\) sufficient? Why don&#39;t we need a relative error approximation like \(\|A-\tilde{A}_k\|_F \leq (1+\varepsilon) \|A-A_k\|_F\)?</p>
 <div style="text-align:right"> <em>Give an intuitive answer, not a mathematical one.</em> </div>
-<h2 id="footnotes"><a href="#footnotes">Footnotes</a></h2>
+<h2 id="footnotes"><a href="#footnotes" class="header-anchor">Footnotes</a></h2>
 <p><sup id="fnref:highprobability"><a href="#fndef:highprobability" class="fnref">[1]</a></sup> We analyze variance in this page for convenience, but all of these confidence intervals hold with high probability &#40;i.e. with logarithmic dependence on the failure probability&#41;, and this is widely analyzed in the formal publications.</p>
-<h2 id="references"><a href="#references">References</a></h2>
+<h2 id="references"><a href="#references" class="header-anchor">References</a></h2>
 <ul>
 <li><p><a id="gilbert2007one" class="anchor"></a><strong>Gilbert</strong>, <strong>Strauss</strong>, <strong>Tropp</strong>, and <strong>Vershynin</strong>. <a href="https://www.math.uci.edu/~rvershyn/papers/one-sketch-forall-complete.pdf">One sketch for all: fast algorithms for compressed sensing</a>. <em>STOC</em> 2007.</p>
 </li>
@@ -308,7 +364,7 @@ for (i = 0; i < acc.length; i++) {
 
 <div class="page-foot">
   <div class="copyright">
-    &copy; Raphael Arkady Meyer. Last modified: February 06, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> using the tufte theme and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; Raphael Arkady Meyer. Last modified: August 24, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> using the tufte theme and the <a href="https://julialang.org">Julia programming language</a>.
     <a href="/disclaimer">NYU Hosting Disclaimer.</a>
   </div>
 </div>

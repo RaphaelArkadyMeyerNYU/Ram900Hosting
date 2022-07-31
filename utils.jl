@@ -2,7 +2,7 @@ using Franklin
 using FranklinUtils
 
 using FranklinTheorems
-Franklin.include_external_config(FranklinTheorems.config_path())
+Franklin.include_external_config(FranklinTheorems.config_path("claim"))
 
 # LaTeX Preamble
 Franklin.convert_md(read("./_fkl_libs/preamble.texmd", String); isconfig=true)

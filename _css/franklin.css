@@ -37,7 +37,7 @@ html {
 }
 
 .franklin-content .container img {
-  width: auto;
+  width: 300px;
   padding-left: 0;
   border-radius: 10px;
 }

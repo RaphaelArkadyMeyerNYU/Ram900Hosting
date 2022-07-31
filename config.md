@@ -28,6 +28,11 @@ For instance:
 -->
 
 
+\newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}
+\newcommand{\span}[2]{~~~<span class="!#1">~~~#2~~~</span>~~~}
+
+\newcommand{\newicon}[0]{~~~<img style="width:25px;height:18px;padding-left:0", src="/assets/knuths-new.gif"></img>~~~}
+
 \newenvironment{algorithm}[1]{
 	@@pseudocode
 	\stepcounter{NumAlgorithms}

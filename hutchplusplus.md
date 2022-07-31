@@ -9,9 +9,6 @@
 
 # Updates for Hutch++
 
-\style{color:red; font-size: 30px}{Work in Progress. This page is not complete.}
-
-
 At SOSA 2021, I presented the paper [Hutch++: Optimal Stochastic Trace Estimation](https://arxiv.org/pdf/2010.09649.pdf) (with Cameron Musco, Christopher Musco, and David P. Woodruff).
 This webpage contains some short updates that may be useful to people.
 
@@ -21,7 +18,7 @@ Table of Contents:
 
 # Hutch++ for Undergrads
 
-I believe that the analysis of both Hutchinson's and Hutch++ is simple and approachable.
+I believe that the analysis of both Hutchinson's Estimator and Hutch++ is simple and approachable.
 This section contains the analysis an advanced undergraduate should hopefully be able to understand.
 
 ## Part 1: The Fundamental Shape of Hutchinson's Estimator
@@ -38,7 +35,7 @@ This section contains the analysis an advanced undergraduate should hopefully be
 We can easily verify two properties of this classical estimator for symmetric $\mA$:
 
 \begin{lemma}{Hutchinson's Mean and Variance}{}
-$\E[H_\ell(\mA)] = \trace(\mA)$ and $\Var[H_\ell(\mA)]=2\onormof{\mA}{F}^2$
+$\E[H_\ell(\mA)] = \trace(\mA)$ and $\Var[H_\ell(\mA)]=\frac2\ell\onormof{\mA}{F}^2$
 \end{lemma}
 \begin{dropdown}{_Proof_}
 \begin{proof}
@@ -47,7 +44,7 @@ The expectation is easy to verify:
 	\E[H_\ell(\mA)] = \E[\vx^\intercal\mA\vx] = \sum_{i=1}^n \sum_{j=1}^n \E[[\mA]_{i,j}\vx_i\vx_j] = \sum_{i=1}^n \mA_{i,i} = \trace(\mA)
 \]
 
-In order to analyze the variance, we take the analysis of Lemma 9 from \cite{avron2011randomized}.
+In order to analyze the variance, we present the analysis of Lemma 9 from \cite{avron2011randomized}.
 Let $\mA=\mU\mLambda\mU^\intercal$ be the eigendecomposition of $\mA$, and let $\vy \defeq \mU^\intercal\vx$.
 Then, for $\vx\sim\cN(0,\eye)$, we have $\vy \sim\cN(0,\mU\mU^\intercal) = \cN(0,\eye)$.
 Therefore,
@@ -70,23 +67,83 @@ Note we cannot just use linearity of trace naively on the sum $\vx^\intercal\mA\
 
 This variance is in term of the *Frobenius* norm of $\mA$.
 So, we expect that Hutchinson's Estimator satisfies $H_\ell(\mA) \in \trace(\mA) \pm \frac{\sqrt2}{\sqrt\ell} \onormof{\mA}{F}$ with high probability.[^highprobability]
-Typically in computer science we are given an error tolerance $\eps$, and want to know how many matrix-vector products we need to compute. (i.e. how small can we make $\ell$?)
+Typically in computer science we are given an error tolerance $\eps$, and want to know how many matrix-vector products we need to compute. (i.e. how small can we make $\ell$ while still being accurate?)
 In order to build a guarantee here, we _assume $\mA$ is positive semi-definite (PSD)_, which in turn implies that $\onormof{\mA}{F} \leq \trace(\mA)$.
 With this in mind, we can prove the standard result for Hutchinson's Estimator:
 
-\begin{lemma}{Hutchinson's Estimator}{}
+\begin{lemma}{Hutchinson's Estimator}{hutch-rate}
 	Fix $\mA \in \bbR^{d \times d}$ be a PSD matrix.
 	Then, $\Var[H_\ell(\mA)]\leq\frac{2}{\ell}\trace^2(\mA)$
 \end{lemma}
-So, if we want to ensure $H_\ell(\mA)\in(1\pm\eps)\trace(\mA)$ with good probability, we need $k=O(\frac{1}{\eps^2})$ samples.
+
+So, if we want to ensure $H_\ell(\mA)\in(1\pm\eps)\trace(\mA)$ with good probability, we need the standard deviation to have $\frac{\sqrt 2}{\sqrt \ell}\trace(\mA) \leq \eps \trace(\mA)$, so we need $\ell=O(\frac{1}{\eps^2})$ samples.
 
 ## Part 2: Hutchinson's versus the Top Few Eigenvalues
 
 _This was a section in the first draft of the paper, but was unfortunately cut. This is a slow, methodical intuition for the geometry Hutch++ takes advantage of._
 
-\begin{theorem}{Hutchinson's Estimator}{}
-The Counter Reads
-\end{theorem}
+Hutchinson's Estimator is powerfull, and gives a nice rate of convergence.
+However, the proof of \lemmaref{hutch-rate} has a suspicious step.
+If we write out three lines of analysis:
+\begin{align}
+	|\trace(\mA) - H_\ell(\mA)|
+	&\leq \tsfrac{\sqrt 2}{\sqrt \ell} \normof{\mA}_F & \hspace{1cm} & (\text{Standard Deviation})\\
+	&\leq \tsfrac{\sqrt 2}{\sqrt \ell} \trace(\mA) & & (\normof{\mA}_F \leq \trace(\mA)) \\
+	&= \eps \ \trace(\mA) & & (\ell = O(\tsfrac{1}{\eps})) \\
+\end{align}
+
+Looking at these inequalities,
+- The analysis of line 1 is always tight, since we know the variance of $H_\ell(\mA)$ exactly.
+- The analysis of line 3 is always tight, since we just set $\ell$ to the smallest value that gets error $\eps$.
+- The analysis of line 2 is not always tight.
+
+The second line is tight only if $\normof{\mA}_F \approx \trace(\mA)$.
+That is, the analysis above only tells us that Hutchinson's Estimator needs $O(\frac1\eps)$ samples if $\mA$ is the kind of matrix that has $\normof{\mA}_F \approx \trace(\mA)$.
+So, what kind of matrix is that?
+\begin{claim}{Eigenvalue Intuition}{l2-l1-l0-intuit}
+If $\normof{\mA}_F\approx\trace(\mA)$, then $\mA$ has very few large eigenvalues, followed by much smaller eigenvalues.
+
+_Try to show this yourself. If you're having trouble, look at the argument below._
+\end{claim}
+\begin{dropdown}{_Proof_}
+\begin{proof}
+First, we rewrite $\normof{\mA}_F$ and $\trace(\mA)$ explicitly in terms of the eigenvalues of $\mA$.
+Let $\vv = [\lambda_1, \lambda_2, \ldots, \lambda_d]$ be the eigenvalues of $\mA$.
+Then, recall that
+\[
+	\normof{\mA}_F = \normof{\vv}_2
+	\hspace{0.75cm}
+	and
+	\hspace{0.75cm}
+	\trace(\mA) = {\textstyle \sum_{i=1}^d \lambda_i} = \normof{\vv}_1
+\]
+where the last equality follows from $\mA$ being PSD.
+So, we are given that $\normof{\vv}_2 \approx \normof{\vv}_1$: this is now just a statement about vectors in $\bbR^d$!
+
+We now need to show that if a vector $\vv$ has $\normof{\vv}_2 \approx \normof{\vv}_1$, then $\vv$ is nearly sparse: it has only a few large values.
+
+There are many intuition, and we will look at the extreme, and assume that $\normof{\vv}_2=\normof{\vv}_1$ exactly. _Prove that $\vv$ has at most 1 nonzero element in it._
+\end{proof}
+\end{dropdown}
+
+We now finish the discussion with a comparison of two ideas:
+- So, Hutchinson's Estimator only needs to use many samples (i.e. $O(\frac1\eps)$ samples) if $\mA$ has very special structure: it has a small number of large eigenvalues.
+- If a matrix has a small number of large eigenvalues, the trace must be well approximated by the sum of those eigenvalues.
+
+With this, we conclude the fundamental intuition behind Hutch++:
+
+\begin{claim}{Hutch++ Intuition}{}
+If $\mA$ is the kind of matrix that is hard for Hutchinsons's Estimator to handle, then $\trace(\mA)$ is well approximated by the top few eigenvalues of $\mA$
+\end{claim}
+
+This leads us to pick the following rough design of an algorithm:
+1. Find a good low-rank approximation $\tilde\mA_k$
+1. Notice that $\trace(\mA) = \trace(\tilde \mA_k) + \trace(\mA - \tilde\mA_k)$
+1. Compute $\trace(\tilde \mA_k)$ exactly
+1. Approximate $\trace(\mA-\tilde\mA_k)$ with Hutchinson's Estimator
+1. Return $\text{Hutch++}(\mA) = \trace(\tilde\mA_k) + H_\ell(\mA-\tilde\mA_k)$
+
+In the next section, we state a formal version of \claimref{l2-l1-l0-intuit} (see \lemmaref{l2-l1-l0}), show how to compute such a matrix $\tilde\mA_k$ (see $\mQ\mQ^\intercal\mA$ in \theoremref{tropp-error}), and bound the complexity of the Hutch++ estimator (see \theoremref{thm-hutchpp-variance}).
 
 
 ## Part 3: The Variance of Hutch++
