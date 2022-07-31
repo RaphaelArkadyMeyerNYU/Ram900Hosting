@@ -2,13 +2,13 @@
 Add here global page variables to use throughout your
 website.
 The website_* must be defined for the RSS to work
-@def website_url   = "https://ram900.hosting.nyu.edu/"
+@def prepath = "Ram900Hosting"
 -->
 @def website_title = "Raphael Meyer's Website"
 @def website_descr = "Raphael Arkady Meyer's Personal Website at NYU"
+@def website_url   = "https://ram900.hosting.nyu.edu/"
 
 
-@def prepath = "Ram900Hosting"
 
 @def author = "Raphael Arkady Meyer"
 
