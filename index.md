@@ -8,7 +8,7 @@
 @@container
 @@left ![](/assets/profile_2022.jpg) @@
 @@
-I am a rising $4^{th}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
+I am a $4^{th}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
@@ -42,15 +42,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I just gave a talk at the _SIAM Annual Meeting Minisymposium on Matrix Functions, Operator Functions, and Related Approximation Methods_. Thanks to Heather, Andrew, and Ke for organizing!
+- \newicon I'm giving a talk this week at [GAMM ANLA](https://sites.google.com/view/gammanla2022/home) on the role of block size in Krylov Methods for low-rank approximation.
+<!-- You can find a pre-preprint (the introduction isn't done yet and some citations may be missing) of the paper. -->
 
-- I'm traveling this summer! I'm first in London for [HALG2022](https://www.lse.ac.uk/HALG-2022). Then I'm spending June visiting [Haim Avron](http://www.math.tau.ac.il/~haimav/) at [TAU](https://english.tau.ac.il/), and July visiting [Michael Kapralov](https://theory.epfl.ch/kapralov/) at [EPFL](https://www.epfl.ch/en/). If you're in the same place at the same time, [drop me a line](mailto:ram900@nyu.edu)!
 
 \begin{dropdown}{_Old News_}
+
+July 2022
+
+- I gave a talk at the _SIAM Annual Meeting Minisymposium on Matrix Functions, Operator Functions, and Related Approximation Methods_. Thanks to Heather, Andrew, and Ke for organizing!
 
 June 2022
 
 - I'm going be presenting Hutch++ this summer at [HALG2022](https://www.lse.ac.uk/HALG-2022), with both a short talk and a poster.
+
+- I'm traveling this summer! I'm first in London for [HALG2022](https://www.lse.ac.uk/HALG-2022). Then I'm spending June visiting [Haim Avron](http://www.math.tau.ac.il/~haimav/) at [TAU](https://english.tau.ac.il/), and July visiting [Michael Kapralov](https://theory.epfl.ch/kapralov/) at [EPFL](https://www.epfl.ch/en/). If you're in the same place at the same time, [drop me a line](mailto:ram900@nyu.edu)!
 
 May 2022
 
@@ -177,7 +183,7 @@ This is a list of other talks or presentations I have given.
 
     Three 1.5-hour-long talks at NYU Tandon Theory Reading Group
 
-1. **Introduction to Differential Privacy**
+1. **Introduction to Differential Entropy**
 
     1-hour-long talk at NYU CDS Reading Group on Information Theory
 
@@ -206,6 +212,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. SODA 2022 External Reviewer
 1. NeurIPS 2022 Reviewer
 1. ICML 2022 Reviewer
 1. STOC 2022 External Reviewer
