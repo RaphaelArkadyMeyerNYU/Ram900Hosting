@@ -49,7 +49,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 September 2022
 
-- I gave a talk this week at [GAMM ANLA](https://sites.google.com/view/gammanla2022/home) on the role of block size in Krylov Methods for low-rank approximation. A preprint will be available very soon, but until then you can check out my slides for a preview! [Slides](/assets/svkGammAnla20minBeamers.pdf)
+- I gave a talk at [GAMM ANLA](https://sites.google.com/view/gammanla2022/home) on the role of block size in Krylov Methods for low-rank approximation. A preprint will be available very soon, but until then you can check out my slides for a preview! [Slides](/assets/svkGammAnla20minBeamers.pdf)
 
 July 2022
 
@@ -223,7 +223,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
-1. ICLR 2022 Reviewer
+1. ICLR 2023 Reviewer
 1. SODA 2023 External Reviewer
 1. NeurIPS 2022 Reviewer
 1. ICML 2022 Reviewer
