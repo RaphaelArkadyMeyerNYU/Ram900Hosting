@@ -42,11 +42,14 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm giving a talk this week at [GAMM ANLA](https://sites.google.com/view/gammanla2022/home) on the role of block size in Krylov Methods for low-rank approximation.
-<!-- You can find a pre-preprint (the introduction isn't done yet and some citations may be missing) of the paper. -->
+- \newicon New paper accepted at SODA 2023: _Near-Linear Sample Complexity for $L_p$ Polynomial Regression_! I'm giving a talk on it this Friday at the Grad Student Seminar at CDS (at NYU). If you want to come by, it's at noon at Room 650 of the CDS building at 60 $5^{th}$ Ave.
 
 
 \begin{dropdown}{_Old News_}
+
+September 2022
+
+- I gave a talk this week at [GAMM ANLA](https://sites.google.com/view/gammanla2022/home) on the role of block size in Krylov Methods for low-rank approximation. A preprint will be available very soon, but until then you can check out my slides for a preview! [Slides](/assets/svkGammAnla20minBeamers.pdf)
 
 July 2022
 
@@ -72,11 +75,11 @@ April 2022
 
 # Publications
 
-1.  **Cheybshev Sampling is Universal for Lp Polynomial Regression**[^ChebyAssets]
+1.  **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**[^ChebyAssets]
     
     with [Cameron Musco](https://people.cs.umass.edu/~cmusco/), [Christopher Musco](https://www.chrismusco.com/), [David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/), and [Samson Zhou](https://samsonzhou.github.io/)
     
-    _in Submission_
+    at _Symposium on Discrete Algorithms (SODA 2023)_
 
 1.  \span{link-hover-only}{[**Fast Regression for Structured Inputs**](https://arxiv.org/abs/2203.07557)}[^ICLR2022assets]
     
@@ -110,7 +113,7 @@ April 2022
 
 \begin{dropdown}{_Presentation Assets_}
 
-[^ChebyAssets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf)
+[^ChebyAssets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf), preprint available soon.
 
 [^ICLR2022assets]: [Poster](/assets/ICLR-2022-Poster.png)
 
@@ -139,11 +142,15 @@ This is a list of other talks or presentations I have given.
 
     at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)
 
-[^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s).
+[^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers.pdf). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s).
 
 \end{dropdown}
 
 \begin{dropdown}{Other Conference Presentations}
+
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
+
+    Short Talk at [_GAMM ANLA 2022_](https://sites.google.com/view/gammanla2022/home).
 
 1. **Hutch++: Optimal Stochastic Trace Estimation**[^PresentationSectionAssets]
 
@@ -157,7 +164,7 @@ This is a list of other talks or presentations I have given.
 
     Poster at [_Wald(O) 2021_](https://waldo2021.github.io/).
 
-1. **Optimality Implies Kernel Sum Classifiers are Statistically Efficient**[^PresentationSectionAssets] Poster
+1. **Optimality Implies Kernel Sum Classifiers are Statistically Efficient**[^PresentationSectionAssets]
 
     Poster at _Midwest Theory Day 2019_
 
@@ -166,6 +173,10 @@ This is a list of other talks or presentations I have given.
 \end{dropdown}
 
 \begin{dropdown}{Talks at Reading Groups}
+
+1. **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**
+
+    1-hour-long talk at NYU CDS Student Seminar
 
 1. **Hutch++: Optimal Stochastic Trace Estimation**
 
@@ -212,7 +223,8 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
-1. SODA 2022 External Reviewer
+1. ICLR 2022 Reviewer
+1. SODA 2023 External Reviewer
 1. NeurIPS 2022 Reviewer
 1. ICML 2022 Reviewer
 1. STOC 2022 External Reviewer
