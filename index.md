@@ -42,7 +42,9 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New paper accepted at SODA 2023: _Near-Linear Sample Complexity for $L_p$ Polynomial Regression_! I'm giving a talk on it this Friday at the Grad Student Seminar at CDS (at NYU). If you want to come by, it's at noon at Room 650 of the CDS building at 60 $5^{th}$ Ave.
+- \newicon I'm visiting Purdue in early November to present my new research on the role of block size in Krylov Methods. It'll be November 2nd at the [TCS Seminar at Purdue](https://theorypurdue.wordpress.com/).
+
+- \newicon New paper accepted at SODA 2023: _Near-Linear Sample Complexity for $L_p$ Polynomial Regression_! I just gave a talk on it last week Friday at the Grad Student Seminar at CDS (at NYU).
 
 
 \begin{dropdown}{_Old News_}
