@@ -30,6 +30,12 @@ For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
 
+\newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
+\newcommand{\cam}{[Cameron Musco](https://people.cs.umass.edu/~cmusco/)}
+\newcommand{\david}{[David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)}
+\newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
+\newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
+\newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
 
 \newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}
 \newcommand{\span}[2]{~~~<span class="!#1">~~~#2~~~</span>~~~}

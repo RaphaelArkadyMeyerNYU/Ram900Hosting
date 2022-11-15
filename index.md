@@ -1,6 +1,7 @@
 @def title = "Raphael A. Meyer"
 @def tags = ["nyu", "student", "research"]
 
+
 # Raphael Arkady Meyer
 
 
@@ -28,8 +29,8 @@ Links:
 
 My recent publications have looked at:
 
-* Provably *Optimal* Fast Linear-Algebra Algorithms (_[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
-* The Statistical Complexity of Kernel Learning (_[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_, _[ICML2019](https://arxiv.org/pdf/1901.09087.pdf)_)
+* Provably *Optimally* Fast Linear-Algebra Algorithms (_[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
+* Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
 
@@ -42,12 +43,15 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm visiting Purdue in early November to present my new research on the role of block size in Krylov Methods. It'll be November 2nd at the [TCS Seminar at Purdue](https://theorypurdue.wordpress.com/).
+- \newicon Preprint available on arXiv: [_Near-Linear Sample Complexity for $L_p$ Polynomial Regression_](https://arxiv.org/abs/2211.06790), to appear at SODA 2023.
 
-- \newicon New paper accepted at SODA 2023: _Near-Linear Sample Complexity for $L_p$ Polynomial Regression_! I just gave a talk on it last week Friday at the Grad Student Seminar at CDS (at NYU).
-
+- I gave a talk at the [TCS Seminar at Purdue](https://theorypurdue.wordpress.com/) in early November to present my new research on the role of block size in Krylov Methods.
 
 \begin{dropdown}{_Old News_}
+
+October 2022
+
+- New paper accepted at SODA 2023: _Near-Linear Sample Complexity for $L_p$ Polynomial Regression_! I just gave a talk on it last week Friday at the Grad Student Seminar at CDS (at NYU).
 
 September 2022
 
@@ -75,47 +79,44 @@ April 2022
 
 \end{dropdown}
 
+
 # Publications
 
-1.  **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**[^ChebyAssets]
-    
-    with [Cameron Musco](https://people.cs.umass.edu/~cmusco/), [Christopher Musco](https://www.chrismusco.com/), [David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/), and [Samson Zhou](https://samsonzhou.github.io/)
-    
-    at _Symposium on Discrete Algorithms (SODA 2023)_
+@@link-hover-only
 
-1.  \span{link-hover-only}{[**Fast Regression for Structured Inputs**](https://arxiv.org/abs/2203.07557)}[^ICLR2022assets]
+1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)[^SODA2023assets]
     
-    with [Cameron Musco](https://people.cs.umass.edu/~cmusco/), [Christopher Musco](https://www.chrismusco.com/), [David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/), and [Samson Zhou](https://samsonzhou.github.io/)
+    \span{fakeclass}{at SODA 2023 _with \cam, \chris, \david, and \samson_}
     
-    at _International Conference on Learning Representations (ICLR 2022)_
-
-1.  \span{link-hover-only}{[**Hutch++: Optimal Stochastic Trace Estimation**](https://arxiv.org/abs/2010.09649)}[^hutchassets]
+1.  [**Fast Regression for Structured Inputs**](https://arxiv.org/abs/2203.07557)[^ICLR2022assets]
     
-    with [Cameron Musco](https://people.cs.umass.edu/~cmusco/), [Christopher Musco](https://www.chrismusco.com/), [David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)
+    \span{fakeclass}{at ICLR 2022 _with \cam, \chris, \david, and \samson_}
     
-    at _Symposium on Simplicity in Algorithms (SOSA 2021)_
-
-1.  \span{link-hover-only}{[**The Statistical Cost of Robust Kernel Hyperparameter Turning**](https://arxiv.org/abs/2006.08035)}[^NeurIPS2020assets]
+1.  [**Hutch++: Optimal Stochastic Trace Estimation**](https://arxiv.org/abs/2010.09649)[^hutchassets]
     
-    with [Christopher Musco](https://www.chrismusco.com/)
-
-    at _Advances in Neural Information Processing Systems (NeurIPS 2020)_
-
+    \span{fakeclass}{at SOSA 2021 _with \cam, \chris, and \david_}
+    
+1.  [**The Statistical Cost of Robust Kernel Hyperparameter Turning**](https://arxiv.org/abs/2006.08035)[^NeurIPS2020assets]
+    
+    \span{fakeclass}{at NeurIPS 2020 _with \chris_}
+    
 1.  \span{link-hover-only}{[**Optimality Implies Kernel Sum Classifiers are Statistically Efficient**](https://arxiv.org/abs/1901.09087)}[^kernelsumassets]
-
-    with [Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)
-
-    at _International Conference on Machine Learning (ICML 2019)_
+    
+    \span{fakeclass}{at ICML 2019 _with \jean_}
     
 1.  \span{link-hover-only}{[**Characterizing Optimal Security and Round-Complexity for Secure OR Evaluation**](https://www.cs.purdue.edu/homes/hmaji/papers/ISIT:JhaMajMey17.pdf)}
+    
+    \span{fakeclass}{at ISIT 2017 _with Amisha Jhanji and \maji_}
+    <!-- I don't know why Franklin.jl acts this way. This avoids adding a <p/> tag, which changes the
+         CSS priority list. I could replace 'fakeclass' with something actually in the CSS, but -->
 
-    with Amisha Jhanji, [Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)
+@@
 
-    at _IEEE International Symposium on Information Theory (ISIT 2017)_
+$\phantom{.}$
 
 \begin{dropdown}{_Presentation Assets_}
 
-[^ChebyAssets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf), preprint available soon.
+[^SODA2023assets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf)
 
 [^ICLR2022assets]: [Poster](/assets/ICLR-2022-Poster.png)
 
@@ -131,18 +132,25 @@ To date, I have presented every paper I published at the associated conference.
 This is a list of other talks or presentations I have given.
 
 \begin{dropdown}{Invited Talks}
+@@link-hover-only
 
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
+    
+    \span{fakeclass}{at _[Purdue University TCS Seminar](https://theorypurdue.wordpress.com/)_}
+    
 1. **Hutch++ and More: Towards Optimal Spectral Sum Estimation**
-
-    at _Matrix Functions, Operator Functions, and Related Approximation Methods_, a minisymposium at SIAM Annual Meeting (AN22)
-
+    
+    \span{fakeclass}{at _Matrix Functions, Operator Functions, and Related Approximation Methods_, a minisymposium at SIAM Annual Meeting (AN22)}
+    
 1. **Hutch++: Optimal Stochastic Trace Estimation**
-
-    at _John Hopkins University Theory Reading Group_
-
+    
+    \span{fakeclass}{at _John Hopkins University Theory Reading Group_}
+    
 1. **Lessons from Trace Estimation Lower Bounds: Testing, Communication, and Anti-Concentration**[^SiamAN2021assets]
+    
+    \span{fakeclass}{at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)}
 
-    at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)
+@@
 
 [^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers.pdf). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s).
 
@@ -150,59 +158,66 @@ This is a list of other talks or presentations I have given.
 
 \begin{dropdown}{Other Conference Presentations}
 
+@@link-hover-only
+
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
-
-    Short Talk at [_GAMM ANLA 2022_](https://sites.google.com/view/gammanla2022/home).
-
+    
+    \span{fakeclass}{Short Talk at [_GAMM ANLA 2022_](https://sites.google.com/view/gammanla2022/home).}
+    
 1. **Hutch++: Optimal Stochastic Trace Estimation**[^PresentationSectionAssets]
-
-    Poster and Short Talk at [_HALG 2022_](https://www.lse.ac.uk/HALG-2022).
-
+    
+    \span{fakeclass}{Poster and Short Talk at [_HALG 2022_](https://www.lse.ac.uk/HALG-2022).}
+    
 1. **Chebyshev Sampling is Optimal for Lp Polynomial Regression**[^PresentationSectionAssets]
-
-    Talk at [_NYU "Pandemic Presentations" 2022_](/tcs_presentations)
-
+    
+    \span{fakeclass}{Talk at [_NYU "Pandemic Presentations" 2022_](/tcs_presentations)}
+    
 1. **Hutch++: Optimal Stochastic Trace Estimation**[^PresentationSectionAssets]
-
-    Poster at [_Wald(O) 2021_](https://waldo2021.github.io/).
-
+    
+    \span{fakeclass}{Poster at [_Wald(O) 2021_](https://waldo2021.github.io/).}
+    
 1. **Optimality Implies Kernel Sum Classifiers are Statistically Efficient**[^PresentationSectionAssets]
+    
+    \span{fakeclass}{Poster at _Midwest Theory Day 2019_}
 
-    Poster at _Midwest Theory Day 2019_
+@@
 
 [^PresentationSectionAssets]: Assets available in the [Publications](#publications) section.
 
 \end{dropdown}
 
 \begin{dropdown}{Talks at Reading Groups}
+@@link-hover-only
 
 1. **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**
-
-    1-hour-long talk at NYU CDS Student Seminar
-
+    
+    \span{fakeclass}{1-hour-long talk at NYU CDS Student Seminar}
+    
 1. **Hutch++: Optimal Stochastic Trace Estimation**
-
-    1-hour-long talk at NYU VIDA RG Reading Group
-
+    
+    \span{fakeclass}{1-hour-long talk at NYU VIDA RG Reading Group}
+    
 1. **Introduction to Leverage Scores**
-
-    1.5-hour-long talk at NYU Tandon Theory Reading Group
-
+    
+    \span{fakeclass}{1.5-hour-long talk at NYU Tandon Theory Reading Group}
+    
 1. **Strategies for Episodic Tabular & Linear MDPs**
-
-    Two 1.5-hour-long talks at NYU Tandon Reinforcement Learning Reading Group
-
+    
+    \span{fakeclass}{Two 1.5-hour-long talks at NYU Tandon Reinforcement Learning Reading Group}
+    
 1. **Lagrangian Duality**
-
-    Three 1.5-hour-long talks at NYU Tandon Theory Reading Group
-
+    
+    \span{fakeclass}{Three 1.5-hour-long talks at NYU Tandon Theory Reading Group}
+    
 1. **Introduction to Differential Entropy**
-
-    1-hour-long talk at NYU CDS Reading Group on Information Theory
-
+    
+    \span{fakeclass}{1-hour-long talk at NYU CDS Reading Group on Information Theory}
+    
 1. **Lower bounds on the complexity of stochastic convex optimization**[^MuscoGroup2019]
+    
+    \span{fakeclass}{1-hour-long presentation of the paper _Information-Theoretic Lower Bounds on the Oracle Complexity of Stochastic Convex Optimization_ by Agarwal et. al.}
 
-    1-hour-long presentation of the paper _Information-Theoretic Lower Bounds on the Oracle Complexity of Stochastic Convex Optimization_ by Agarwal et. al.
+@@
 
 [^MuscoGroup2019]: Link to the original paper [here](https://arxiv.org/abs/1009.0571). My slides available [here](/assets/MuscoGroup-2019-Beamers.pdf).
 
