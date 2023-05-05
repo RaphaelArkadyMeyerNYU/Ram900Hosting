@@ -120,7 +120,7 @@ April 2022
     
     \span{fakeclass}{at SOSA 2021 _with \cam, \chris, and \david_}
     
-1.  [**The Statistical Cost of Robust Kernel Hyperparameter Turning**](https://arxiv.org/abs/2006.08035)[^NeurIPS2020assets]
+1.  [**The Statistical Cost of Robust Kernel Hyperparameter Tuning**](https://arxiv.org/abs/2006.08035)[^NeurIPS2020assets]
     
     \span{fakeclass}{at NeurIPS 2020 _with \chris_}
     
