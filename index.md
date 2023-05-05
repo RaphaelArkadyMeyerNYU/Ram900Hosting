@@ -29,7 +29,7 @@ Links:
 
 My recent publications have looked at:
 
-* Provably *Optimally* Fast Linear-Algebra Algorithms (_[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
+* Fast Randomized Linear-Algebra Algorithms (_[preprint](https://arxiv.org/abs/2305.02535)_, _[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
 * Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
@@ -43,11 +43,31 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon Preprint available on arXiv: [_Near-Linear Sample Complexity for $L_p$ Polynomial Regression_](https://arxiv.org/abs/2211.06790), to appear at SODA 2023.
+- \newicon New preprint on arXiv: [_On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation_](https://arxiv.org/abs/2305.02535).
 
-- I gave a talk at the [TCS Seminar at Purdue](https://theorypurdue.wordpress.com/) in early November to present my new research on the role of block size in Krylov Methods.
+- \newicon I'll be in Dresden this summer to talk about Krylov methods at the [GAMM 2023 Young Researchers' Minisymposia](https://jahrestagung.gamm-ev.de/annual-meeting-2023/program/young-researchers-minisymposia/)
+
+
+$\phantom{.}$
+
 
 \begin{dropdown}{_Old News_}
+
+
+
+March 2023
+
+- I gave two talks at the NYU / UMass Quantum Linear Algebra reading group.
+
+- I gave a talk at the BIRS Perspectives on Matrix Computations about my [_new work on Krylov methods_](https://arxiv.org/abs/2305.02535).
+
+January 2023
+
+- I presented [_Near-Linear Sample Complexity for $L_p$ Polynomial Regression_](https://arxiv.org/abs/2211.06790) at SODA 2023.
+
+November 2022
+
+- I gave a talk at the [TCS Seminar at Purdue](https://theorypurdue.wordpress.com/) in early November to present my new research on the role of block size in Krylov Methods.
 
 October 2022
 
@@ -84,6 +104,10 @@ April 2022
 
 @@link-hover-only
 
+1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SVKassets]
+    
+    \span{fakeclass}{in submission _with \cam and \chris_}
+
 1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)[^SODA2023assets]
     
     \span{fakeclass}{at SODA 2023 _with \cam, \chris, \david, and \samson_}
@@ -116,6 +140,8 @@ $\phantom{.}$
 
 \begin{dropdown}{_Presentation Assets_}
 
+[^SVKassets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $\cdot$ [Slides](/assets/svkBirs20minOneNote.pdf)
+
 [^SODA2023assets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf)
 
 [^ICLR2022assets]: [Poster](/assets/ICLR-2022-Poster.png)
@@ -134,7 +160,11 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
-1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
+    
+    \span{fakeclass}{Short Talk at [_BIRS workshop on Perspectives on Matrix Computations_](https://www.birs.ca/events/2023/5-day-workshops/23w5108).}
+
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{at _[Purdue University TCS Seminar](https://theorypurdue.wordpress.com/)_}
     
@@ -189,6 +219,14 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Talks at Reading Groups}
 @@link-hover-only
 
+1. **The Equivalence of Matrix-Vector Complexity in Quantum Computing, Part 2**
+    
+    \span{fakeclass}{1-hour-long talk at NYU/UMass Quantum Linear Algebra Reading Group}
+    
+1. **The Equivalence of Matrix-Vector Complexity in Quantum Computing, Part 1**
+    
+    \span{fakeclass}{1-hour-long talk at NYU/UMass Quantum Linear Algebra Reading Group}
+    
 1. **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**
     
     \span{fakeclass}{1-hour-long talk at NYU CDS Student Seminar}
@@ -226,6 +264,8 @@ This is a list of other talks or presentations I have given.
 # Teaching
 
 I really enjoy teaching, and have been a TA for a few courses now:
+
+* [Responsible Data Science](https://dataresponsibly.github.io/rds23/), New York University, Spring 2023
 
 * [Algorithmic Machine Learning and Data Science](https://www.chrismusco.com/amlds2020/), New York University, Fall 2020
 
