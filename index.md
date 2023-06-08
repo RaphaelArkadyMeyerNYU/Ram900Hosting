@@ -45,9 +45,6 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 - \newicon New preprint on arXiv: [_On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation_](https://arxiv.org/abs/2305.02535).
 
-- \newicon I'll be in Dresden this summer to talk about Krylov methods at the [GAMM 2023 Young Researchers' Minisymposia](https://jahrestagung.gamm-ev.de/annual-meeting-2023/program/young-researchers-minisymposia/)
-
-
 $\phantom{.}$
 
 
