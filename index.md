@@ -7,14 +7,23 @@
 
 @@row
 @@container
-@@left ![](/assets/profile_2022.jpg) @@
+@@left ![](/assets/profile_2022.jpg)
 @@
-I am a $4^{th}$ year Ph.D. Student at NYU Tandon School of Engineering, advised by [Prof. Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
+@@
+
+I am a final year Ph.D. Student at NYU Tandon School of Engineering, advised by [Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
+
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
-
 I research the interplay of theoretical statistics and computation, largely through the lens of linear algebra.
+
+In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kapralov/) group at EPFL and [Haim Avron's](http://www.math.tau.ac.il/~haimav/) group at TAU.
+
+<!-- ~~~
+<div style="clear: both"></div>
+~~~ -->
+@@
 
 Links:
 [Google Scholar](https://scholar.google.com/citations?user=Xpi5HD0AAAAJ), 
@@ -22,10 +31,6 @@ Links:
 [Github](https://github.com/RaphaelArkadyMeyerNYU), 
 [Zoom Room](https://nyu.zoom.us/my/ram900)
 
-~~~
-<div style="clear: both"></div>
-~~~
-@@
 
 My recent publications have looked at:
 
@@ -43,14 +48,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New preprint on arXiv: [_On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation_](https://arxiv.org/abs/2305.02535).
+- \newicon I'm attending [Sketching and Algorithm Design workshop](https://simons.berkeley.edu/workshops/sketching-algorithm-design) at the Simons Institute this October.
+
+- \newicon I'm organizing a minisymposium on The Matrix-Vector Complexity of Linear Algebra at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)! Details TBD.
+
+- \newicon I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
 
 $\phantom{.}$
 
-
 \begin{dropdown}{_Old News_}
 
+May 2023
 
+- New preprint on arXiv: [_On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation_](https://arxiv.org/abs/2305.02535).
 
 March 2023
 
@@ -277,6 +287,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. NeurIPS 2023 Reviewer
 1. ICLR 2023 Reviewer
 1. SODA 2023 External Reviewer
 1. NeurIPS 2022 Reviewer
