@@ -48,6 +48,8 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon New prepreint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
+
 - \newicon I'm attending [Sketching and Algorithm Design workshop](https://simons.berkeley.edu/workshops/sketching-algorithm-design) at the Simons Institute this October.
 
 - \newicon I'm organizing a minisymposium on The Matrix-Vector Complexity of Linear Algebra at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)! Details TBD.
@@ -111,10 +113,14 @@ April 2022
 
 @@link-hover-only
 
+1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)
+    
+    \span{fakeclass}{in submission _with \haim_}
+    
 1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SVKassets]
     
     \span{fakeclass}{in submission _with \cam and \chris_}
-
+    
 1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)[^SODA2023assets]
     
     \span{fakeclass}{at SODA 2023 _with \cam, \chris, \david, and \samson_}
