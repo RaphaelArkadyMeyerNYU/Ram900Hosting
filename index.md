@@ -34,7 +34,7 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Randomized Linear-Algebra Algorithms (_[preprint](https://arxiv.org/abs/2305.02535)_, _[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_, _[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
 * Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
@@ -48,13 +48,18 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New prepreint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
 
-- \newicon I'm attending [Sketching and Algorithm Design workshop](https://simons.berkeley.edu/workshops/sketching-algorithm-design) at the Simons Institute this October.
+- \newicon Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
-- \newicon I'm organizing a minisymposium on The Matrix-Vector Complexity of Linear Algebra at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)! Details TBD.
+- \newicon I'm organizing a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
+  
+  [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home), [Diana Halikias](https://e.math.cornell.edu/people/halikias/), [William Swartworth](https://wswartworth.github.io/), [Tyler Chen](https://chen.pw/), and myself will be presenting at 8:30am on Sunday.
+  What a stacked lineup!
+  See the schedule here: [link](https://sites.google.com/view/siam-nynjpa/annual-meeting/program).
 
 - \newicon I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
+
+- New prepreint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
 
 $\phantom{.}$
 
@@ -119,7 +124,7 @@ April 2022
     
 1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SVKassets]
     
-    \span{fakeclass}{in submission _with \cam and \chris_}
+    \span{fakeclass}{at SODA 2024 _with \cam and \chris_}
     
 1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)[^SODA2023assets]
     
@@ -278,22 +283,27 @@ This is a list of other talks or presentations I have given.
 
 I really enjoy teaching, and have been a TA for a few courses now:
 
+* [Algorithmic Machine Learning and Data Science](https://www.chrismusco.com/amlds2023/), New York University, Fall 2023
+
 * [Responsible Data Science](https://dataresponsibly.github.io/rds23/), New York University, Spring 2023
 
 * [Algorithmic Machine Learning and Data Science](https://www.chrismusco.com/amlds2020/), New York University, Fall 2020
 
-* [Introduction to Machine Learning](https://www.chrismusco.com/introml/), New York University, Spring 2020
+* [Introduction to Machine Learning](https://www.chrismusco.com/introml2020/), New York University, Spring 2020
 
 * [Introduction to the Analysis of Algorithms](https://www.cs.purdue.edu/homes/pdrineas/documents/CS381-Fall18/index.html), Purdue University, Fall 2018
 
 # Service
 
 Service outside of reviewing:
+1. Organizer for the Minisymposium "The Matrix-Vector Complexity of Linear Algebra" at [SIAM-NNP 2023](https://sites.google.com/view/siam-nynjpa/annual-meeting)
 1. Organizer for [NYU TCS "Pandemic Presentations" Day](/tcs_presentations)
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. ICLR 2024 Reviewer
 1. NeurIPS 2023 Reviewer
+1. TMLR 2023 Reviewer
 1. ICLR 2023 Reviewer
 1. SODA 2023 External Reviewer
 1. NeurIPS 2022 Reviewer
