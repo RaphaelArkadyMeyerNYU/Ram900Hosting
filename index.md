@@ -48,6 +48,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon I'm giving a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st. Come say hi!
 
 - \newicon Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
@@ -57,13 +58,16 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
   What a stacked lineup!
   See the schedule here: [link](https://sites.google.com/view/siam-nynjpa/annual-meeting/program).
 
-- \newicon I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
+- I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
 
-- New prepreint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+September 2023
+
+- New prepreint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
 
 May 2023
 
