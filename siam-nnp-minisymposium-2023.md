@@ -67,7 +67,7 @@ td {
 </style>
 ~~~
 
-| Time | Presenter | Department | Talk Title |
+| Time | Presenter | University | Talk Title (click to jump to the abstract) |
 | :--- | :--- | :--- | :---
 | 8:30am | [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home) | MIT | [New Lower Bounds for Matrix-Vector Algorithms](#new_lower_bounds_for_matrix-vector_algorithms) |
 | 9:00am | [Diana  Halikias](https://e.math.cornell.edu/people/halikias/) | Cornell | [Data-efficient matrix recovery and PDE learning](#data-efficient_matrix_recovery_and_pde_learnings) |
