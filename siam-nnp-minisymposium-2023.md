@@ -17,7 +17,7 @@ This is a small webpage to track the time and place of the talks, as well as the
 ## When and where is the event?
 
 The talks are at NJIT on October 22nd, 2023.
-Specifically, they will run from 8:30am to 10:30am in the Central King Building, on either Floor 2 or Floor 3 (exact location TBD).
+Specifically, they will run from 8:30am to 10:30am in the Central King Building, Room 219.
 
 To attend, you have to register for the conference [here](https://sites.google.com/view/siam-nynjpa/annual-meeting/registration).
 It's free for students and postdocs!
