@@ -56,7 +56,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
   
   [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home), [Diana Halikias](https://e.math.cornell.edu/people/halikias/), [William Swartworth](https://wswartworth.github.io/), [Tyler Chen](https://chen.pw/), and myself will be presenting at 8:30am on Sunday.
   What a stacked lineup!
-  See the schedule here: [link](https://sites.google.com/view/siam-nynjpa/annual-meeting/program).
+  See the schedule here: [link](/siam-nnp-minisymposium-2023).
 
 - I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
 
