@@ -24,6 +24,8 @@ It's free for students and postdocs!
 
 ## Schedule
 
+The talks are all 20 minutes long, plus 5 minutes for Q&A.
+
 ~~~
 <style>
 .franklin-content .fndef tr,
@@ -70,10 +72,10 @@ td {
 | Time | Presenter | University | Talk Title (click to jump to the abstract) |
 | :--- | :--- | :--- | :---
 | 8:30am | [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home) | MIT | [New Lower Bounds for Matrix-Vector Algorithms](#new_lower_bounds_for_matrix-vector_algorithms) |
-| 9:00am | [Diana  Halikias](https://e.math.cornell.edu/people/halikias/) | Cornell | [Data-efficient matrix recovery and PDE learning](#data-efficient_matrix_recovery_and_pde_learnings) |
-| 9:30am | [William  Swartworth](https://wswartworth.github.io/) | CMU | [Spectrum Approximation via non-adaptive Queries](#spectrum_approximation_via_non-adaptive_queries) |
-| 10:00am | [Tyler  Chen](https://chen.pw/) | NYU | [Peering into the black box: Krylov-aware stochastic trace estimation](#peering_into_the_black_box_krylov-aware_stochastic_trace_estimation) |
-| 10:30am | [Raphael  Meyer](https://ram900.hosting.nyu.edu/) | NYU | [Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation](#hutchinsons_estimator_is_bad_at_kronecker-trace-estimation) |
+| 8:55am | [Diana  Halikias](https://e.math.cornell.edu/people/halikias/) | Cornell | [Data-efficient matrix recovery and PDE learning](#data-efficient_matrix_recovery_and_pde_learnings) |
+| 9:20am | [William  Swartworth](https://wswartworth.github.io/) | CMU | [Spectrum Approximation via non-adaptive Queries](#spectrum_approximation_via_non-adaptive_queries) |
+| 9:45am | [Tyler  Chen](https://chen.pw/) | NYU | [Peering into the black box: Krylov-aware stochastic trace estimation](#peering_into_the_black_box_krylov-aware_stochastic_trace_estimation) |
+| 10:10am | [Raphael  Meyer](https://ram900.hosting.nyu.edu/) | NYU | [Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation](#hutchinsons_estimator_is_bad_at_kronecker-trace-estimation) |
 
 ## Abstracts for the Talks
 
