@@ -122,11 +122,11 @@ April 2022
 
 @@link-hover-only
 
-1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)
+1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
     \span{fakeclass}{in submission _with \haim_}
     
-1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SVKassets]
+1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SODA2024assets]
     
     \span{fakeclass}{at SODA 2024 _with \cam and \chris_}
     
@@ -162,7 +162,9 @@ $\phantom{.}$
 
 \begin{dropdown}{_Presentation Assets_}
 
-[^SVKassets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $\cdot$ [Slides](/assets/svkBirs20minOneNote.pdf)
+[^KronHutchinsonAssets]: [Slides](/assets/kronHutchinsonSiamNNP20min.pdf)
+
+[^SODA2024assets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $\cdot$ [Slides](/assets/svkBirs20minOneNote.pdf)
 
 [^SODA2023assets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf)
 
