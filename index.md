@@ -52,14 +52,13 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 - \newicon Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
-- \newicon I'm organizing a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
-  
-  [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home), [Diana Halikias](https://e.math.cornell.edu/people/halikias/), [William Swartworth](https://wswartworth.github.io/), [Tyler Chen](https://chen.pw/), and myself will be presenting at 8:30am on Sunday.
-  What a stacked lineup!
-  **See the schedule here: [link](/siam-nnp-minisymposium-2023).**
-
 - I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
 
+- I organized a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
+  
+  [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home), [Diana Halikias](https://e.math.cornell.edu/people/halikias/), [William Swartworth](https://wswartworth.github.io/), [Tyler Chen](https://chen.pw/), and myself were presenting at 8:30am on Sunday.
+  What a stacked lineup!
+  **See the details here: [link](/siam-nnp-minisymposium-2023).**
 
 $\phantom{.}$
 
@@ -214,6 +213,10 @@ This is a list of other talks or presentations I have given.
 
 @@link-hover-only
 
+1. **Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**[^PresentationSectionAssets]
+    
+    \span{fakeclass}{Short Talk at [_SIAM-NNP 2022_](/siam-nnp-minisymposium-2023)}
+
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
     
     \span{fakeclass}{Short Talk at [_GAMM ANLA 2022_](https://sites.google.com/view/gammanla2022/home).}
@@ -302,7 +305,7 @@ I really enjoy teaching, and have been a TA for a few courses now:
 # Service
 
 Service outside of reviewing:
-1. Organizer for the Minisymposium "The Matrix-Vector Complexity of Linear Algebra" at [SIAM-NNP 2023](https://sites.google.com/view/siam-nynjpa/annual-meeting)
+1. Organizer for the [Minisymposium "The Matrix-Vector Complexity of Linear Algebra" at SIAM-NNP 2023](/siam-nnp-minisymposium-2023)
 1. Organizer for [NYU TCS "Pandemic Presentations" Day](/tcs_presentations)
 1. Organizer for NYU Tandon Theory Reading Group
 
