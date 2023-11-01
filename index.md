@@ -48,11 +48,11 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm giving a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st. Come say hi!
-
 - \newicon Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
-- I'm giving a talk at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
+-\newicon I'm giving a talk on [Krylov methods](https://arxiv.org/abs/2305.02535) at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
+
+- I'm giving a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st.
 
 - I organized a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
   
@@ -183,9 +183,13 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
+    
+    \span{fakeclass}{at [_U Chicago Theory Lunch_](https://orecchia.net/event/theory-lunch/).}
+
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
-    \span{fakeclass}{Short Talk at [_BIRS workshop on Perspectives on Matrix Computations_](https://www.birs.ca/events/2023/5-day-workshops/23w5108).}
+    \span{fakeclass}{at [_BIRS workshop on Perspectives on Matrix Computations_](https://www.birs.ca/events/2023/5-day-workshops/23w5108).}
 
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
