@@ -195,13 +195,17 @@ This is a list of other talks or presentations I have given.
     
     \span{fakeclass}{at _[Purdue University TCS Seminar](https://theorypurdue.wordpress.com/)_}
     
+1. **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**
+    
+    \span{fakeclass}{1-hour-long talk at NYU CDS Student Seminar}
+    
 1. **Hutch++ and More: Towards Optimal Spectral Sum Estimation**
     
     \span{fakeclass}{at _Matrix Functions, Operator Functions, and Related Approximation Methods_, a minisymposium at SIAM Annual Meeting (AN22)}
     
 1. **Hutch++: Optimal Stochastic Trace Estimation**
     
-    \span{fakeclass}{at _John Hopkins University Theory Reading Group_}
+    \span{fakeclass}{at _John Hopkins University Theory Seminar_}
     
 1. **Lessons from Trace Estimation Lower Bounds: Testing, Communication, and Anti-Concentration**[^SiamAN2021assets]
     
@@ -257,10 +261,6 @@ This is a list of other talks or presentations I have given.
 1. **The Equivalence of Matrix-Vector Complexity in Quantum Computing, Part 1**
     
     \span{fakeclass}{1-hour-long talk at NYU/UMass Quantum Linear Algebra Reading Group}
-    
-1. **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**
-    
-    \span{fakeclass}{1-hour-long talk at NYU CDS Student Seminar}
     
 1. **Hutch++: Optimal Stochastic Trace Estimation**
     
