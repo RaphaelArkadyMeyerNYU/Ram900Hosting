@@ -197,7 +197,7 @@ This is a list of other talks or presentations I have given.
     
 1. **Near-Linear Sample Complexity for $L_p$ Polynomial Regression**
     
-    \span{fakeclass}{1-hour-long talk at NYU CDS Student Seminar}
+    \span{fakeclass}{at _NYU CDS Student Seminar_}
     
 1. **Hutch++ and More: Towards Optimal Spectral Sum Estimation**
     
