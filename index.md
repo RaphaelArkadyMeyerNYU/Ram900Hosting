@@ -50,6 +50,10 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 - \newicon Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
+- I gave a talk on [Krylov methods](https://arxiv.org/abs/2305.02535) at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
+
+- I gave a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st.
+
 - I organized a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
   
   [Shyam Narayanan](https://sites.google.com/view/shyamnarayanan/home), [Diana Halikias](https://e.math.cornell.edu/people/halikias/), [William Swartworth](https://wswartworth.github.io/), [Tyler Chen](https://chen.pw/), and myself were presenting at 8:30am on Sunday.
@@ -60,11 +64,8 @@ $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
-November 2023
+<!-- November 2023 -->
 
-- I gave a talk on [Krylov methods](https://arxiv.org/abs/2305.02535) at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
-
-- I gave a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st.
 
 <!-- October 2023 -->
 
