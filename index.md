@@ -48,7 +48,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New preprint on arXiv: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2309.04952).
+- \newicon New preprint on arXiv: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2311.14023).
 
 - Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
