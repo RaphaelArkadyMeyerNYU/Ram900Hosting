@@ -34,7 +34,7 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_, _[SOSA2021](https://arxiv.org/pdf/2010.09649.pdf)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[preprint](https://arxiv.org/abs/2309.04952)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
 * Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
@@ -48,11 +48,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
+- \newicon New preprint on arXiv: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2309.04952).
+
+- Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
+
+$\phantom{.}$
+
+\begin{dropdown}{_Old News_}
+
+November 2023
 
 - I gave a talk on [Krylov methods](https://arxiv.org/abs/2305.02535) at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
 
 - I gave a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st.
+
+October 2023
 
 - I organized a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
   
@@ -60,19 +70,9 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
   What a stacked lineup!
   **See the details here: [link](/siam-nnp-minisymposium-2023).**
 
-$\phantom{.}$
-
-\begin{dropdown}{_Old News_}
-
-<!-- November 2023 -->
-
-
-<!-- October 2023 -->
-
-
 September 2023
 
-- New prepreint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
+- New preprint on arXiv: [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952).
 
 May 2023
 
@@ -127,6 +127,10 @@ April 2022
 
 @@link-hover-only
 
+1.  [**Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions**](https://arxiv.org/abs/2311.14023)
+    
+    \span{fakeclass}{in submission _with \davidp and \chris_}
+    
 1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
     \span{fakeclass}{in submission _with \haim_}

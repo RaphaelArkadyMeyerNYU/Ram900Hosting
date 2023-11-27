@@ -33,6 +33,7 @@ For instance:
 \newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
 \newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
 \newcommand{\cam}{[Cameron Musco](https://people.cs.umass.edu/~cmusco/)}
+\newcommand{\davidp}{[David Persson](https://scholar.google.com/citations?user=jOtDnRAAAAAJ&hl=en&oi=ao)}
 \newcommand{\david}{[David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)}
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
