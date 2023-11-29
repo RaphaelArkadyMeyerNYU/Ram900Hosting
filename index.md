@@ -269,6 +269,10 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Talks at Reading Groups}
 @@link-hover-only
 
+1. **Fairwashing SHAP (aka Interventional and Observational Shapley Values)**[^StoyanovichGroup2023]
+    
+    \span{fakeclass}{45-min-long talk at NYU RAI Reading Group}
+
 1. **The Equivalence of Matrix-Vector Complexity in Quantum Computing, Part 2**
     
     \span{fakeclass}{1-hour-long talk at NYU/UMass Quantum Linear Algebra Reading Group}
@@ -302,6 +306,8 @@ This is a list of other talks or presentations I have given.
     \span{fakeclass}{1-hour-long presentation of the paper _Information-Theoretic Lower Bounds on the Oracle Complexity of Stochastic Convex Optimization_ by Agarwal et. al.}
 
 @@
+
+[^StoyanovichGroup2023]: Link to relevant paper [here](https://arxiv.org/pdf/2006.16234.pdf). My slides available [here](/assets/StoyanovichGroup-2023-Beamers.pdf).
 
 [^MuscoGroup2019]: Link to the original paper [here](https://arxiv.org/abs/1009.0571). My slides available [here](/assets/MuscoGroup-2019-Beamers.pdf).
 
