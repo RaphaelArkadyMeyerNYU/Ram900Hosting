@@ -16,7 +16,9 @@ I am a final year Ph.D. Student at NYU Tandon School of Engineering, advised by 
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
-I research the interplay of theoretical statistics and computation, largely through the lens of linear algebra.
+<!-- I research the interplay of theoretical statistics and computation, largely through the lens of linear algebra. -->
+
+I research problems in mathematical computing from the perspective of theoretical computer science.
 
 In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kapralov/) group at EPFL and [Haim Avron's](http://www.math.tau.ac.il/~haimav/) group at TAU.
 
