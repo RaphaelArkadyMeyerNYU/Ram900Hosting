@@ -175,7 +175,7 @@ $\phantom{.}$
 
 [^KronHutchinsonAssets]: [Slides](/assets/kronHutchinsonSiamNNP20min.pdf)
 
-[^SODA2024assets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $\cdot$ [Slides](/assets/svkPurdue20minOneNote.pdf)
+[^SODA2024assets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $\cdot$ [Slides using TCS language](/assets/svkSoda20minOneNote.pdf) $\cdot$ [Slides using Applied Math language](/assets/svkPurdue20minOneNote.pdf)
 
 [^SODA2023assets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf)
 
