@@ -337,7 +337,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
-1. IJCAI 2024 "PC" (i.e. Reviewer)
+1. IJCAI 2024 Reviewer
 1. ICLR 2024 Reviewer
 1. NeurIPS 2023 Reviewer
 1. TMLR 2023 Reviewer
