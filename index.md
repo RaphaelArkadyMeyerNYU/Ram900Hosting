@@ -50,21 +50,27 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New preprint on arXiv: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2311.14023).
-
-- Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
+- \newicon  **I'm defending my thesis soon, on April 16th!** It's open to the public, in-person and online. See the details here: [link](/thesis-defense).
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
+January 2024
+
+- I presented my work on [Krylov methods](https://arxiv.org/abs/2305.02535) at SODA 2024.
+
 November 2023
+
+- New preprint on arXiv: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2311.14023).
 
 - I gave a talk on [Krylov methods](https://arxiv.org/abs/2305.02535) at the [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html) at Purdue University in November.
 
 - I gave a [talk at UChicago](https://orecchia.net/event/theory-lunch/) on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952) on November 1st.
 
 October 2023
+
+- Paper accepted at SODA 2024: _[On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation](https://arxiv.org/abs/2305.02535)_!
 
 - I organized a minisymposium on _The Matrix-Vector Complexity of Linear Algebra_ at the first ever [SIAM-NNP conference](https://sites.google.com/view/siam-nynjpa/annual-meeting)!
   
@@ -319,6 +325,8 @@ This is a list of other talks or presentations I have given.
 
 I really enjoy teaching, and have been a TA for a few courses now:
 
+* [Responsible Data Science](https://dataresponsibly.github.io/rds24/), New York University, Spring 2024
+
 * [Algorithmic Machine Learning and Data Science](https://www.chrismusco.com/amlds2023/), New York University, Fall 2023
 
 * [Responsible Data Science](https://dataresponsibly.github.io/rds23/), New York University, Spring 2023
@@ -337,6 +345,8 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. ICALP 2024 External Reviewer
+1. ICML 2024 Reviewer
 1. IJCAI 2024 Reviewer
 1. ICLR 2024 Reviewer
 1. NeurIPS 2023 Reviewer
