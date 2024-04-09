@@ -16,7 +16,7 @@ I will be defending my thesis on April 16th, 2024 at 9:30am in Room 1201 of 370 
 The defense if open to the public (*email me for access to the building to attend in-person*).
 The defense will also by broadcast over zoom, at this [link](https://nyu.zoom.us/j/97956046015).
 
-Add my defense to your calendar with this [link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cW5sZjU0ZmI3M2Vldml1dXJuYm00aTZtNmMgY182MWZmNDQ4NTQyMDBhYzQyZWMwMjUyYWFlNDM4MjAzNGIwZjg2ZDgzMzA5ZmVjZDg4OThmNjRmMzYxYzc4NTRmQGc&tmsrc=c_61ff44854200ac42ec0252aae4382034b0f86d83309fecd8898f64f361c7854f%40group.calendar.google.com).
+**Add my defense to your calendar with this [link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cW5sZjU0ZmI3M2Vldml1dXJuYm00aTZtNmMgY182MWZmNDQ4NTQyMDBhYzQyZWMwMjUyYWFlNDM4MjAzNGIwZjg2ZDgzMzA5ZmVjZDg4OThmNjRmMzYxYzc4NTRmQGc&tmsrc=c_61ff44854200ac42ec0252aae4382034b0f86d83309fecd8898f64f361c7854f%40group.calendar.google.com).**
 
 The defense will cover my work on fast randomized algorithms for numerical linear algebra, namely on four of my papers covering the following four topics: 
 - [*Trace Estimation*](https://arxiv.org/abs/2010.09649)
