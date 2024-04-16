@@ -18,6 +18,8 @@ The defense will also by broadcast over zoom, at this [link](https://www.google.
 
 Add my defense to your calendar with this [link](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=cW5sZjU0ZmI3M2Vldml1dXJuYm00aTZtNmMgcmFtOTAwQG55dS5lZHU&tmsrc=ram900%40nyu.edu).
 
+You can find slides for my talk [here](/assets/thesisDefense50minOneNote.pdf).
+
 The defense will cover my work on fast randomized algorithms for numerical linear algebra, namely on four of my papers covering the following four topics: 
 - [*Trace Estimation*](https://arxiv.org/abs/2010.09649)
 - [*Kronecker Trace Estimation*](https://arxiv.org/abs/2309.04952)
