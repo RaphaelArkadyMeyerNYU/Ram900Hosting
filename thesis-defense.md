@@ -12,6 +12,10 @@
 
 # My Thesis Defense
 
+_**Update**_: The defense is over now, and was a success! Thanks to everyone who showed up, and especially big thanks to my dissertation committee!
+
+~
+
 I will be defending my thesis on April 16th, 2024 at 9:30am in Room 1201 of 370 Jay Street.
 The defense if open to the public (*email me for access to the building to attend in-person*).
 The defense will also by broadcast over zoom, at this [link](https://nyu.zoom.us/j/97956046015).

@@ -50,13 +50,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon  **I'm defending my thesis soon, on April 16th!** It's open to the public, in-person and online. See the details here: [link](/thesis-defense).
+- \newicon **I've been awarded the Pearl Brownstein Doctoral Research Award** (i.e. best dissertation award) for my research! Big thanks to the Tandon CSE department for awarding this to me, and congrats to the other awardees, [Aecios](https://aeciosantos.com/) and [Mengwei](https://www.mengweiren.com/)!
+
+- \newicon  **I just successfully defended my thesis, on April 16th 2024!** See details about my talk here: [link](/thesis-defense).
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
+March 2024
+
+- The Responsible AI Lab at NYU Tandon (who I have been a part of for the past two years) wrote a spotlight on me! Thanks to Caterina and the R/AI team for writing this up. See the short interview here: [link](https://mailchi.mp/nyu/rai-march2024-newsletter?e=82659192cb).
+
 January 2024
+
+- I presented my work on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [$f(A)$ Low-Rank Approximation](https://arxiv.org/abs/2311.14023) at the [Mahoney Group](https://www.stat.berkeley.edu/~mmahoney/index.html) at UC Berkeley.
 
 - I presented my work on [Krylov methods](https://arxiv.org/abs/2305.02535) at SODA 2024.
 
@@ -201,6 +209,10 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **Optimal Trace Estimation and Algorithm-Agnostic funNystrom Guarantees**
+
+    \span{fakeclass}{at [_UC Berkeley Mahoney Group Meeting_](https://www.stat.berkeley.edu/~mmahoney/index.html).}
+
 1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
     
     \span{fakeclass}{at [_U Chicago Theory Lunch_](https://orecchia.net/event/theory-lunch/).}
@@ -243,11 +255,10 @@ This is a list of other talks or presentations I have given.
     
     \span{fakeclass}{Short Talk at [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html)}
     
-
 1. **Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**[^PresentationSectionAssets]
     
     \span{fakeclass}{Short Talk at [_SIAM-NNP 2022_](/siam-nnp-minisymposium-2023)}
-
+    
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
     
     \span{fakeclass}{Short Talk at [_GAMM ANLA 2022_](https://sites.google.com/view/gammanla2022/home).}
@@ -277,10 +288,14 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Talks at Reading Groups}
 @@link-hover-only
 
+1. **Feature Importance Impossibility Theorems**[^StoyanovichGroup2024]
+    
+    \span{fakeclass}{45-min-long talk at NYU RAI Reading Group}
+    
 1. **Fairwashing SHAP (aka Interventional and Observational Shapley Values)**[^StoyanovichGroup2023]
     
     \span{fakeclass}{45-min-long talk at NYU RAI Reading Group}
-
+    
 1. **The Equivalence of Matrix-Vector Complexity in Quantum Computing, Part 2**
     
     \span{fakeclass}{1-hour-long talk at NYU/UMass Quantum Linear Algebra Reading Group}
@@ -315,6 +330,8 @@ This is a list of other talks or presentations I have given.
 
 @@
 
+[^StoyanovichGroup2024]: Link to relevant paper [here](https://arxiv.org/pdf/2212.11870.pdf).
+
 [^StoyanovichGroup2023]: Link to relevant paper [here](https://arxiv.org/pdf/2006.16234.pdf). My slides available [here](/assets/StoyanovichGroup-2023-Beamers.pdf).
 
 [^MuscoGroup2019]: Link to the original paper [here](https://arxiv.org/abs/1009.0571). My slides available [here](/assets/MuscoGroup-2019-Beamers.pdf).
@@ -345,6 +362,8 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. FOCS 2024 External Reviewer
+1. IMA Journal of Numerical Analysis 2024 Reviewer
 1. ICALP 2024 External Reviewer
 1. ICML 2024 Reviewer
 1. IJCAI 2024 Reviewer
