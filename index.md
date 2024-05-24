@@ -11,8 +11,7 @@
 @@
 @@
 
-I am a final year Ph.D. Student at NYU Tandon School of Engineering, advised by [Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
-
+I recently got a Ph.D. from NYU Tandon School of Engineering, advised by [Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
@@ -25,6 +24,7 @@ In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kap
 <!-- ~~~
 <div style="clear: both"></div>
 ~~~ -->
+
 @@
 
 Links:
@@ -50,13 +50,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon **I've been awarded the Pearl Brownstein Doctoral Research Award** (i.e. best dissertation award) for my research! Big thanks to the Tandon CSE department for awarding this to me, and congrats to the other awardees, [Aecios](https://aeciosantos.com/) and [Mengwei](https://www.mengweiren.com/)!
+- \newicon **I'll be joining Caltech as a postdoc in [Joel Tropp](https://tropp.caltech.edu/)'s group this fall!**
 
-- \newicon  **I just successfully defended my thesis, on April 16th 2024!** See details about my talk here: [link](/thesis-defense).
+- I've been awarded the Pearl Brownstein Doctoral Research Award (i.e. best dissertation award) for my research! Big thanks to the Tandon CSE department for awarding this to me, and congrats to the other awardees, [Aecios](https://aeciosantos.com/) and [Mengwei](https://www.mengweiren.com/)!
+
+- I gave a talk at the Center for Communications Research on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952).
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+April 2024
+
+- **I just successfully defended my thesis, on April 16th 2024!** See details about my talk here: [link](/thesis-defense).
 
 March 2024
 
@@ -208,6 +214,10 @@ This is a list of other talks or presentations I have given.
 
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
+
+1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
+    
+    \span{fakeclass}{at _Center for Communications Research_.}
 
 1. **Optimal Trace Estimation and Algorithm-Agnostic funNystrom Guarantees**
 
@@ -362,6 +372,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. NeurIPS 2024 Reviewer
 1. FOCS 2024 External Reviewer
 1. IMA Journal of Numerical Analysis 2024 Reviewer
 1. ICALP 2024 External Reviewer
