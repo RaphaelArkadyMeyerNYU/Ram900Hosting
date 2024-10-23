@@ -11,7 +11,7 @@
 @@
 @@
 
-I recently got a Ph.D. from NYU Tandon School of Engineering, advised by [Christopher Musco](https://www.chrismusco.com) and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu/).
+I am a Postdoc at Caltech, hosted by [Joel Tropp](https://tropp.caltech.edu/) in the CMS Department. In spring 2024, I finished my Ph.D. from NYU advised by [Christopher Musco](https://www.chrismusco.com).
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
@@ -36,7 +36,7 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[preprint](https://arxiv.org/abs/2309.04952)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
 * Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
@@ -50,15 +50,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon **I'll be joining Caltech as a postdoc in [Joel Tropp](https://tropp.caltech.edu/)'s group this fall!**
+- \newicon I'm at SIAM MDS giving a talk on recent and upcoming results on Kronecker Matrix-Vector Complexity. Come say hi! Thanks to [Ethan](https://www.ethanepperly.com/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/) for organizing the minisymposium!
 
-- I've been awarded the Pearl Brownstein Doctoral Research Award (i.e. best dissertation award) for my research! Big thanks to the Tandon CSE department for awarding this to me, and congrats to the other awardees, [Aecios](https://aeciosantos.com/) and [Mengwei](https://www.mengweiren.com/)!
-
-- I gave a talk at the Center for Communications Research on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952).
+- \newicon Paper accepted at SIMAX: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2311.14023). My first paper in a math journal!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+May 2024
+
+- I'll be joining Caltech as a postdoc in [Joel Tropp](https://tropp.caltech.edu/)'s group this fall!
+
+- I've been awarded the Pearl Brownstein Doctoral Research Award (i.e. best dissertation award) for my research! Big thanks to the Tandon CSE department for awarding this to me, and congrats to the other awardees, [Aecios](https://aeciosantos.com/) and [Mengwei](https://www.mengweiren.com/)!
+
+- I gave a talk at the Center for Communications Research on [Trace Estimation](https://arxiv.org/abs/2010.09649) and [Kronecker-Trace Estimation](https://arxiv.org/abs/2309.04952).
 
 April 2024
 
@@ -151,7 +157,7 @@ April 2022
 
 1.  [**Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions**](https://arxiv.org/abs/2311.14023)
     
-    \span{fakeclass}{in submission _with \davidp and \chris_}
+    \span{fakeclass}{accepted to SIMAX _with \davidp and \chris_}
     
 1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
