@@ -30,14 +30,15 @@ For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
 
-\newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
-\newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
 \newcommand{\cam}{[Cameron Musco](https://people.cs.umass.edu/~cmusco/)}
+\newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
 \newcommand{\davidp}{[David Persson](https://scholar.google.com/citations?user=jOtDnRAAAAAJ&hl=en&oi=ao)}
-\newcommand{\david}{[David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)}
-\newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
+\newcommand{\davidw}{[David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)}
+\newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
 \newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
+\newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
+\newcommand{\will}{[William Swartworth](https://wswartworth.github.io/)}
 
 \newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}
 \newcommand{\span}[2]{~~~<span class="!#1">~~~#2~~~</span>~~~}

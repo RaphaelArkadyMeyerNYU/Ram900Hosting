@@ -21,6 +21,7 @@ I research problems in mathematical computing from the perspective of theoretica
 
 In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kapralov/) group at EPFL and [Haim Avron's](http://www.math.tau.ac.il/~haimav/) group at TAU.
 
+
 <!-- ~~~
 <div style="clear: both"></div>
 ~~~ -->
@@ -50,13 +51,23 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm at SIAM MDS giving a talk on recent and upcoming results on Kronecker Matrix-Vector Complexity. Come say hi! Thanks to [Ethan](https://www.ethanepperly.com/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/) for organizing the minisymposium!
+<!-- - \newicon New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2311.14023). Punchline: there's too much orthogonality! -->
 
-- \newicon Paper accepted at SIMAX: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2311.14023). My first paper in a math journal!
+- \newicon I'm talking about low-rank approximation ([this paper](https://arxiv.org/abs/2311.14023) and [this paper](https://arxiv.org/abs/2305.02535)) at Caltech on Friday Feb 14th. Come on out!
+
+- \newicon I made a website to contain the cleanest known proofs for foundational concepts in RandNLA: [link](https://randnla.github.io/). _I actually made it a while ago and don't update it often._
+
+- \newicon Updated version of the Kronecker Trace Estimation paper ([link](https://arxiv.org/abs/2309.04952)). New strengthened results on random rank-one matrices, Rademacher test vectors, and random unit vector test vectors!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+October 2024
+
+- I'm at SIAM MDS giving a talk on recent and upcoming results on Kronecker Matrix-Vector Complexity. Come say hi! Thanks to [Ethan](https://www.ethanepperly.com/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/) for organizing the minisymposium!
+
+- Paper accepted at SIMAX: [_Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions_](https://arxiv.org/abs/2311.14023). My first paper in a math journal!
 
 May 2024
 
@@ -154,14 +165,18 @@ April 2022
 # Publications
 
 @@link-hover-only
-
-1.  [**Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions**](https://arxiv.org/abs/2311.14023)
+<!--     
+1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](link)
     
-    \span{fakeclass}{accepted to SIMAX _with \davidp and \chris_}
+    \span{fakeclass}{in submission _with \will and \davidw_} -->
     
 1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
     \span{fakeclass}{in submission _with \haim_}
+    
+1.  [**Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions**](https://arxiv.org/abs/2311.14023)
+    
+    \span{fakeclass}{in SIMAX _with \davidp and \chris_}
     
 1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SODA2024assets]
     
@@ -169,15 +184,15 @@ April 2022
     
 1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)[^SODA2023assets]
     
-    \span{fakeclass}{at SODA 2023 _with \cam, \chris, \david, and \samson_}
+    \span{fakeclass}{at SODA 2023 _with \cam, \chris, \davidw, and \samson_}
     
 1.  [**Fast Regression for Structured Inputs**](https://arxiv.org/abs/2203.07557)[^ICLR2022assets]
     
-    \span{fakeclass}{at ICLR 2022 _with \cam, \chris, \david, and \samson_}
+    \span{fakeclass}{at ICLR 2022 _with \cam, \chris, \davidw, and \samson_}
     
 1.  [**Hutch++: Optimal Stochastic Trace Estimation**](https://arxiv.org/abs/2010.09649)[^hutchassets]
     
-    \span{fakeclass}{at SOSA 2021 _with \cam, \chris, and \david_}
+    \span{fakeclass}{at SOSA 2021 _with \cam, \chris, and \davidw_}
     
 1.  [**The Statistical Cost of Robust Kernel Hyperparameter Tuning**](https://arxiv.org/abs/2006.08035)[^NeurIPS2020assets]
     
@@ -378,6 +393,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. ICML 2024 Reviewer
 1. NeurIPS 2024 Reviewer
 1. FOCS 2024 External Reviewer
 1. IMA Journal of Numerical Analysis 2024 Reviewer
