@@ -51,7 +51,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-<!-- - \newicon New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2311.14023). Punchline: there's too much orthogonality! -->
+- \newicon New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). Punchline: there's too much orthogonality!
 
 - \newicon I'm talking about low-rank approximation ([this paper](https://arxiv.org/abs/2311.14023) and [this paper](https://arxiv.org/abs/2305.02535)) at Caltech on Friday Feb 14th. Come on out!
 
@@ -165,10 +165,10 @@ April 2022
 # Publications
 
 @@link-hover-only
-<!--     
-1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](link)
     
-    \span{fakeclass}{in submission _with \will and \davidw_} -->
+1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)
+    
+    \span{fakeclass}{in submission _with \will and \davidw_}
     
 1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
