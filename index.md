@@ -244,6 +244,14 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
+    
+    \span{fakeclass}{at _Caltech SIAM Student/Postoc Seminar_.}
+    
+1. **Kronecker Matrix-Vector Complexity is Strange**[^SiamMDS2025assets]
+    
+    \span{fakeclass}{at _Randomized Matrix Computations for Large-scale Scientific and Machine Learning Problems_, a minisymposium at SIAM Conference on Mathematics of Data Science (MDS24)}
+    
 1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
     
     \span{fakeclass}{at _Center for Communications Research_.}
@@ -281,6 +289,8 @@ This is a list of other talks or presentations I have given.
     \span{fakeclass}{at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)}
 
 @@
+
+[^SiamMDS2025assets]: Slides available [here](/assets/SiamMds24KronMatVec20minPPT.pdf)
 
 [^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers.pdf). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s).
 
