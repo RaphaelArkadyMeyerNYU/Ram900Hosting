@@ -51,17 +51,25 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). Punchline: there's too much orthogonality!
+- \newicon I'm giving a talk at the [UCSD MINDS Seminar](https://sites.google.com/ucsd.edu/ucsd-minds/home) on April 18th! Thanks to [Rob Webber](https://sites.google.com/ucsd.edu/rwebber/) for inviting me out!
 
-- \newicon I'm talking about low-rank approximation ([this paper](https://arxiv.org/abs/2311.14023) and [this paper](https://arxiv.org/abs/2305.02535)) at Caltech on Friday Feb 14th. Come on out!
+- \newicon I'm giving a guest lecture in [Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized Numerical Linear Algebra class at UMich!
 
-- \newicon I made a website to contain the cleanest known proofs for foundational concepts in RandNLA: [link](https://randnla.github.io/). _I actually made it a while ago and don't update it often._
+- New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). Punchline: there's too much orthogonality!
 
-- \newicon Updated version of the Kronecker Trace Estimation paper ([link](https://arxiv.org/abs/2309.04952)). New strengthened results on random rank-one matrices, Rademacher test vectors, and random unit vector test vectors!
+- I made a website to contain the cleanest known proofs for foundational concepts in RandNLA: [link](https://randnla.github.io/). _I actually made it a while ago and don't update it often._
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+February 2025
+
+- I'm talking about low-rank approximation ([this paper](https://arxiv.org/abs/2311.14023) and [this paper](https://arxiv.org/abs/2305.02535)) at Caltech on Friday Feb 14th. Come on out!
+
+January 2025
+
+- Updated version of the Kronecker Trace Estimation paper ([link](https://arxiv.org/abs/2309.04952)). New strengthened results on random rank-one matrices, Rademacher test vectors, and random unit vector test vectors!
 
 October 2024
 
