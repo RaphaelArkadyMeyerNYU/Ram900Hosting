@@ -53,9 +53,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 - \newicon I'm giving a talk at the [UCSD MINDS Seminar](https://sites.google.com/ucsd.edu/ucsd-minds/home) on April 18th! Thanks to [Rob Webber](https://sites.google.com/ucsd.edu/rwebber/) for inviting me out!
 
-- \newicon I'm giving a guest lecture in [Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized Numerical Linear Algebra class at UMich!
-
-- New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). Punchline: there's too much orthogonality!
+- \newicon I recently gave a guest lecture in [Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized Numerical Linear Algebra class at UMich! It was great fun, and many great questions were asked. Thanks for having me! You can find my slides [here](/assets/uMichGuestLecture80minPPT.pdf).
 
 - I made a website to contain the cleanest known proofs for foundational concepts in RandNLA: [link](https://randnla.github.io/). _I actually made it a while ago and don't update it often._
 
@@ -63,7 +61,10 @@ $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
+
 February 2025
+
+- New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). Punchline: there's too much orthogonality!
 
 - I'm talking about low-rank approximation ([this paper](https://arxiv.org/abs/2311.14023) and [this paper](https://arxiv.org/abs/2305.02535)) at Caltech on Friday Feb 14th. Come on out!
 
@@ -244,6 +245,10 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **Guest Lecture on Trace Estimation**[^UMich2025assets]
+    
+    \span{fakeclass}{at _[Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized NLA course at the University of Michigan_.}
+    
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{at _Caltech SIAM Student/Postoc Seminar_.}
@@ -255,19 +260,19 @@ This is a list of other talks or presentations I have given.
 1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
     
     \span{fakeclass}{at _Center for Communications Research_.}
-
+    
 1. **Optimal Trace Estimation and Algorithm-Agnostic funNystrom Guarantees**
-
+    
     \span{fakeclass}{at [_UC Berkeley Mahoney Group Meeting_](https://www.stat.berkeley.edu/~mmahoney/index.html).}
-
+    
 1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
     
     \span{fakeclass}{at [_U Chicago Theory Lunch_](https://orecchia.net/event/theory-lunch/).}
-
+    
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{at [_BIRS workshop on Perspectives on Matrix Computations_](https://www.birs.ca/events/2023/5-day-workshops/23w5108).}
-
+    
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{at _[Purdue University TCS Seminar](https://theorypurdue.wordpress.com/)_}
@@ -289,6 +294,8 @@ This is a list of other talks or presentations I have given.
     \span{fakeclass}{at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)}
 
 @@
+
+[^UMich2025assets]: Slides available [here](/assets/uMichGuestLecture80minPPT.pdf)
 
 [^SiamMDS2025assets]: Slides available [here](/assets/SiamMds24KronMatVec20minPPT.pdf)
 
