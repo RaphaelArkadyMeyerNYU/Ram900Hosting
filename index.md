@@ -40,7 +40,7 @@ My recent publications have looked at:
 * Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
 * Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
 
-Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@nyu.edu$
+Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@caltech.edu$
 
 <!-- Some high-level open questions that I think are super interesting.
 
@@ -51,18 +51,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm giving a talk at the [UCSD MINDS Seminar](https://sites.google.com/ucsd.edu/ucsd-minds/home) on April 18th! Thanks to [Rob Webber](https://sites.google.com/ucsd.edu/rwebber/) for inviting me out!
+- \newicon Paper accepted to ICML: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). I'll be presenting the poster this July, come say hi!
 
-- \newicon I recently gave a guest lecture in [Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized Numerical Linear Algebra class at UMich! It was great fun, and many great questions were asked. Thanks for having me! You can find my slides [here](/assets/uMichGuestLecture80minPPT.pdf).
+- \newicon I'll be giving a talk on Kronecker Matrix-Vector Complexity at Tom Trogdon's [RMT + NLA II](https://faculty.washington.edu/trogdon/RMT+NLA_II/index.html) workshop this June!
 
-- I made a website to contain the cleanest known proofs for foundational concepts in RandNLA: [link](https://randnla.github.io/). _I actually made it a while ago and don't update it often._
+- I gave a talk at the [UCSD MINDS Seminar](https://sites.google.com/ucsd.edu/ucsd-minds/home) on April 18th -- thanks to [Rob Webber](https://sites.google.com/ucsd.edu/rwebber/) for inviting me out!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
+March 2025
 
-February 2025
+- I recently gave a guest lecture in [Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized Numerical Linear Algebra class at UMich! It was great fun, and many great questions were asked. Thanks for having me! You can find my slides [here](/assets/uMichGuestLecture80minPPT.pdf).
+
+- I made a website to contain the cleanest known proofs for foundational concepts in RandNLA: [link](https://randnla.github.io/). _I actually made it a while ago and don't update it often._
 
 - New preprint on arXiv: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). Punchline: there's too much orthogonality!
 
@@ -177,7 +180,7 @@ April 2022
     
 1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)
     
-    \span{fakeclass}{in submission _with \will and \davidw_}
+    \span{fakeclass}{at ICML 2025 _with \will and \davidw_}
     
 1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
