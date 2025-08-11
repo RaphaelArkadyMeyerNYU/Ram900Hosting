@@ -30,14 +30,19 @@ For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
 
+\newcommand{\akash}{[Akash Rao](https://www.linkedin.com/in/akashgrao/)}
 \newcommand{\cam}{[Cameron Musco](https://people.cs.umass.edu/~cmusco/)}
 \newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
+\newcommand{\chrisc}{[Chris Camaño](https://chriscamano.github.io/)}
 \newcommand{\davidp}{[David Persson](https://scholar.google.com/citations?user=jOtDnRAAAAAJ&hl=en&oi=ao)}
 \newcommand{\davidw}{[David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)}
+\newcommand{\ethan}{[Ethan N. Epperly](https://www.ethanepperly.com/)}
 \newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
+\newcommand{\kevin}{[Kevin Shu](https://kevinshu.me/)}
 \newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
+\newcommand{\tyler}{[Tyler chen](https://research.chen.pw/)}
 \newcommand{\will}{[William Swartworth](https://wswartworth.github.io/)}
 
 \newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}

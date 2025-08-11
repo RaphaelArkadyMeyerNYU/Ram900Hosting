@@ -37,8 +37,9 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2309.04952)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
-* Active Learning on Linear Function Families (_[SODA2023](https://arxiv.org/abs/2211.06790)_, _[NeurIPS2020](https://arxiv.org/pdf/2006.08035.pdf)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.06486)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
+* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
+* Active Learning on Linear Function Families (_[preprint](https://arxiv.org/abs/2508.05920)_,_[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@caltech.edu$
 
@@ -51,15 +52,27 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon Paper accepted to ICML: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029). I'll be presenting the poster this July, come say hi!
+- \newicon This fall, I will be joining [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
 
-- \newicon I'll be giving a talk on Kronecker Matrix-Vector Complexity at Tom Trogdon's [RMT + NLA II](https://faculty.washington.edu/trogdon/RMT+NLA_II/index.html) workshop this June!
+- \newicon New paper on arXiv: [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486). Punchline: Block Krylov find a rank-$k$ approximation with $O(k)$ matrix-vector products, regardless of the block size $b$!
 
-- I gave a talk at the [UCSD MINDS Seminar](https://sites.google.com/ucsd.edu/ucsd-minds/home) on April 18th -- thanks to [Rob Webber](https://sites.google.com/ucsd.edu/rwebber/) for inviting me out!
+- \newicon New paper on arXiv: [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920). \chrisc wrote beautiful code for it, available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)! Punchline: you can do DPP sampling for polynomial regression by computing the eigenvalues of random complex matrices!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+July 2025
+
+- I presented a poster for my paper accepted to ICML: [_Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra_](https://arxiv.org/abs/2502.08029).
+
+June 2025
+
+- I gave a talk on Kronecker Matrix-Vector Complexity at Tom Trogdon's [RMT + NLA II](https://faculty.washington.edu/trogdon/RMT+NLA_II/index.html) workshop this past June!
+
+April 2025
+
+- I gave a talk at the [UCSD MINDS Seminar](https://sites.google.com/ucsd.edu/ucsd-minds/home) on April 18th -- thanks to [Rob Webber](https://sites.google.com/ucsd.edu/rwebber/) for inviting me out!
 
 March 2025
 
@@ -178,7 +191,15 @@ April 2022
 
 @@link-hover-only
     
-1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)
+1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)
+    
+    \span{fakeclass}{in submission _with \tyler, \ethan, \chris, and \akash_}
+    
+1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)[^DebiasedPolyAssets]
+    
+    \span{fakeclass}{in submission _with \chrisc and \kevin_}
+    
+1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)[^ICML2025assets]
     
     \span{fakeclass}{at ICML 2025 _with \will and \davidw_}
     
@@ -225,6 +246,10 @@ April 2022
 $\phantom{.}$
 
 \begin{dropdown}{_Presentation Assets_}
+
+[^DebiasedPolyAssets]: Code available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)
+
+[^ICML2025assets]: [Poster](/assets/ICML-2025-Poster.pdf)
 
 [^KronHutchinsonAssets]: [Slides](/assets/kronHutchinsonSiamNNP20min.pdf)
 
@@ -310,6 +335,10 @@ This is a list of other talks or presentations I have given.
 
 @@link-hover-only
 
+1. **Kronecker Matrix-Vector Complexity is Strange**
+    
+    \span{fakeclass}{Short Talk at the [RMN + NLA II Conference](https://faculty.washington.edu/trogdon/RMT+NLA_II/)}
+    
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
     
     \span{fakeclass}{Short Talk at [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html)}
@@ -345,6 +374,7 @@ This is a list of other talks or presentations I have given.
 \end{dropdown}
 
 \begin{dropdown}{Talks at Reading Groups}
+_This list is no longer updated. The existing slides are useful though, so I'm keeping this around._
 @@link-hover-only
 
 1. **Feature Importance Impossibility Theorems**[^StoyanovichGroup2024]
