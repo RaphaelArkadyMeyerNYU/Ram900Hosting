@@ -42,7 +42,7 @@ For instance:
 \newcommand{\kevin}{[Kevin Shu](https://kevinshu.me/)}
 \newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
-\newcommand{\tyler}{[Tyler chen](https://research.chen.pw/)}
+\newcommand{\tyler}{[Tyler Chen](https://research.chen.pw/)}
 \newcommand{\will}{[William Swartworth](https://wswartworth.github.io/)}
 
 \newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}
