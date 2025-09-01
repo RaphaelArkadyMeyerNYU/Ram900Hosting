@@ -39,6 +39,7 @@ For instance:
 \newcommand{\ethan}{[Ethan N. Epperly](https://www.ethanepperly.com/)}
 \newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
+\newcommand{\joel}{[Joel A. Tropp](https://tropp.caltech.edu/)}
 \newcommand{\kevin}{[Kevin Shu](https://kevinshu.me/)}
 \newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}

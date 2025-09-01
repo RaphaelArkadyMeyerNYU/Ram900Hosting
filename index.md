@@ -1,5 +1,5 @@
 @def title = "Raphael A. Meyer"
-@def tags = ["nyu", "student", "research"]
+@def tags = ["research"]
 
 
 # Raphael Arkady Meyer
@@ -37,8 +37,8 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.06486)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
-* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
+* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[preprint](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
 * Active Learning on Linear Function Families (_[preprint](https://arxiv.org/abs/2508.05920)_,_[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@caltech.edu$
@@ -52,11 +52,13 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon New paper on arXiv: [_Faster Linear Algebra Algorithms with Structured Random Matrices_](https://arxiv.org/abs/2508.21189). Introducing the oblivious subspace _injection_!
+
 - \newicon This fall, I will be joining [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
 
-- \newicon New paper on arXiv: [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486). Punchline: Block Krylov find a rank-$k$ approximation with $O(k)$ matrix-vector products, regardless of the block size $b$!
+- New paper on arXiv: [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486). Punchline: Block Krylov finds a rank-$k$ approximation with $O(k)$ matrix-vector products, regardless of the block size!
 
-- \newicon New paper on arXiv: [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920). \chrisc wrote beautiful code for it, available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)! Punchline: you can do DPP sampling for polynomial regression by computing the eigenvalues of random complex matrices!
+- New paper on arXiv: [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920). \chrisc wrote beautiful code for it, available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)! Punchline: you can do DPP sampling for polynomial regression by computing the eigenvalues of random complex matrices!
 
 $\phantom{.}$
 
@@ -190,6 +192,10 @@ April 2022
 # Publications
 
 @@link-hover-only
+    
+1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)
+    
+    \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
     
 1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)
     
