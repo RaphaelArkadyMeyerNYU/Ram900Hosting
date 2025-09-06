@@ -11,7 +11,7 @@
 @@
 @@
 
-I am a Postdoc at Caltech, hosted by [Joel Tropp](https://tropp.caltech.edu/) in the CMS Department. In spring 2024, I finished my Ph.D. from NYU advised by [Christopher Musco](https://www.chrismusco.com).
+I am a Postdoc at UC Berkeley, hosted by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/) in the Stats Department and ICSI. Before that, I was a Postdoc at Caltech working with [Joel Tropp](https://tropp.caltech.edu/). Before that, I finished my Ph.D. at NYU advised by [Christopher Musco](https://www.chrismusco.com).
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
@@ -41,7 +41,7 @@ My recent publications have looked at:
 * Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[preprint](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
 * Active Learning on Linear Function Families (_[preprint](https://arxiv.org/abs/2508.05920)_,_[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
-Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@caltech.edu$
+Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@berkeley.edu$
 
 <!-- Some high-level open questions that I think are super interesting.
 
