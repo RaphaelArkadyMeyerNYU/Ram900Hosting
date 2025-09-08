@@ -52,17 +52,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon I'm talking about Kronecker Matrix-Vector complexity this Tuesday at the Simon's Institute [Recent Progress and Open Directions in Matrix Computations](https://sites.google.com/cornell.edu/rpod-matrix-computations/about) seminar.
+
 - \newicon New paper on arXiv: [_Faster Linear Algebra Algorithms with Structured Random Matrices_](https://arxiv.org/abs/2508.21189). Introducing the oblivious subspace _injection_!
 
-- \newicon This fall, I will be joining [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
-
-- New paper on arXiv: [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486). Punchline: Block Krylov finds a rank-$k$ approximation with $O(k)$ matrix-vector products, regardless of the block size!
-
-- New paper on arXiv: [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920). \chrisc wrote beautiful code for it, available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)! Punchline: you can do DPP sampling for polynomial regression by computing the eigenvalues of random complex matrices!
+- I joined [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+August 2025
+
+- New paper on arXiv: [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486). Punchline: Block Krylov finds a rank-$k$ approximation with $O(k)$ matrix-vector products, regardless of the block size!
+
+- New paper on arXiv: [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920). \chrisc wrote beautiful code for it, available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)! Punchline: you can do DPP sampling for polynomial regression by computing the eigenvalues of random complex matrices!
 
 July 2025
 
