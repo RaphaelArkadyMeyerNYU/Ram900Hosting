@@ -52,15 +52,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm talking about Kronecker Matrix-Vector complexity this Tuesday at the Simon's Institute [Recent Progress and Open Directions in Matrix Computations](https://sites.google.com/cornell.edu/rpod-matrix-computations/about) seminar.
+- \newicon [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486) was accepted to SODA 2026!
 
-- \newicon New paper on arXiv: [_Faster Linear Algebra Algorithms with Structured Random Matrices_](https://arxiv.org/abs/2508.21189). Introducing the oblivious subspace _injection_!
+- I gave a talk about Kronecker Matrix-Vector complexity at the Simon's Institute [Recent Progress and Open Directions in Matrix Computations](https://sites.google.com/cornell.edu/rpod-matrix-computations/about) seminar.
 
-- I joined [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
+- New paper on arXiv: [_Faster Linear Algebra Algorithms with Structured Random Matrices_](https://arxiv.org/abs/2508.21189). Introducing the oblivious subspace _injection_!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+September 2025:
+
+- I joined [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
 
 August 2025
 
@@ -203,7 +207,7 @@ April 2022
     
 1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)
     
-    \span{fakeclass}{in submission _with \tyler, \ethan, \chris, and \akash_}
+    \span{fakeclass}{at SODA 2026 _with \tyler, \ethan, \chris, and \akash_}
     
 1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)[^DebiasedPolyAssets]
     
