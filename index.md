@@ -37,9 +37,9 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_, _[SODA2024](https://arxiv.org/abs/2305.02535)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_)
 * Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[preprint](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
-* Active Learning on Linear Function Families (_[preprint](https://arxiv.org/abs/2508.05920)_,_[SODA2023](https://arxiv.org/abs/2211.06790)_)
+* Active Learning on Linear Function Families (_[SOSA26](https://arxiv.org/abs/2508.05920)_,_[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@berkeley.edu$
 
