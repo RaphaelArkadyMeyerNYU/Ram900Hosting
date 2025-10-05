@@ -52,11 +52,11 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920) was accepted to SOSA 2026! I'll be presenting a poster about it at the Simons [Workshop on Linear Systems and Eigenvalue Problems](https://simons.berkeley.edu/workshops/linear-systems-eigenvalue-problems/schedule).
+
 - \newicon [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486) was accepted to SODA 2026!
 
 - I gave a talk about Kronecker Matrix-Vector complexity at the Simon's Institute [Recent Progress and Open Directions in Matrix Computations](https://sites.google.com/cornell.edu/rpod-matrix-computations/about) seminar.
-
-- New paper on arXiv: [_Faster Linear Algebra Algorithms with Structured Random Matrices_](https://arxiv.org/abs/2508.21189). Introducing the oblivious subspace _injection_!
 
 $\phantom{.}$
 
@@ -67,6 +67,8 @@ September 2025:
 - I joined [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
 
 August 2025
+
+- New paper on arXiv: [_Faster Linear Algebra Algorithms with Structured Random Matrices_](https://arxiv.org/abs/2508.21189). Introducing the oblivious subspace _injection_!
 
 - New paper on arXiv: [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486). Punchline: Block Krylov finds a rank-$k$ approximation with $O(k)$ matrix-vector products, regardless of the block size!
 
@@ -211,7 +213,7 @@ April 2022
     
 1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)[^DebiasedPolyAssets]
     
-    \span{fakeclass}{in submission _with \chrisc and \kevin_}
+    \span{fakeclass}{at SOSA 2026 _with \chrisc and \kevin_}
     
 1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)[^ICML2025assets]
     
