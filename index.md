@@ -31,8 +31,8 @@ In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kap
 Links:
 [Google Scholar](https://scholar.google.com/citations?user=Xpi5HD0AAAAJ), 
 [dblp](https://dblp.org/pid/204/4381.html), 
-[Github](https://github.com/RaphaelArkadyMeyerNYU), 
-[Zoom Room](https://nyu.zoom.us/my/ram900)
+[Github](https://github.com/RaphaelArkadyMeyerNYU)
+<!-- [Zoom Room](https://nyu.zoom.us/my/ram900) -->
 
 
 My recent publications have looked at:
@@ -52,17 +52,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920) was accepted to SOSA 2026! I'll be presenting a poster about it at the Simons [Workshop on Linear Systems and Eigenvalue Problems](https://simons.berkeley.edu/workshops/linear-systems-eigenvalue-problems/schedule).
+- \newicon I wrote a short article on trace estimation lower bounds. Read it [here](https://randnla.github.io/trace-lower-bound)!
 
-- \newicon [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486) was accepted to SODA 2026!
+- \newicon I'll be giving a talk on Low-Rank Approximation at the WSU Graduate Research Seminar. Thanks to \akash for inviting me out!
 
-- I gave a talk about Kronecker Matrix-Vector complexity at the Simon's Institute [Recent Progress and Open Directions in Matrix Computations](https://sites.google.com/cornell.edu/rpod-matrix-computations/about) seminar.
+- [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920) was accepted to SOSA 2026! I presented a [poster](/assets/unbiasedPolysSimons2025poster.pdf) about it at the Simons [Workshop on Linear Systems and Eigenvalue Problems](https://simons.berkeley.edu/workshops/linear-systems-eigenvalue-problems/schedule).
+
+- [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486) was accepted to SODA 2026!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
 September 2025:
+
+- I gave a talk about Kronecker Matrix-Vector complexity at the Simon's Institute [Recent Progress and Open Directions in Matrix Computations](https://sites.google.com/cornell.edu/rpod-matrix-computations/about) seminar.
 
 - I joined [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/)'s group as a postdoc at UC Berkeley (officially in the [Statistics department](http://stat.berkeley.edu/) and at [ICSI](https://www.icsi.berkeley.edu/)).
 
@@ -203,15 +207,15 @@ April 2022
 
 @@link-hover-only
     
-1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)
+1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)[^OSIassets]
     
     \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
     
-1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)
+1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)[^SODA2026assets]
     
     \span{fakeclass}{at SODA 2026 _with \tyler, \ethan, \chris, and \akash_}
     
-1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)[^DebiasedPolyAssets]
+1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)[^SOSA2026assets]
     
     \span{fakeclass}{at SOSA 2026 _with \chrisc and \kevin_}
     
@@ -263,7 +267,11 @@ $\phantom{.}$
 
 \begin{dropdown}{_Presentation Assets_}
 
-[^DebiasedPolyAssets]: Code available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)
+[^OSIassets]: [Talk](https://www.youtube.com/live/eAA_p7v2Ig4) by Joel $\cdot$ Code available on [github](https://github.com/chriscamano/OSI-and-Structured-Random-Matrices)
+
+[^SODA2026assets]: [Talk](https://www.youtube.com/live/5v7NZZd3Z50) by Ethan
+
+[^SOSA2026assets]: [Poster](/assets/unbiasedPolysSimons2025poster.pdf) $\cdot$ Code available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)
 
 [^ICML2025assets]: [Poster](/assets/ICML-2025-Poster.pdf)
 
@@ -288,6 +296,10 @@ This is a list of other talks or presentations I have given.
 
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
+
+1. **Kronecker Matrix-Vector Complexity is Strange**
+    
+    \span{fakeclass}{at _Simons Institute [Recent Progress and Open Directions in Matrix Computations Seminar](https://sites.google.com/cornell.edu/rpod-matrix-computations/about)_.}
 
 1. **Guest Lecture on Trace Estimation**[^UMich2025assets]
     
@@ -467,6 +479,11 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer:
+1. ICLR 2026 Reviewer
+1. IMA Journal of Numerical Analysis 2025 Reviewer
+1. FOCS 2025 External Reviewer
+1. SIMAX 2025 Reviewer
+1. TMLR 2025 Reviewer
 1. ICML 2024 Reviewer
 1. NeurIPS 2024 Reviewer
 1. FOCS 2024 External Reviewer
