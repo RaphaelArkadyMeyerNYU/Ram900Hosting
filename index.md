@@ -38,7 +38,7 @@ Links:
 My recent publications have looked at:
 
 * Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_)
-* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[preprint](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
+* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SIMAX](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
 * Active Learning on Linear Function Families (_[SOSA26](https://arxiv.org/abs/2508.05920)_, _[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@berkeley.edu$
@@ -52,17 +52,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I wrote a short article on trace estimation lower bounds. Read it [here](https://randnla.github.io/trace-lower-bound)!
+- \newicon [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952) was accepted to SIMAX!
 
-- \newicon I'll be giving a talk on Low-Rank Approximation at the WSU Graduate Research Seminar. Thanks to \akash for inviting me out!
+- I wrote a short article on trace estimation lower bounds. Read it [here](https://randnla.github.io/trace-lower-bound)!
 
-- [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920) was accepted to SOSA 2026! I presented a [poster](/assets/unbiasedPolysSimons2025poster.pdf) about it at the Simons [Workshop on Linear Systems and Eigenvalue Problems](https://simons.berkeley.edu/workshops/linear-systems-eigenvalue-problems/schedule).
-
-- [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486) was accepted to SODA 2026!
+- I'll be giving a talk on Low-Rank Approximation at the WSU Graduate Research Seminar. Thanks to \akash for inviting me out!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+October 2025:
+
+- [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920) was accepted to SOSA 2026! I presented a [poster](/assets/unbiasedPolysSimons2025poster.pdf) about it at the Simons [Workshop on Linear Systems and Eigenvalue Problems](https://simons.berkeley.edu/workshops/linear-systems-eigenvalue-problems/schedule).
+
+- [_Does block size matter in randomized block Krylov low-rank approximation?_](https://arxiv.org/abs/2508.06486) was accepted to SODA 2026!
 
 September 2025:
 
@@ -225,7 +229,7 @@ April 2022
     
 1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
     
-    \span{fakeclass}{in submission _with \haim_}
+    \span{fakeclass}{in SIMAX _with \haim_}
     
 1.  [**Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions**](https://arxiv.org/abs/2311.14023)
     
