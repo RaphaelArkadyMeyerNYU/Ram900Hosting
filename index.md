@@ -273,7 +273,7 @@ $\phantom{.}$
 
 [^OSIassets]: [Talk](https://www.youtube.com/live/eAA_p7v2Ig4) by Joel $\cdot$ Code available on [github](https://github.com/chriscamano/OSI-and-Structured-Random-Matrices)
 
-[^SODA2026assets]: [Talk](https://www.youtube.com/live/5v7NZZd3Z50) by Ethan
+[^SODA2026assets]: [Slides](/assets/moderateBlockSizeSODA2025slides.pdf) $\cdot$ [Talk](https://www.youtube.com/live/5v7NZZd3Z50) by Ethan
 
 [^SOSA2026assets]: [Poster](/assets/unbiasedPolysSimons2025poster.pdf) $\cdot$ Code available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)
 
