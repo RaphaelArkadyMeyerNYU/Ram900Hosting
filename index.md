@@ -37,9 +37,9 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_, _[SIMAX](https://arxiv.org/abs/2311.14023)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2602.04842)_, _[preprint](https://arxiv.org/abs/2508.21189)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_)
 * Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SIMAX](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
-* Active Learning on Linear Function Families (_[SOSA26](https://arxiv.org/abs/2508.05920)_, _[SODA2023](https://arxiv.org/abs/2211.06790)_)
+* Robust Active Learning for Regression Problems (_[SOSA26](https://arxiv.org/abs/2508.05920)_, _[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@berkeley.edu$
 
@@ -52,17 +52,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952) was accepted to SIMAX!
+- \newicon New paper on arXiv: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
+
+- [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952) was accepted to SIMAX!
 
 - I wrote a short article on trace estimation lower bounds. Read it [here](https://randnla.github.io/trace-lower-bound)!
-
-- I'll be giving a talk on Low-Rank Approximation at the WSU Graduate Research Seminar. Thanks to \akash for inviting me out!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
 October 2025:
+
+- I'll be giving a talk on Low-Rank Approximation at the WSU Graduate Research Seminar. Thanks to \akash for inviting me out!
 
 - [_Debiasing Polynomial and Fourier Regression_](https://arxiv.org/abs/2508.05920) was accepted to SOSA 2026! I presented a [poster](/assets/unbiasedPolysSimons2025poster.pdf) about it at the Simons [Workshop on Linear Systems and Eigenvalue Problems](https://simons.berkeley.edu/workshops/linear-systems-eigenvalue-problems/schedule).
 
@@ -210,6 +212,10 @@ April 2022
 # Publications
 
 @@link-hover-only
+
+1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/pdf/2602.04842)
+    
+    \span{fakeclass}{in submission _with \michal and \ethan_}
     
 1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)[^OSIassets]
     
@@ -301,10 +307,14 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **Randomized Methods for Low-Rank Approximation**
+    
+    \span{fakeclass}{at _WSU Graduate Research Seminar_.}
+    
 1. **Kronecker Matrix-Vector Complexity is Strange**
     
     \span{fakeclass}{at _Simons Institute [Recent Progress and Open Directions in Matrix Computations Seminar](https://sites.google.com/cornell.edu/rpod-matrix-computations/about)_.}
-
+    
 1. **Guest Lecture on Trace Estimation**[^UMich2025assets]
     
     \span{fakeclass}{at _[Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized NLA course at the University of Michigan_.}

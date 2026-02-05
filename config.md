@@ -41,6 +41,7 @@ For instance:
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
 \newcommand{\joel}{[Joel A. Tropp](https://tropp.caltech.edu/)}
 \newcommand{\kevin}{[Kevin Shu](https://kevinshu.me/)}
+\newcommand{\michal}{[Michał Dereziński](https://web.eecs.umich.edu/~derezin/)}
 \newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
 \newcommand{\tyler}{[Tyler Chen](https://research.chen.pw/)}
