@@ -30,12 +30,16 @@ For instance:
 * \newcommand{\phrase}{This is a long phrase to copy.}
 -->
 
+
+\newcommand{\aditi}{[Aditi Gupta](https://www.linkedin.com/in/aditi-gupta-6a83b1200)}
 \newcommand{\akash}{[Akash Rao](https://www.linkedin.com/in/akashgrao/)}
+\newcommand{\ben}{[N. Benjamin Erichson](https://sites.google.com/icsi.berkeley.edu/erichson)}
 \newcommand{\cam}{[Cameron Musco](https://people.cs.umass.edu/~cmusco/)}
 \newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
 \newcommand{\chrisc}{[Chris Camaño](https://chriscamano.github.io/)}
 \newcommand{\davidp}{[David Persson](https://scholar.google.com/citations?user=jOtDnRAAAAAJ&hl=en&oi=ao)}
 \newcommand{\davidw}{[David P. Woodruff](http://www.cs.cmu.edu/~dwoodruf/)}
+\newcommand{\elynn}{[Elynn Chen](https://elynncc.github.io/)}
 \newcommand{\ethan}{[Ethan N. Epperly](https://www.ethanepperly.com/)}
 \newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
@@ -46,6 +50,7 @@ For instance:
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
 \newcommand{\tyler}{[Tyler Chen](https://research.chen.pw/)}
 \newcommand{\will}{[William Swartworth](https://wswartworth.github.io/)}
+\newcommand{\yotam}{[Yotam Yaniv](https://yotamy.github.io/YotamWebsite/)}
 
 \newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}
 \newcommand{\span}[2]{~~~<span class="!#1">~~~#2~~~</span>~~~}

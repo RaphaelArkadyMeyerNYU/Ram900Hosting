@@ -52,17 +52,21 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon New paper on arXiv, and accepted to AISTATS: [_Quantifying Epistemic Uncertainty in Diffusion Models_](https://arxiv.org/abs/2602.09170)!
+
+- \newicon In Fall 2025, the Simons Institue worked on a list of open problems, which I helped work on and is now released for the public! Read the list of problems [here](https://arxiv.org/abs/2602.05394). Check it out -- I helped write about sketching!
+
 - \newicon New paper on arXiv: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
-
-- [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952) was accepted to SIMAX!
-
-- I wrote a short article on trace estimation lower bounds. Read it [here](https://randnla.github.io/trace-lower-bound)!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
 October 2025:
+
+- [_Hutchinson’s Estimator is Bad at Kronecker-Trace-Estimation_](https://arxiv.org/abs/2309.04952) was accepted to SIMAX!
+
+- I wrote a short article on trace estimation lower bounds. Read it [here](https://randnla.github.io/trace-lower-bound)!
 
 - I'll be giving a talk on Low-Rank Approximation at the WSU Graduate Research Seminar. Thanks to \akash for inviting me out!
 
@@ -212,7 +216,6 @@ April 2022
 # Publications
 
 @@link-hover-only
-
 1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/pdf/2602.04842)
     
     \span{fakeclass}{in submission _with \michal and \ethan_}
@@ -220,6 +223,10 @@ April 2022
 1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)[^OSIassets]
     
     \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
+    
+1.  [**Quantifying Epistemic Uncertainty in Diffusion Models**](https://arxiv.org/abs/2602.09170)
+    
+    \span{fakeclass}{at AISTATS 2026 _with \aditi, \yotam, \elynn, and \ben_}
     
 1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)[^SODA2026assets]
     
