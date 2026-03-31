@@ -52,15 +52,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon New paper on arXiv, and accepted to AISTATS: [_Quantifying Epistemic Uncertainty in Diffusion Models_](https://arxiv.org/abs/2602.09170)!
+- \newicon I gave a talk at the Joint Math/CS Seminar at UC Davis. Slides are [here](/assets/kronMatVec1-3Davis1hrPPT.pdf). Thanks to [Jasper](https://jasperchlee.github.io/) and [Greg](https://www.math.ucdavis.edu/~greg/) for organizing!
 
-- \newicon In Fall 2025, the Simons Institue worked on a list of open problems, which I helped work on and is now released for the public! Read the list of problems [here](https://arxiv.org/abs/2602.05394). Check it out -- I helped write about sketching!
+- New paper on arXiv, and accepted to AISTATS: [_Quantifying Epistemic Uncertainty in Diffusion Models_](https://arxiv.org/abs/2602.09170)!
 
-- \newicon New paper on arXiv: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
+- In Fall 2025, the Simons Institue worked on a list of open problems, which I helped work on and is now released for the public! Read the list of problems [here](https://arxiv.org/abs/2602.05394). Check it out -- I helped write about sketching!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+Feburary 2026: 
+
+- New paper on arXiv: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
 
 October 2025:
 
@@ -314,6 +318,10 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
+    
+    \span{fakeclass}{at _UC Davis Joint Math/CS Seminar_.}[^Davis2025assets]
+    
 1. **Randomized Methods for Low-Rank Approximation**
     
     \span{fakeclass}{at _WSU Graduate Research Seminar_.}
@@ -371,6 +379,8 @@ This is a list of other talks or presentations I have given.
     \span{fakeclass}{at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)}
 
 @@
+
+[^Davis2025assets]: Slides available [here](/assets/kronMatVec1-3Davis1hrPPT.pdf)
 
 [^UMich2025assets]: Slides available [here](/assets/uMichGuestLecture80minPPT.pdf)
 
