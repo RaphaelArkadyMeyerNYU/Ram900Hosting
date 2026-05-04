@@ -52,17 +52,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon Paper accepted to COLT: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
+
 - \newicon I gave a talk at the Joint Math/CS Seminar at UC Davis. Slides are [here](/assets/kronMatVec1-3Davis1hrPPT.pdf). Thanks to [Jasper](https://jasperchlee.github.io/) and [Greg](https://www.math.ucdavis.edu/~greg/) for organizing!
 
 - New paper on arXiv, and accepted to AISTATS: [_Quantifying Epistemic Uncertainty in Diffusion Models_](https://arxiv.org/abs/2602.09170)!
-
-- In Fall 2025, the Simons Institue worked on a list of open problems, which I helped work on and is now released for the public! Read the list of problems [here](https://arxiv.org/abs/2602.05394). Check it out -- I helped write about sketching!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
 Feburary 2026: 
+
+- In Fall 2025, the Simons Institue worked on a list of open problems, which I helped work on and is now released for the public! Read the list of problems [here](https://arxiv.org/abs/2602.05394). Check it out -- I helped write about sketching!
 
 - New paper on arXiv: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
 
@@ -222,7 +224,7 @@ April 2022
 @@link-hover-only
 1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/pdf/2602.04842)
     
-    \span{fakeclass}{in submission _with \michal and \ethan_}
+    \span{fakeclass}{at COLT 2026 _with \michal and \ethan_}
     
 1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)[^OSIassets]
     
