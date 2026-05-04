@@ -37,7 +37,7 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2602.04842)_, _[preprint](https://arxiv.org/abs/2508.21189)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_)
+* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[COLT2026](https://arxiv.org/abs/2602.04842)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_)
 * Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SIMAX](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
 * Robust Active Learning for Regression Problems (_[SOSA26](https://arxiv.org/abs/2508.05920)_, _[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
