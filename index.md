@@ -52,17 +52,23 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon Paper accepted to COLT: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
+- \newicon I'm going to [ILAS](https://ilas2026.math.vt.edu/index.html) to give a talk about my work on the matrix-vector complexity of solving $Ax=b$ ([link](https://arxiv.org/abs/2602.04842)) at the minisymposium _Polynomials, Krylov Methods and Applications_. Thanks to [Cade](https://cade-b.github.io/), [Ethan](https://www.ethanepperly.com/), and [Alex](https://ahsu98.github.io/) for inviting me!
 
-- \newicon I gave a talk at the Joint Math/CS Seminar at UC Davis. Slides are [here](/assets/kronMatVec1-3Davis1hrPPT.pdf). Thanks to [Jasper](https://jasperchlee.github.io/) and [Greg](https://www.math.ucdavis.edu/~greg/) for organizing!
+- \newicon I'm going to the [Inaugural Midwest Randomized Linear Algebra Workshop](https://confmeet.github.io/rla/), and will be facilitating some of the breakout room discussions there. Thanks to [Vivak](https://vp314.github.io/) and [Daniel](https://scholar.google.com/citations?user=LfMo2rMAAAAJ&hl=en) for organizing!
 
-- New paper on arXiv, and accepted to AISTATS: [_Quantifying Epistemic Uncertainty in Diffusion Models_](https://arxiv.org/abs/2602.09170)!
+- Paper accepted to COLT: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
+March 2026:
+
+- I gave a talk at the Joint Math/CS Seminar at UC Davis. Slides are [here](/assets/kronMatVec1-3Davis1hrPPT.pdf). Thanks to [Jasper](https://jasperchlee.github.io/) and [Greg](https://www.math.ucdavis.edu/~greg/) for organizing!
+
 Feburary 2026: 
+
+- New paper on arXiv, and accepted to AISTATS: [_Quantifying Epistemic Uncertainty in Diffusion Models_](https://arxiv.org/abs/2602.09170)!
 
 - In Fall 2025, the Simons Institue worked on a list of open problems, which I helped work on and is now released for the public! Read the list of problems [here](https://arxiv.org/abs/2602.05394). Check it out -- I helped write about sketching!
 
@@ -507,12 +513,15 @@ I really enjoy teaching, and have been a TA for a few courses now:
 # Service
 
 Service outside of reviewing:
+1. Facilitator for the [Inaugural Midwest Randomized Linear Algebra Workshop](https://confmeet.github.io/rla/)
 1. Organizer for the [Minisymposium "The Matrix-Vector Complexity of Linear Algebra" at SIAM-NNP 2023](/siam-nnp-minisymposium-2023)
 1. Organizer for [NYU TCS "Pandemic Presentations" Day](/tcs_presentations)
 1. Organizer for NYU Tandon Theory Reading Group
 
-Service as a reviewer:
-1. ICLR 2026 Reviewer
+Service as a reviewer (might be missing some entries):
+1. SISC 2026 Reviewer
+1. SIMAX 2026 Reviewer
+1. ICLR 2026 Reviewer*
 1. IMA Journal of Numerical Analysis 2025 Reviewer
 1. FOCS 2025 External Reviewer
 1. SIMAX 2025 Reviewer
