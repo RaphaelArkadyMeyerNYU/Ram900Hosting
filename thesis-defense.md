@@ -12,6 +12,8 @@
 
 # My Thesis Defense
 
+_**Double update**_: By popular demand, I've provided a copy of my thesis on my webpage. Find it [here](/assets/thesis-main_final_v3.pdf).
+
 _**Update**_: The defense is over now, and was a success! Thanks to everyone who showed up, and especially big thanks to my dissertation committee!
 
 ~
