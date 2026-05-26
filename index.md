@@ -228,7 +228,7 @@ April 2022
 # Publications
 
 @@link-hover-only
-1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/pdf/2602.04842)
+1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/pdf/2602.04842)[^COLT20026assets]
     
     \span{fakeclass}{at COLT 2026 _with \michal and \ethan_}
     
@@ -296,6 +296,8 @@ $\phantom{.}$
 
 \begin{dropdown}{_Presentation Assets_}
 
+[^COLT20026assets]: [Slides](/assets/Ax=b_ILAS2026_25minPPT.pdf)
+
 [^OSIassets]: [Talk](https://www.youtube.com/live/eAA_p7v2Ig4) by Joel $\cdot$ Code available on [github](https://github.com/chriscamano/OSI-and-Structured-Random-Matrices)
 
 [^SODA2026assets]: [Slides](/assets/moderateBlockSizeSODA2025slides.pdf) $\cdot$ [Talk](https://www.youtube.com/live/5v7NZZd3Z50) by Ethan
@@ -326,6 +328,10 @@ This is a list of other talks or presentations I have given.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **The matrix-vector complexity of $Ax=b$**
+    
+    \span{fakeclass}{at _Randomized Matrix Computations for Large-scale Scientific and Machine Learning Problems_, a minisymposium at SIAM Conference on Mathematics of Data Science (MDS24)}
+    
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
     \span{fakeclass}{at _UC Davis Joint Math/CS Seminar_.}[^Davis2025assets]
@@ -519,6 +525,7 @@ Service outside of reviewing:
 1. Organizer for NYU Tandon Theory Reading Group
 
 Service as a reviewer (might be missing some entries):
+1. NeurIPS 2026 Reviewer
 1. SISC 2026 Reviewer
 1. SIMAX 2026 Reviewer
 1. ICLR 2026 Reviewer*
