@@ -38,7 +38,7 @@ Links:
 My recent publications have looked at:
 
 * Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[COLT2026](https://arxiv.org/abs/2602.04842)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_)
-* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2508.21189)_, _[SIMAX](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
+* Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2606.15350)_, _[SIMAX](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
 * Robust Active Learning for Regression Problems (_[SOSA26](https://arxiv.org/abs/2508.05920)_, _[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@berkeley.edu$
@@ -52,15 +52,25 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm going to [ILAS](https://ilas2026.math.vt.edu/index.html) to give a talk about my work on the matrix-vector complexity of solving $Ax=b$ ([link](https://arxiv.org/abs/2602.04842)) at the minisymposium _Polynomials, Krylov Methods and Applications_. Thanks to [Cade](https://cade-b.github.io/), [Ethan](https://www.ethanepperly.com/), and [Alex](https://ahsu98.github.io/) for inviting me!
+- \newicon New paper on arXiv: [_Linear algebra at exponential scale via tensor network dimension reduction_](https://arxiv.org/abs/2606.15350)! Tensor-structured sketching with nice theoretical guarantees! Pretty pictures!
 
-- \newicon I'm going to the [Inaugural Midwest Randomized Linear Algebra Workshop](https://confmeet.github.io/rla/), and will be facilitating some of the breakout room discussions there. Thanks to [Vivak](https://vp314.github.io/) and [Daniel](https://scholar.google.com/citations?user=LfMo2rMAAAAJ&hl=en) for organizing!
+- \newicon I'm giving at talk at the [RandNLA workshop at EPFL](https://sites.google.com/view/randnlaworkshop/home) about [recent](https://arxiv.org/abs/2602.04842) and upcomming work on matrix-vector complexity. Thanks to the organizers for inviting me!
 
-- Paper accepted to COLT: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
+- Technical note on arXiv: [_A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix_](https://arxiv.org/abs/2606.16018). This proves a non-asymptotic version of a result of [Bubeck, Ding, Eldan, and Rácz](https://arxiv.org/abs/1411.5713), as needed for the [Ax=b paper](https://arxiv.org/abs/2602.04842).
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+May 2026:
+
+- I went to [ILAS](https://ilas2026.math.vt.edu/index.html) to give a talk about my work on the matrix-vector complexity of solving $Ax=b$ ([link](https://arxiv.org/abs/2602.04842)) at the minisymposium _Polynomials, Krylov Methods and Applications_. Thanks to [Cade](https://cade-b.github.io/), [Ethan](https://www.ethanepperly.com/), and [Alex](https://ahsu98.github.io/) for inviting me!
+
+
+- I went to the [Inaugural Midwest Randomized Linear Algebra Workshop](https://confmeet.github.io/rla/), and will be facilitating some of the breakout room discussions there. Thanks to [Vivak](https://vp314.github.io/) and [Daniel](https://scholar.google.com/citations?user=LfMo2rMAAAAJ&hl=en) for organizing!
+
+
+- Paper accepted to COLT: [_The matrix-vector complexity of $Ax=b$_](https://arxiv.org/abs/2602.04842)!
 
 March 2026:
 
@@ -228,7 +238,15 @@ April 2022
 # Publications
 
 @@link-hover-only
-1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/pdf/2602.04842)[^COLT20026assets]
+1.  [**Linear algebra at exponential scale via tensor network dimension reduction**](https://arxiv.org/abs/2606.15350)
+    
+    \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
+    
+1.  [**A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix**](https://arxiv.org/abs/2606.16018)
+    
+    \span{fakeclass}{_unpublished technical note_}
+    
+1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/abs/2602.04842)[^COLT20026assets]
     
     \span{fakeclass}{at COLT 2026 _with \michal and \ethan_}
     
