@@ -52,15 +52,19 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
+- \newicon I'm giving at talk at the [ETH Mittagsseminar](https://ti.inf.ethz.ch/ew/mise/mittagssem.html), covering some recent work on sketching methods ([link1](https://arxiv.org/abs/2606.15350), [link2](https://arxiv.org/abs/2508.21189)). You can find the abstract [here](https://ti.inf.ethz.ch/ew/mise/mittagssem.html?action=show&what=abstract&id=248f858d44b8b4620906df07b7e3d5cd2ab9411b). My co-author \chrisc will be talking about related joint work later that afternoon! Thanks to everyone who helped organize this!
+
 - \newicon New paper on arXiv: [_Linear algebra at exponential scale via tensor network dimension reduction_](https://arxiv.org/abs/2606.15350)! Tensor-structured sketching with nice theoretical guarantees! Pretty pictures!
 
-- \newicon I'm giving at talk at the [RandNLA workshop at EPFL](https://sites.google.com/view/randnlaworkshop/home) about [recent](https://arxiv.org/abs/2602.04842) and upcomming work on matrix-vector complexity. Thanks to the organizers for inviting me!
-
-- Technical note on arXiv: [_A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix_](https://arxiv.org/abs/2606.16018). This proves a non-asymptotic version of a result of [Bubeck, Ding, Eldan, and Rácz](https://arxiv.org/abs/1411.5713), as needed for the [Ax=b paper](https://arxiv.org/abs/2602.04842).
+- I gave at talk at the [RandNLA workshop at EPFL](https://sites.google.com/view/randnlaworkshop/home) about [recent](https://arxiv.org/abs/2602.04842) and upcomming work on matrix-vector complexity. Thanks to the organizers for inviting me!
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+June 2026:
+
+- Technical note on arXiv: [_A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix_](https://arxiv.org/abs/2606.16018). This proves a non-asymptotic version of a result of [Bubeck, Ding, Eldan, and Rácz](https://arxiv.org/abs/1411.5713), as needed for the [Ax=b paper](https://arxiv.org/abs/2602.04842).
 
 May 2026:
 
@@ -244,7 +248,7 @@ April 2022
     
 1.  [**A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix**](https://arxiv.org/abs/2606.16018)
     
-    \span{fakeclass}{_unpublished technical note_}
+    \span{fakeclass}{unpublished technical note}
     
 1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/abs/2602.04842)[^COLT20026assets]
     
@@ -348,7 +352,11 @@ This is a list of other talks or presentations I have given.
 
 1. **The matrix-vector complexity of $Ax=b$**
     
-    \span{fakeclass}{at _Randomized Matrix Computations for Large-scale Scientific and Machine Learning Problems_, a minisymposium at SIAM Conference on Mathematics of Data Science (MDS24)}
+    \span{fakeclass}{at _Randomized Linear Algebra_, a workshop at the EPFL Bernoulli Center for Fundamental Studies}
+    
+1. **The matrix-vector complexity of $Ax=b$**
+    
+    \span{fakeclass}{at _Polynomials, Krylov Methods and Applications_, a minisymposium at Conference of the International Linear Algebra Society (ILAS 2026)}
     
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
