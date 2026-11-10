@@ -28,6 +28,8 @@ In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kap
 
 @@
 
+**\newicon I am on the faculty job market for positions starting Fall 2027.**
+
 Links:
 [Google Scholar](https://scholar.google.com/citations?user=Xpi5HD0AAAAJ), 
 [dblp](https://dblp.org/pid/204/4381.html), 
@@ -37,7 +39,7 @@ Links:
 
 My recent publications have looked at:
 
-* Fast Numerical Linear Algebra (_[preprint](https://arxiv.org/abs/2508.21189)_, _[COLT2026](https://arxiv.org/abs/2602.04842)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_)
+* Fast Numerical Linear Algebra (_[FOCM](https://arxiv.org/abs/2508.21189)_, _[COLT2026](https://arxiv.org/abs/2602.04842)_, _[SODA2026](https://arxiv.org/abs/2508.06486)_)
 * Tensor-based Sketching Methods (_[preprint](https://arxiv.org/abs/2606.15350)_, _[SIMAX](https://arxiv.org/abs/2309.04952)_, _[ICML2025](https://arxiv.org/abs/2502.08029)_)
 * Robust Active Learning for Regression Problems (_[SOSA26](https://arxiv.org/abs/2508.05920)_, _[SODA2023](https://arxiv.org/abs/2211.06790)_)
 
@@ -52,17 +54,39 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 # News
 
-- \newicon I'm giving at talk at the [ETH Mittagsseminar](https://ti.inf.ethz.ch/ew/mise/mittagssem.html), covering some recent work on sketching methods ([link1](https://arxiv.org/abs/2606.15350), [link2](https://arxiv.org/abs/2508.21189)). You can find the abstract [here](https://ti.inf.ethz.ch/ew/mise/mittagssem.html?action=show&what=abstract&id=248f858d44b8b4620906df07b7e3d5cd2ab9411b). My co-author \chrisc will be talking about related joint work later that afternoon! Thanks to everyone who helped organize this!
 
-- \newicon New paper on arXiv: [_Linear algebra at exponential scale via tensor network dimension reduction_](https://arxiv.org/abs/2606.15350)! Tensor-structured sketching with nice theoretical guarantees! Pretty pictures!
+<!-- - \newicon New paper on arxiv: [From smoothed analysis to backward error: The power of adaptive perturbations](TODO LINK). Randomized algorithms are faster than deterministic ones for solving linear systems! Provably! Other cool facts too! -->
 
-- I gave at talk at the [RandNLA workshop at EPFL](https://sites.google.com/view/randnlaworkshop/home) about [recent](https://arxiv.org/abs/2602.04842) and upcomming work on matrix-vector complexity. Thanks to the organizers for inviting me!
+<!-- - \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Includes complex analysis for theoretical computer scientists! -->
+
+- \newicon I'm giving a talk on
+
+- \newicon The OSI paper ([link](https://arxiv.org/abs/2508.21189)) has been accepted to [FOCM](https://ems.press/journals/focm)!
+
+- \newicon New paper on arxiv: [Optimal Injectivity of the SparseStack](https://arxiv.org/pdf/2611.12867). The SparseStack is an OSI with sub-Nelson-Nguyen sparsity!
+
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
 
+October 2026:
+
+- I was invited to give a talk at the University of Michigan Theory Seminar -- I talked about tensor-structured sketching. Thanks to [Nicole](https://web.eecs.umich.edu/~nswein/) and [Michał](https://web.eecs.umich.edu/~derezin/) for inviting me out!
+
+September 2026:
+
+- I was invited to be an AC at ICLR. It's my first time being an AC!
+
 June 2026:
+
+- I'm giving at talk at the [ETH Mittagsseminar](https://ti.inf.ethz.ch/ew/mise/mittagssem.html), covering some recent work on sketching methods ([link1](https://arxiv.org/abs/2606.15350), [link2](https://arxiv.org/abs/2508.21189)). You can find the abstract [here](https://ti.inf.ethz.ch/ew/mise/mittagssem.html?action=show&what=abstract&id=248f858d44b8b4620906df07b7e3d5cd2ab9411b). My co-author \chrisc will be talking about related joint work later that afternoon! Thanks to everyone who helped organize this!
+
+- New paper on arXiv: [_Linear algebra at exponential scale via tensor network dimension reduction_](https://arxiv.org/abs/2606.15350)! Tensor-structured sketching with nice theoretical guarantees! Pretty pictures!
+
+
+- I gave at talk at the [RandNLA workshop at EPFL](https://sites.google.com/view/randnlaworkshop/home) about [recent](https://arxiv.org/abs/2602.04842) and upcomming work on matrix-vector complexity. Thanks to the organizers for inviting me!
+
 
 - Technical note on arXiv: [_A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix_](https://arxiv.org/abs/2606.16018). This proves a non-asymptotic version of a result of [Bubeck, Ding, Eldan, and Rácz](https://arxiv.org/abs/1411.5713), as needed for the [Ax=b paper](https://arxiv.org/abs/2602.04842).
 
@@ -242,6 +266,18 @@ April 2022
 # Publications
 
 @@link-hover-only
+1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2606.15350)
+    
+    \span{fakeclass}{in submission _with \michal, \michael, and \chris_}
+    
+1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2606.15350)
+    
+    \span{fakeclass}{in submission _with \cecilia, \ethan, \michael, and \john_}
+    
+1.  [**Optimal Injectivity of the SparseStack**](https://arxiv.org/abs/2606.15350)
+    
+    \span{fakeclass}{in submission _with \lorenzo, \simone, \margalit, \kijun, and \davidw_}
+    
 1.  [**Linear algebra at exponential scale via tensor network dimension reduction**](https://arxiv.org/abs/2606.15350)
     
     \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
@@ -254,9 +290,11 @@ April 2022
     
     \span{fakeclass}{at COLT 2026 _with \michal and \ethan_}
     
+    \span{faceclass}{[Slides](/assets/Ax=b_ILAS2026_25minPPT.pdf)}
+    
 1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)[^OSIassets]
     
-    \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
+    \span{fakeclass}{to appear at FOCM _with \chrisc, \ethan, and \joel_}
     
 1.  [**Quantifying Epistemic Uncertainty in Diffusion Models**](https://arxiv.org/abs/2602.09170)
     
@@ -350,6 +388,11 @@ Below is a list of talks I've given at _other venues_.
 
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
+
+    
+1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
+    
+    \span{fakeclass}{at _UMich Theory Seminar_.}[^Davis2025assets]
 
 1. **The matrix-vector complexity of $Ax=b$**
     
@@ -546,12 +589,13 @@ I really enjoy teaching, and have been a TA for a few courses now:
 # Service
 
 Service outside of reviewing:
+1. Area Chair at ICLR 2026.
 1. Facilitator for the [Inaugural Midwest Randomized Linear Algebra Workshop](https://confmeet.github.io/rla/)
 1. Organizer for the [Minisymposium "The Matrix-Vector Complexity of Linear Algebra" at SIAM-NNP 2023](/siam-nnp-minisymposium-2023)
 1. Organizer for [NYU TCS "Pandemic Presentations" Day](/tcs_presentations)
 1. Organizer for NYU Tandon Theory Reading Group
 
-Service as a reviewer (might be missing some entries):
+Service as a reviewer (no longer updated):
 1. NeurIPS 2026 Reviewer
 1. SISC 2026 Reviewer
 1. SIMAX 2026 Reviewer

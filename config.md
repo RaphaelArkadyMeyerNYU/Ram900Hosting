@@ -35,6 +35,7 @@ For instance:
 \newcommand{\akash}{[Akash Rao](https://www.linkedin.com/in/akashgrao/)}
 \newcommand{\ben}{[N. Benjamin Erichson](https://sites.google.com/icsi.berkeley.edu/erichson)}
 \newcommand{\cam}{[Cameron Musco](https://people.cs.umass.edu/~cmusco/)}
+\newcommand{\cecilia}{Cecilia Chen}
 \newcommand{\chris}{[Christopher Musco](https://www.chrismusco.com/)}
 \newcommand{\chrisc}{[Chris Camaño](https://chriscamano.github.io/)}
 \newcommand{\davidp}{[David Persson](https://scholar.google.com/citations?user=jOtDnRAAAAAJ&hl=en&oi=ao)}
@@ -44,9 +45,15 @@ For instance:
 \newcommand{\haim}{[Haim Avron](http://www.math.tau.ac.il/~haimav/)}
 \newcommand{\jean}{[Jean Honorio](https://www.cs.purdue.edu/homes/jhonorio/)}
 \newcommand{\joel}{[Joel A. Tropp](https://tropp.caltech.edu/)}
+\newcommand{\john}{[John Urschel](https://math.mit.edu/~urschel/)}
 \newcommand{\kevin}{[Kevin Shu](https://kevinshu.me/)}
+\newcommand{\kijun}{[Kijun Shin](https://scholar.google.com/citations?user=M34uF-kAAAAJ)}
+\newcommand{\lorenzo}{[Lorenzo Beretta](https://lorenzo2beretta.github.io/)}
+\newcommand{\margalit}{[Margalit Glasgow](https://margalitglasgow.github.io/)}
+\newcommand{\michael}{[Michael W. Mahoney](https://www.stat.berkeley.edu/~mmahoney/)}
 \newcommand{\michal}{[Michał Dereziński](https://web.eecs.umich.edu/~derezin/)}
 \newcommand{\maji}{[Hemanta K. Maji](https://www.cs.purdue.edu/homes/hmaji/)}
+\newcommand{\simone}{[Simone Bombari](https://simone-bombari.github.io/)}
 \newcommand{\samson}{[Samson Zhou](https://samsonzhou.github.io/)}
 \newcommand{\tyler}{[Tyler Chen](https://research.chen.pw/)}
 \newcommand{\will}{[William Swartworth](https://wswartworth.github.io/)}
