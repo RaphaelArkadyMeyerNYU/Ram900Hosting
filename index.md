@@ -344,8 +344,9 @@ $\phantom{.}$
 \end{dropdown}
 
 # Talks & Presentations
-To date, I have presented every paper I published at the associated conference.
-This is a list of other talks or presentations I have given.
+In computer science, we typically publish papers at conferences instead of journals.
+For papers I've published at computer science venues, I've often (but not always) presented those papers at those conferences.
+Below is a list of talks I've given at _other venues_.
 
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
