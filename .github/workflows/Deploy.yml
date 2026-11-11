@@ -7,39 +7,34 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v6
       with:
         persist-credentials: false
-    # NOTE: Python is necessary if you set minify=true in optimize below
-    - name: Install python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.8'
-    # NOTE: Here you can then install Python dependencies such as matplotlib if you use
-    # packages such as PyPlot.
-    # - run: pip install matplotlib
     - name: Install Julia
-      uses: julia-actions/setup-julia@v1
+      uses: julia-actions/setup-julia@v3
       with:
-        version: 1.5
+        version: '1.10'
     - name: Install dependencies listed in Project.toml and build package
-      uses: julia-actions/julia-buildpkg@master
+      uses: julia-actions/julia-buildpkg@v1
     # NOTE
     #   Using --project below ensures that the environment defined by
     #   Project.toml and built by `julia-buildpkg` is loaded.
     #   NodeJS helps install the highlight.js node package which is used
-    #   to prer-ender code blocks when 'prerender=false'.
+    #   to pre-render code blocks when 'prerender=true'.
     #   The last line should be the 'optimize(...)' call (see ?optimize).
-    - run: julia --project -e '
+    - name: Build site
+      run: julia --project -e '
             using NodeJS, Franklin;
             run(`$(npm_cmd()) install highlight.js`);
-            optimize(minify=true, prerender=true);
+            optimize(minify=false, prerender=true);
             '
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: __site
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
+        folder: __site
