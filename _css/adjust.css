@@ -1,5 +1,15 @@
 /* adjustments for Franklin */
 
+.franklin-content .link-hover-only li:not(:first-child) {
+  margin-top: 18px;
+}
+
+.franklin-content .link-hover-only li p {
+  margin-top: 0;
+  margin-bottom: 2px;
+  line-height: 1.35;
+}
+
 .franklin-content code {
   font-size: var(--small);
 }

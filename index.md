@@ -59,7 +59,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 
 <!-- - \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Includes complex analysis for theoretical computer scientists! -->
 
-- \newicon I'm giving a talk on
+- \newicon I'm giving a talk about solving linear systems at SIAM MDS, as part of [Mitchell](https://mtscott.github.io/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/)'s [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89367). Come by and check it out!
 
 - \newicon The OSI paper ([link](https://arxiv.org/abs/2508.21189)) has been accepted to [FOCM](https://ems.press/journals/focm)!
 
@@ -88,7 +88,7 @@ June 2026:
 - I gave at talk at the [RandNLA workshop at EPFL](https://sites.google.com/view/randnlaworkshop/home) about [recent](https://arxiv.org/abs/2602.04842) and upcomming work on matrix-vector complexity. Thanks to the organizers for inviting me!
 
 
-- Technical note on arXiv: [_A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix_](https://arxiv.org/abs/2606.16018). This proves a non-asymptotic version of a result of [Bubeck, Ding, Eldan, and Rácz](https://arxiv.org/abs/1411.5713), as needed for the [Ax=b paper](https://arxiv.org/abs/2602.04842).
+- Technical note on arXiv: [_A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix_](https://arxiv.org/abs/2606.16018). This proves a non-asymptotic version of a result of [Bubeck, Ding, Eldan, and Rácz](https://arxiv.org/abs/1411.5713), as needed for the [$Ax=b$ paper](https://arxiv.org/abs/2602.04842).
 
 May 2026:
 
@@ -266,13 +266,13 @@ April 2022
 # Publications
 
 @@link-hover-only
-1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2606.15350)
+<!-- 1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2606.15350)
     
     \span{fakeclass}{preprint _with \michal, \michael, and \chris_}
     
 1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2606.15350)
     
-    \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_}
+    \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_} -->
     
 1.  [**Optimal Injectivity of the SparseStack**](https://arxiv.org/abs/2606.15350)
     
@@ -303,6 +303,8 @@ April 2022
 1.  [**Quantifying Epistemic Uncertainty in Diffusion Models**](https://arxiv.org/abs/2602.09170)
     
     \span{fakeclass}{at AISTATS 2026 _with \aditi, \yotam, \elynn, and \ben_}
+    
+    \assets{[Code](https://github.com/aditiii12/UQ_in_Diffusion) by Aditi $~\cdot~$ [Poster](/assets/flarePoster.pdf) by Aditi $~\cdot~$ [Slides](/assets/flareSlides.pdf) by Aditi}
     
 1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)
     
@@ -387,8 +389,10 @@ Below is a list of talks I've given at _other venues_.
     
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
-    \span{fakeclass}{at _UMich Theory Seminar_.}[^Davis2025assets]
-
+    \span{fakeclass}{at _UMich Theory Seminar_.}
+    
+    \assets{[Slides](/assets/kronMatVec1-3Davis1hrPPT.pdf)}
+    
 1. **The matrix-vector complexity of $Ax=b$**
     
     \span{fakeclass}{at _Randomized Linear Algebra_, a workshop at the EPFL Bernoulli Center for Fundamental Studies}
@@ -399,7 +403,8 @@ Below is a list of talks I've given at _other venues_.
     
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
-    \span{fakeclass}{at _UC Davis Joint Math/CS Seminar_.}[^Davis2025assets]
+    \span{fakeclass}{at _UC Davis Joint Math/CS Seminar_.}
+    \assets{[Slides](/assets/kronMatVec1-3Davis1hrPPT.pdf)}
     
 1. **Randomized Methods for Low-Rank Approximation**
     
@@ -409,17 +414,21 @@ Below is a list of talks I've given at _other venues_.
     
     \span{fakeclass}{at _Simons Institute [Recent Progress and Open Directions in Matrix Computations Seminar](https://sites.google.com/cornell.edu/rpod-matrix-computations/about)_.}
     
-1. **Guest Lecture on Trace Estimation**[^UMich2025assets]
+1. **Guest Lecture on Trace Estimation**
     
     \span{fakeclass}{at _[Laura Balzano's](https://web.eecs.umich.edu/~girasole/) Randomized NLA course at the University of Michigan_.}
+    
+    \assets{[Slides](/assets/uMichGuestLecture80minPPT.pdf)}
     
 1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{at _Caltech SIAM Student/Postoc Seminar_.}
     
-1. **Kronecker Matrix-Vector Complexity is Strange**[^SiamMDS2025assets]
+1. **Kronecker Matrix-Vector Complexity is Strange**
     
     \span{fakeclass}{at _Randomized Matrix Computations for Large-scale Scientific and Machine Learning Problems_, a minisymposium at SIAM Conference on Mathematics of Data Science (MDS24)}
+    
+    \assets{[Slides](/assets/SiamMds24KronMatVec20minPPT.pdf)}
     
 1. **Optimal Trace Estimation and Sub-Optimal Kronecker-Trace Estimation**
     
@@ -453,19 +462,21 @@ Below is a list of talks I've given at _other venues_.
     
     \span{fakeclass}{at _John Hopkins University Theory Seminar_}
     
-1. **Lessons from Trace Estimation Lower Bounds: Testing, Communication, and Anti-Concentration**[^SiamAN2021assets]
+1. **Lessons from Trace Estimation Lower Bounds: Testing, Communication, and Anti-Concentration**
     
     \span{fakeclass}{at _Computational Lower Bounds in Numerical Linear Algebra_, a minisymposium at SIAM Annual Meeting (AN21)}
+    
+    \assets{[Slides](/assets/SiamAN-2021-Beamers.pdf) $~\cdot~$ [Video](https://player.vimeo.com/video/578316017#t=1h4m55s) (starts at 1:04:55)}
 
 @@
 
-[^Davis2025assets]: Slides available [here](/assets/kronMatVec1-3Davis1hrPPT.pdf)
+<!-- [^Davis2025assets]: Slides available [here](/assets/kronMatVec1-3Davis1hrPPT.pdf) -->
 
-[^UMich2025assets]: Slides available [here](/assets/uMichGuestLecture80minPPT.pdf)
+<!-- [^UMich2025assets]: Slides available [here](/assets/uMichGuestLecture80minPPT.pdf) -->
 
-[^SiamMDS2025assets]: Slides available [here](/assets/SiamMds24KronMatVec20minPPT.pdf)
+<!-- [^SiamMDS2025assets]: Slides available [here](/assets/SiamMds24KronMatVec20minPPT.pdf) -->
 
-[^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers.pdf). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s).
+<!-- [^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers.pdf). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s). -->
 
 \end{dropdown}
 
@@ -477,37 +488,35 @@ Below is a list of talks I've given at _other venues_.
     
     \span{fakeclass}{Short Talk at the [RMN + NLA II Conference](https://faculty.washington.edu/trogdon/RMT+NLA_II/)}
     
-1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{Short Talk at [Conference on Fast Direct Solvers](https://www.math.purdue.edu/~xiaj/FastSolvers2023/index.html)}
     
-1. **Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**[^PresentationSectionAssets]
+1. **Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**
     
     \span{fakeclass}{Short Talk at [_SIAM-NNP 2022_](/siam-nnp-minisymposium-2023)}
     
-1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**[^PresentationSectionAssets]
+1. **On the Unreasonable Effectiveness of Single Vector Krylov for Low-Rank Approximation**
     
     \span{fakeclass}{Short Talk at [_GAMM ANLA 2022_](https://sites.google.com/view/gammanla2022/home).}
     
-1. **Hutch++: Optimal Stochastic Trace Estimation**[^PresentationSectionAssets]
+1. **Hutch++: Optimal Stochastic Trace Estimation**
     
     \span{fakeclass}{Poster and Short Talk at [_HALG 2022_](https://www.lse.ac.uk/HALG-2022).}
     
-1. **Chebyshev Sampling is Optimal for Lp Polynomial Regression**[^PresentationSectionAssets]
+1. **Chebyshev Sampling is Optimal for Lp Polynomial Regression**
     
     \span{fakeclass}{Talk at [_NYU "Pandemic Presentations" 2022_](/tcs_presentations)}
     
-1. **Hutch++: Optimal Stochastic Trace Estimation**[^PresentationSectionAssets]
+1. **Hutch++: Optimal Stochastic Trace Estimation**
     
     \span{fakeclass}{Poster at [_Wald(O) 2021_](https://waldo2021.github.io/).}
     
-1. **Optimality Implies Kernel Sum Classifiers are Statistically Efficient**[^PresentationSectionAssets]
+1. **Optimality Implies Kernel Sum Classifiers are Statistically Efficient**
     
     \span{fakeclass}{Poster at _Midwest Theory Day 2019_}
 
 @@
-
-[^PresentationSectionAssets]: Assets available in the [Publications](#publications) section.
 
 \end{dropdown}
 
