@@ -274,7 +274,7 @@ April 2022
     
     \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_} -->
     
-1.  [**Optimal Injectivity of the SparseStack**](https://arxiv.org/abs/2606.15350)
+1.  [**Optimal Injectivity of the SparseStack**](https://arxiv.org/abs/2611.12867)
     
     \span{fakeclass}{preprint _with \lorenzo, \simone, \margalit, \kijun, and \davidw_}
     
