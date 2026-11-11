@@ -61,6 +61,7 @@ For instance:
 
 \newcommand{\style}[2]{~~~<span style="!#1">~~~#2~~~</span>~~~}
 \newcommand{\span}[2]{~~~<span class="!#1">~~~#2~~~</span>~~~}
+\newcommand{\assets}[1]{~~~<div style="margin-top: 2px; font-style: italic">~~~🖯 #1~~~</div>~~~}
 
 \newcommand{\newicon}[0]{~~~<img style="width:25px;height:18px;padding-left:0", src="/assets/knuths-new.gif"></img>~~~}
 

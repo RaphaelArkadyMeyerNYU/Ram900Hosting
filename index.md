@@ -268,81 +268,105 @@ April 2022
 @@link-hover-only
 1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2606.15350)
     
-    \span{fakeclass}{in submission _with \michal, \michael, and \chris_}
+    \span{fakeclass}{preprint _with \michal, \michael, and \chris_}
     
 1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2606.15350)
     
-    \span{fakeclass}{in submission _with \cecilia, \ethan, \michael, and \john_}
+    \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_}
     
 1.  [**Optimal Injectivity of the SparseStack**](https://arxiv.org/abs/2606.15350)
     
-    \span{fakeclass}{in submission _with \lorenzo, \simone, \margalit, \kijun, and \davidw_}
+    \span{fakeclass}{preprint _with \lorenzo, \simone, \margalit, \kijun, and \davidw_}
     
 1.  [**Linear algebra at exponential scale via tensor network dimension reduction**](https://arxiv.org/abs/2606.15350)
     
-    \span{fakeclass}{in submission _with \chrisc, \ethan, and \joel_}
+    \span{fakeclass}{preprint _with \chrisc, \ethan, and \joel_}
+    
+    \assets{[Code](https://github.com/chriscamano/TNrandNLA)}
     
 1.  [**A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix**](https://arxiv.org/abs/2606.16018)
     
     \span{fakeclass}{unpublished technical note}
     
-1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/abs/2602.04842)[^COLT20026assets]
+1.  [**The matrix-vector complexity of $Ax=b$**](https://arxiv.org/abs/2602.04842)
     
     \span{fakeclass}{at COLT 2026 _with \michal and \ethan_}
     
-    \span{faceclass}{[Slides](/assets/Ax=b_ILAS2026_25minPPT.pdf)}
+    \assets{[Slides](/assets/Ax=b_ILAS2026_25minPPT.pdf)}
     
-1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)[^OSIassets]
+1.  [**Faster Linear Algebra Algorithms with Structured Random Matrices**](https://arxiv.org/abs/2508.21189)
     
     \span{fakeclass}{to appear at FOCM _with \chrisc, \ethan, and \joel_}
+    
+    \assets{[Talk](https://www.youtube.com/live/eAA_p7v2Ig4) by Joel $~\cdot~$ [Code](https://github.com/chriscamano/OSI-and-Structured-Random-Matrices) by Chris}
     
 1.  [**Quantifying Epistemic Uncertainty in Diffusion Models**](https://arxiv.org/abs/2602.09170)
     
     \span{fakeclass}{at AISTATS 2026 _with \aditi, \yotam, \elynn, and \ben_}
     
-1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)[^SODA2026assets]
+1.  [**Does block size matter in randomized block Krylov low-rank approximation?**](https://arxiv.org/abs/2508.06486)
     
     \span{fakeclass}{at SODA 2026 _with \tyler, \ethan, \chris, and \akash_}
     
-1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)[^SOSA2026assets]
+    \assets{[Slides](/assets/moderateBlockSizeSODA2025slides.pdf) $~\cdot~$ [Talk](https://www.youtube.com/live/5v7NZZd3Z50) by Ethan}
+    
+1.  [**Debiasing Polynomial and Fourier Regression**](https://arxiv.org/abs/2508.05920)
     
     \span{fakeclass}{at SOSA 2026 _with \chrisc and \kevin_}
     
-1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)[^ICML2025assets]
+    \assets{[Poster](/assets/unbiasedPolysSimons2025poster.pdf) by Chris $~\cdot~$ [Code](https://github.com/chriscamano/Debiased-Polynomial-Regression) by Chris}
+    
+1.  [**Understanding the Kronecker Matrix-Vector Complexity of Linear Algebra**](https://arxiv.org/abs/2502.08029)
     
     \span{fakeclass}{at ICML 2025 _with \will and \davidw_}
     
-1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)[^KronHutchinsonAssets]
+    \assets{[Poster](/assets/ICML-2025-Poster.pdf)}
+    
+1.  [**Hutchinson's Estimator is Bad at Kronecker-Trace-Estimation**](https://arxiv.org/abs/2309.04952)
     
     \span{fakeclass}{in SIMAX _with \haim_}
+    
+    \assets{[Slides](/assets/kronHutchinsonSiamNNP20min.pdf)}
     
 1.  [**Algorithm-Agnostic Low-Rank Approximation of Operator Monotone Matrix Functions**](https://arxiv.org/abs/2311.14023)
     
     \span{fakeclass}{in SIMAX _with \davidp and \chris_}
     
-1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)[^SODA2024assets]
+1.  [**On the Unreasonable Effectiveness of Single Vector Krylov Methods for Low-Rank Approximation**](https://arxiv.org/abs/2305.02535)
     
     \span{fakeclass}{at SODA 2024 _with \cam and \chris_}
     
-1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)[^SODA2023assets]
+    \assets{[Code](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $~\cdot~$ Slides using [TCS language](/assets/svkSoda20minOneNote.pdf) or [Applied Math language](/assets/svkPurdue20minOneNote.pdf)}
+    
+1.  [**Near-Linear Sample Complexity for $L_p$ Polynomial Regression**](https://arxiv.org/abs/2211.06790)
     
     \span{fakeclass}{at SODA 2023 _with \cam, \chris, \davidw, and \samson_}
     
-1.  [**Fast Regression for Structured Inputs**](https://arxiv.org/abs/2203.07557)[^ICLR2022assets]
+    \assets{[Slides](/assets/chebyPandemicPresentationsBeamers.pdf)}
+    
+1.  [**Fast Regression for Structured Inputs**](https://arxiv.org/abs/2203.07557)
     
     \span{fakeclass}{at ICLR 2022 _with \cam, \chris, \davidw, and \samson_}
     
-1.  [**Hutch++: Optimal Stochastic Trace Estimation**](https://arxiv.org/abs/2010.09649)[^hutchassets]
+    \assets{[Poster](/assets/ICLR-2022-Poster.png)}
+    
+1.  [**Hutch++: Optimal Stochastic Trace Estimation**](https://arxiv.org/abs/2010.09649)
     
     \span{fakeclass}{at SOSA 2021 _with \cam, \chris, and \davidw_}
     
-1.  [**The Statistical Cost of Robust Kernel Hyperparameter Tuning**](https://arxiv.org/abs/2006.08035)[^NeurIPS2020assets]
+    \assets{[Code](https://github.com/RaphaelArkadyMeyerNYU/hutchplusplus) $~\cdot~$ Poster in [Landscape](/assets/hutchplusplusposter.pdf) or [Portrait](/assets/hutchplusplusHalgPoster.pdf) $~\cdot~$ Slides ([4min](/assets/hutchplusplusHalg4minBeamers.pdf) ,  [12min](/assets/hutchplusplusSosa12minBeamers.pdf) , [25min](/assets/hutchplusplusSosa25minBeamers.pdf) , [35min](/assets/hutchplusplusVida35minBeamers.pdf) , [1hr](/assets/hutchplusplusJHU1hrBeamers.pdf))}
+    
+1.  [**The Statistical Cost of Robust Kernel Hyperparameter Tuning**](https://arxiv.org/abs/2006.08035)
     
     \span{fakeclass}{at NeurIPS 2020 _with \chris_}
     
-1.  \span{link-hover-only}{[**Optimality Implies Kernel Sum Classifiers are Statistically Efficient**](https://arxiv.org/abs/1901.09087)}[^kernelsumassets]
+    \assets{[Slides](/assets/NeurIPS-2020-Beamers.pdf)}
+    
+1.  \span{link-hover-only}{[**Optimality Implies Kernel Sum Classifiers are Statistically Efficient**](https://arxiv.org/abs/1901.09087)}
     
     \span{fakeclass}{at ICML 2019 _with \jean_}
+    
+    \assets{[Poster](/assets/ICML-2019-Poster.pdf) $~\cdot~$ [Slides](/assets/ICML-2019-slides.pdf)}
     
 1.  \span{link-hover-only}{[**Characterizing Optimal Security and Round-Complexity for Secure OR Evaluation**](https://www.cs.purdue.edu/homes/hmaji/papers/ISIT:JhaMajMey17.pdf)}
     
@@ -351,35 +375,6 @@ April 2022
          CSS priority list. I could replace 'fakeclass' with something actually in the CSS, but -->
 
 @@
-
-$\phantom{.}$
-
-\begin{dropdown}{_Presentation Assets_}
-
-[^COLT20026assets]: [Slides](/assets/Ax=b_ILAS2026_25minPPT.pdf)
-
-[^OSIassets]: [Talk](https://www.youtube.com/live/eAA_p7v2Ig4) by Joel $\cdot$ Code available on [github](https://github.com/chriscamano/OSI-and-Structured-Random-Matrices)
-
-[^SODA2026assets]: [Slides](/assets/moderateBlockSizeSODA2025slides.pdf) $\cdot$ [Talk](https://www.youtube.com/live/5v7NZZd3Z50) by Ethan
-
-[^SOSA2026assets]: [Poster](/assets/unbiasedPolysSimons2025poster.pdf) $\cdot$ Code available on [github](https://github.com/chriscamano/Debiased-Polynomial-Regression)
-
-[^ICML2025assets]: [Poster](/assets/ICML-2025-Poster.pdf)
-
-[^KronHutchinsonAssets]: [Slides](/assets/kronHutchinsonSiamNNP20min.pdf)
-
-[^SODA2024assets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/SingleVectorKrylov) $\cdot$ [Slides using TCS language](/assets/svkSoda20minOneNote.pdf) $\cdot$ [Slides using Applied Math language](/assets/svkPurdue20minOneNote.pdf)
-
-[^SODA2023assets]: [Slides](/assets/chebyPandemicPresentationsBeamers.pdf)
-
-[^ICLR2022assets]: [Poster](/assets/ICLR-2022-Poster.png)
-
-[^hutchassets]: Code available on [github](https://github.com/RaphaelArkadyMeyerNYU/hutchplusplus) $\cdot$ [Landscape Poster](/assets/hutchplusplusposter.pdf) $\cdot$ [Portrait Poster](/assets/hutchplusplusHalgPoster.pdf) $\cdot$ [4min Slides](/assets/hutchplusplusHalg4minBeamers.pdf) $\cdot$ [12min Slides](/assets/hutchplusplusSosa12minBeamers.pdf) $\cdot$ [25min Slides](/assets/hutchplusplusSosa25minBeamers.pdf) $\cdot$ [35min Slides](/assets/hutchplusplusVida35minBeamers.pdf) $\cdot$ [1hr Slides](/assets/hutchplusplusJHU1hrBeamers.pdf)
-
-[^NeurIPS2020assets]: [Slides](/assets/NeurIPS-2020-Beamers.pdf)
-
-[^kernelsumassets]: [Poster](/assets/ICML-2019-Poster.pdf) $\cdot$ [Slides](/assets/ICML-2019-slides.pdf).
-\end{dropdown}
 
 # Talks & Presentations
 In computer science, we typically publish papers at conferences instead of journals.
@@ -589,6 +584,7 @@ I really enjoy teaching, and have been a TA for a few courses now:
 # Service
 
 Service outside of reviewing:
+1. Area Chair at ICML 2027.
 1. Area Chair at ICLR 2026.
 1. Facilitator for the [Inaugural Midwest Randomized Linear Algebra Workshop](https://confmeet.github.io/rla/)
 1. Organizer for the [Minisymposium "The Matrix-Vector Complexity of Linear Algebra" at SIAM-NNP 2023](/siam-nnp-minisymposium-2023)
