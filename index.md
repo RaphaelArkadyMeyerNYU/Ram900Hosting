@@ -7,7 +7,7 @@
 
 @@row
 @@container
-@@left ![](/assets/profile_2022.jpg)
+@@left ![](/assets/profile_2026.jpg)
 @@
 @@
 
@@ -55,20 +55,22 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 # News
 
 
-<!-- - \newicon New paper on arxiv: [From smoothed analysis to backward error: The power of adaptive perturbations](TODO LINK). Randomized algorithms are faster than deterministic ones for solving linear systems! Provably! Other cool facts too! -->
+- \newicon New paper on arxiv: [From smoothed analysis to backward error: The power of adaptive perturbations](https://arxiv.org/abs/2611.18545). Randomized algorithms are provably faster than deterministic ones for solving linear systems!
 
 <!-- - \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Includes complex analysis for theoretical computer scientists! -->
 
 - \newicon I'm giving a talk about solving linear systems at SIAM MDS, as part of [Mitchell](https://mtscott.github.io/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/)'s [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89367). Come by and check it out!
 
-- \newicon The OSI paper ([link](https://arxiv.org/abs/2508.21189)) has been accepted to [FOCM](https://ems.press/journals/focm)!
-
-- \newicon New paper on arxiv: [Optimal Injectivity of the SparseStack](https://arxiv.org/pdf/2611.12867). The SparseStack is an OSI with sub-Nelson-Nguyen sparsity!
+- The OSI paper ([link](https://arxiv.org/abs/2508.21189)) has been accepted to [FOCM](https://ems.press/journals/focm)!
 
 
 $\phantom{.}$
 
 \begin{dropdown}{_Old News_}
+
+November 2026:
+
+- New paper on arxiv: [Optimal Injectivity of the SparseStack](https://arxiv.org/pdf/2611.12867). The SparseStack is an OSI with sub-Nelson-Nguyen sparsity!
 
 October 2026:
 
@@ -266,13 +268,15 @@ April 2022
 # Publications
 
 @@link-hover-only
-<!-- 1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2606.15350)
-    
-    \span{fakeclass}{preprint _with \michal, \michael, and \chris_}
+<!-- 
     
 1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2606.15350)
     
     \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_} -->
+    
+1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2611.18545)
+    
+    \span{fakeclass}{preprint _with \michal, \michael, and \chris_}
     
 1.  [**Optimal Injectivity of the SparseStack**](https://arxiv.org/abs/2611.12867)
     
@@ -386,6 +390,11 @@ Below is a list of talks I've given at _other venues_.
 \begin{dropdown}{Invited Talks}
 @@link-hover-only
 
+1. **A new angle on matrix--vector complexity**
+        
+    \span{fakeclass}{at _Randomized, Iterative Algorithms for Data Science_, a minisymposium at SIAM Conference on Mathematics of Data Science (MDS 2026)}
+    
+    <!-- \assets{[Slides](TODO)} -->
     
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
@@ -469,14 +478,6 @@ Below is a list of talks I've given at _other venues_.
     \assets{[Slides](/assets/SiamAN-2021-Beamers.pdf) $~\cdot~$ [Video](https://player.vimeo.com/video/578316017#t=1h4m55s) (starts at 1:04:55)}
 
 @@
-
-<!-- [^Davis2025assets]: Slides available [here](/assets/kronMatVec1-3Davis1hrPPT.pdf) -->
-
-<!-- [^UMich2025assets]: Slides available [here](/assets/uMichGuestLecture80minPPT.pdf) -->
-
-<!-- [^SiamMDS2025assets]: Slides available [here](/assets/SiamMds24KronMatVec20minPPT.pdf) -->
-
-<!-- [^SiamAN2021assets]: Slides available [here](/assets/SiamAN-2021-Beamers.pdf). Video starts at 1:04:55 [here](https://player.vimeo.com/video/578316017#t=1h4m55s). -->
 
 \end{dropdown}
 
