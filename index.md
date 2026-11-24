@@ -50,7 +50,7 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 # News
 
 
-- \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Complex analysis made ~~easy~~ approachable for theoretical computer scientists!
+- \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Complex analysis made ~~~<del>easy</del>~~~ approachable for theoretical computer scientists!
 
 - \newicon New paper on arxiv: [From smoothed analysis to backward error: The power of adaptive perturbations](https://arxiv.org/abs/2611.18545). Randomized algorithms are provably faster than deterministic ones for solving linear systems!
 
@@ -269,6 +269,8 @@ April 2022
     
     \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_}
     
+    \assets{[Slides](/assets/NewAngleMDS25min/)}
+    
 1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2611.18545)
     
     \span{fakeclass}{preprint _with \michal, \michael, and \chris_}
@@ -281,7 +283,7 @@ April 2022
     
     \span{fakeclass}{preprint _with \chrisc, \ethan, and \joel_}
     
-    \assets{[Code](https://github.com/chriscamano/TNrandNLA)}
+    \assets{[Code](https://github.com/chriscamano/TNrandNLA) by Chris}
     
 1.  [**A non-asymptotic bound on the TV distance between a Wishart matrix and an appropriately scaled GOE matrix**](https://arxiv.org/abs/2606.16018)
     
