@@ -11,13 +11,13 @@
 @@
 @@
 
-I am a Postdoc at UC Berkeley, hosted by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/) in the Stats Department and ICSI. Before that, I was a Postdoc at Caltech working with [Joel Tropp](https://tropp.caltech.edu/). Before that, I finished my Ph.D. at NYU advised by [Christopher Musco](https://www.chrismusco.com).
+I am a Postdoc at UC Berkeley, hosted by [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/) in the Stats Department and ICSI. Previously, I was a Postdoc at Caltech working with [Joel Tropp](https://tropp.caltech.edu/). Before that, I finished my Ph.D. at NYU advised by [Christopher Musco](https://www.chrismusco.com).
 
 <!-- To compile this for publishing, run `serve(single=true, clear=true, is_final_pass=true)` and upload the _site directory. Be sure to also run `using Franklin`. I'm using github to auto-compile it now though, so I shouldn't need to do this anymore. -->
 
 <!-- I research the interplay of theoretical statistics and computation, largely through the lens of linear algebra. -->
 
-I research problems in mathematical computing from the perspective of theoretical computer science.
+I research problems in numerical computing from the perspective of theoretical computer science, often with applications to machine learning of quantum information science.
 
 In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kapralov/) group at EPFL and [Haim Avron's](http://www.math.tau.ac.il/~haimav/) group at TAU.
 
@@ -28,7 +28,7 @@ In the summer of 2022, I visited [Michael Kapralov's](https://theory.epfl.ch/kap
 
 @@
 
-**\newicon I am on the faculty job market for positions starting Fall 2027.**
+**\newicon I am on the faculty job market for positions starting Fall 2027.\newicon**
 
 Links:
 [Google Scholar](https://scholar.google.com/citations?user=Xpi5HD0AAAAJ), 
@@ -45,21 +45,16 @@ My recent publications have looked at:
 
 Of course, I am interested in problems beyond these areas, and if you want to work with me on a problem, send me an email: $ram900@berkeley.edu$
 
-<!-- Some high-level open questions that I think are super interesting.
-
-* When does *adaptivity* speed up fast linear algebra? Why doesn't adaptivity speed up trace estimation (i.e. sum of eigenvalues), but does seem to speed up estimating the top eigenvalue?
- -->
-
 <!-- \tableofcontents --> <!-- you can use \toc as well -->
 
 # News
 
 
+- \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Complex analysis made ~~easy~~ approachable for theoretical computer scientists!
+
 - \newicon New paper on arxiv: [From smoothed analysis to backward error: The power of adaptive perturbations](https://arxiv.org/abs/2611.18545). Randomized algorithms are provably faster than deterministic ones for solving linear systems!
 
-<!-- - \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Includes complex analysis for theoretical computer scientists! -->
-
-- \newicon I'm giving a talk about solving linear systems at SIAM MDS, as part of [Mitchell](https://mtscott.github.io/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/)'s [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89367). Come by and check it out!
+- I gave a talk about the _new angle paper_ ([link](TODO LINK)) at SIAM MDS, as part of [Mitchell](https://mtscott.github.io/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/)'s [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89367). Thanks to the organizers for inviting me out!
 
 - The OSI paper ([link](https://arxiv.org/abs/2508.21189)) has been accepted to [FOCM](https://ems.press/journals/focm)!
 
@@ -268,11 +263,11 @@ April 2022
 # Publications
 
 @@link-hover-only
-<!-- 
+
     
 1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2606.15350)
     
-    \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_} -->
+    \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_}
     
 1.  [**From smoothed analysis to backward error: The power of adaptive perturbations**](https://arxiv.org/abs/2611.18545)
     
