@@ -50,11 +50,11 @@ Of course, I am interested in problems beyond these areas, and if you want to wo
 # News
 
 
-- \newicon New paper on arxiv: [A new angle on matrix--vector complexity](TODO LINK). Complex analysis made ~~~<del>easy</del>~~~ approachable for theoretical computer scientists!
+- \newicon New paper on arxiv: [A new angle on matrix--vector complexity](https://arxiv.org/abs/2611.31955). Complex analysis made ~~~<del>easy</del>~~~ approachable for theoretical computer scientists!
 
 - \newicon New paper on arxiv: [From smoothed analysis to backward error: The power of adaptive perturbations](https://arxiv.org/abs/2611.18545). Randomized algorithms are provably faster than deterministic ones for solving linear systems!
 
-- I gave a talk about the _new angle paper_ ([link](TODO LINK)) at SIAM MDS, as part of [Mitchell](https://mtscott.github.io/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/)'s [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89367). Thanks to the organizers for inviting me out!
+- I gave a talk about the _new angle paper_ ([link](https://arxiv.org/abs/2611.31955)) at SIAM MDS, as part of [Mitchell](https://mtscott.github.io/) and [Rob](https://sites.google.com/ucsd.edu/rwebber/)'s [minisymposium](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89367). Thanks to the organizers for inviting me out!
 
 - The OSI paper ([link](https://arxiv.org/abs/2508.21189)) has been accepted to [FOCM](https://ems.press/journals/focm)!
 
@@ -265,7 +265,7 @@ April 2022
 @@link-hover-only
 
     
-1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2606.15350)
+1.  [**A new angle on matrix--vector complexity**](https://arxiv.org/abs/2611.31955)
     
     \span{fakeclass}{preprint _with \cecilia, \ethan, \michael, and \john_}
     
@@ -391,8 +391,6 @@ Below is a list of talks I've given at _other venues_.
         
     \span{fakeclass}{at _Randomized, Iterative Algorithms for Data Science_, a minisymposium at SIAM Conference on Mathematics of Data Science (MDS 2026)}
     
-    <!-- \assets{[Slides](TODO)} -->
-    
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
     \span{fakeclass}{at _UMich Theory Seminar_.}
@@ -410,6 +408,7 @@ Below is a list of talks I've given at _other venues_.
 1. **Overwhelming Orthogonality and the Mysteries of Tensor-Structured Sketching**
     
     \span{fakeclass}{at _UC Davis Joint Math/CS Seminar_.}
+    
     \assets{[Slides](/assets/kronMatVec1-3Davis1hrPPT.pdf)}
     
 1. **Randomized Methods for Low-Rank Approximation**
